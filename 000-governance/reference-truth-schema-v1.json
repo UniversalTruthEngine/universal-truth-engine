@@ -1,0 +1,42 @@
+{
+  "schema_id": "UTE-REFERENCE-TRUTH-SCHEMA-V1",
+  "title": "Reference Truth Schema v1",
+  "purpose": "Defines the standard machine-readable structure for UTE Core Truth entries.",
+  "required_fields": [
+    "id",
+    "title",
+    "category",
+    "claim",
+    "confidence_level",
+    "conditions_of_validity",
+    "failure_cases",
+    "proof_or_evidence",
+    "dependencies",
+    "applications",
+    "reconstruction_protocol",
+    "human_reconstruction_difficulty",
+    "compression_risk",
+    "common_misconceptions",
+    "civilisational_leverage",
+    "ethical_hazard_level",
+    "validation_assessment",
+    "admission_decision",
+    "last_review_date"
+  ],
+  "confidence_levels": {
+    "5": "Mathematical / Logical Proof",
+    "4": "Reproducible Physical Law",
+    "3": "Strong Scientific Consensus",
+    "2": "Provisional / Model-Based",
+    "1": "Speculative"
+  },
+  "terminology": {
+    "preferred": "Core Truth",
+    "deprecated": "Canonical Truth"
+  },
+  "notes": [
+    "Core does not mean infallible.",
+    "Core indicates structural centrality, dependency value, or foundational importance.",
+    "All substantive revisions should be recorded in review-history.md."
+  ]
+}

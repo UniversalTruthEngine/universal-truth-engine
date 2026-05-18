@@ -1,0 +1,31 @@
+{
+  "schema_id": "UTE-TRUTH-GRAPH-SCHEMA-V1",
+  "description": "Initial graph schema for UTE truth topology.",
+  "node_fields": [
+    "id",
+    "title",
+    "category",
+    "confidence_level",
+    "core_importance",
+    "reconstruction_difficulty"
+  ],
+  "edge_fields": [
+    "source",
+    "target",
+    "type",
+    "weight",
+    "description"
+  ],
+  "valid_edge_types": [
+    "depends_on",
+    "supports",
+    "derived_from",
+    "enables",
+    "contrasts_with",
+    "limits",
+    "analogous_to",
+    "generalises",
+    "specialises",
+    "corrects"
+  ]
+}
