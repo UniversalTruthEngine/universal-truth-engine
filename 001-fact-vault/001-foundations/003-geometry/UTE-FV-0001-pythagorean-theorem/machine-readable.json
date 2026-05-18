@@ -1,0 +1,25 @@
+{
+  "id": "UTE-FV-0001",
+  "title": "Pythagorean Theorem",
+  "category": "Foundations/Geometry",
+  "confidence_level": 5,
+  "claim": "a^2 + b^2 = c^2 for right triangles in Euclidean geometry",
+  "conditions": [
+    "Euclidean geometry",
+    "Right triangle",
+    "Consistent unit measurement"
+  ],
+  "failure_cases": [
+    "Non-right triangles",
+    "Curved surfaces",
+    "Non-Euclidean geometry",
+    "Measurement error"
+  ],
+  "dependencies": [
+    "UTE-FV-0002"
+  ],
+  "preservation_priority": "critical",
+  "vault_tier": "core",
+  "review_status": "accepted",
+  "last_review_date": "2026-05-18"
+}

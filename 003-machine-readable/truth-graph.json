@@ -1,0 +1,32 @@
+{
+  "project": "Universal Truth Engine",
+  "originator": "John David Stiles",
+  "version": "0.1.0-prototype",
+  "nodes": [
+    {
+      "id": "UTE-FV-0001",
+      "title": "Pythagorean Theorem",
+      "cluster": "Geometry",
+      "confidence_level": 5,
+      "vault_tier": "core",
+      "path": "001-fact-vault/001-foundations/003-geometry/UTE-FV-0001-pythagorean-theorem/"
+    },
+    {
+      "id": "UTE-FV-0002",
+      "title": "Equality / Identity of Quantity",
+      "cluster": "Logic",
+      "confidence_level": 5,
+      "vault_tier": "core",
+      "path": "001-fact-vault/001-foundations/001-logic/UTE-FV-0002-equality/"
+    }
+  ],
+  "edges": [
+    {
+      "source": "UTE-FV-0002",
+      "target": "UTE-FV-0001",
+      "type": "dependency",
+      "strength": "strong",
+      "description": "The Pythagorean Theorem relies on equality to state and preserve the relationship between squared side lengths."
+    }
+  ]
+}

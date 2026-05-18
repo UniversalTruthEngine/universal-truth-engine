@@ -1,0 +1,25 @@
+{
+  "id": "UTE-FV-0002",
+  "title": "Equality / Identity of Quantity",
+  "category": "Foundations/Logic/Arithmetic/Measurement",
+  "confidence_level": 5,
+  "claim": "If A equals B, then A and B may be substituted for one another in valid contexts without changing truth.",
+  "core_axioms": [
+    "Reflexivity: A = A",
+    "Symmetry: if A = B then B = A",
+    "Transitivity: if A = B and B = C then A = C",
+    "Substitutability: if A = B then A may replace B in valid contexts"
+  ],
+  "requires_context": true,
+  "distinguish_from": [
+    "Similarity",
+    "Approximation",
+    "Physical identity",
+    "Equivalence under limited property"
+  ],
+  "dependencies": [],
+  "preservation_priority": "critical",
+  "vault_tier": "core",
+  "review_status": "accepted",
+  "last_review_date": "2026-05-18"
+}
