@@ -1,0 +1,22 @@
+{
+  "cluster_id": "UTE-CLUSTER-ARITHMETIC-CORE-V1",
+  "title": "Arithmetic Core Cluster v1",
+  "truth_ids": [
+    "UTE-FV-0005",
+    "UTE-FV-0006",
+    "UTE-FV-0007",
+    "UTE-FV-0008",
+    "UTE-FV-0009",
+    "UTE-FV-0010",
+    "UTE-FV-0011",
+    "UTE-FV-0012",
+    "UTE-FV-0013",
+    "UTE-FV-0014"
+  ],
+  "root_dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0004"
+  ],
+  "created": "2026-05-18"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "UTE-FV-0007",
+  "title": "Division",
+  "category": "Foundations/Arithmetic",
+  "confidence_level": 5,
+  "core_status": "Core Truth",
+  "claim": "Division describes partitioning a quantity into equal parts or determining how many equal groups fit within a quantity.",
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0004",
+    "UTE-FV-0006"
+  ],
+  "reconstruction_difficulty": "Low",
+  "civilisational_leverage": "Very high",
+  "ethical_hazard_level": "Low",
+  "vault_tier": "Core Vault",
+  "last_review_date": "2026-05-18"
+}

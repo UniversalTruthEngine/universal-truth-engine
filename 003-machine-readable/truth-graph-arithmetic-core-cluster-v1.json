@@ -1,0 +1,312 @@
+{
+  "update_id": "UTE-GRAPH-ARITHMETIC-CORE-CLUSTER-V1",
+  "description": "Adds Arithmetic Core Cluster v1 nodes and dependency edges.",
+  "nodes": [
+    {
+      "id": "UTE-FV-0005",
+      "title": "Subtraction",
+      "category": "Foundations/Arithmetic",
+      "confidence_level": 5,
+      "core_importance": "Very high",
+      "reconstruction_difficulty": "Low"
+    },
+    {
+      "id": "UTE-FV-0006",
+      "title": "Multiplication",
+      "category": "Foundations/Arithmetic",
+      "confidence_level": 5,
+      "core_importance": "Very high",
+      "reconstruction_difficulty": "Low"
+    },
+    {
+      "id": "UTE-FV-0007",
+      "title": "Division",
+      "category": "Foundations/Arithmetic",
+      "confidence_level": 5,
+      "core_importance": "Very high",
+      "reconstruction_difficulty": "Low"
+    },
+    {
+      "id": "UTE-FV-0008",
+      "title": "Fractions",
+      "category": "Foundations/Arithmetic",
+      "confidence_level": 5,
+      "core_importance": "Very high",
+      "reconstruction_difficulty": "Low"
+    },
+    {
+      "id": "UTE-FV-0009",
+      "title": "Ratio",
+      "category": "Foundations/Arithmetic",
+      "confidence_level": 5,
+      "core_importance": "Very high",
+      "reconstruction_difficulty": "Low"
+    },
+    {
+      "id": "UTE-FV-0010",
+      "title": "Proportion",
+      "category": "Foundations/Arithmetic",
+      "confidence_level": 5,
+      "core_importance": "Very high",
+      "reconstruction_difficulty": "Low"
+    },
+    {
+      "id": "UTE-FV-0011",
+      "title": "Exponents",
+      "category": "Foundations/Arithmetic",
+      "confidence_level": 5,
+      "core_importance": "Very high",
+      "reconstruction_difficulty": "Low"
+    },
+    {
+      "id": "UTE-FV-0012",
+      "title": "Roots",
+      "category": "Foundations/Arithmetic",
+      "confidence_level": 5,
+      "core_importance": "Very high",
+      "reconstruction_difficulty": "Low"
+    },
+    {
+      "id": "UTE-FV-0013",
+      "title": "Negative Numbers",
+      "category": "Foundations/Arithmetic",
+      "confidence_level": 5,
+      "core_importance": "Very high",
+      "reconstruction_difficulty": "Low"
+    },
+    {
+      "id": "UTE-FV-0014",
+      "title": "Approximation",
+      "category": "Foundations/Arithmetic",
+      "confidence_level": 5,
+      "core_importance": "Very high",
+      "reconstruction_difficulty": "Low"
+    }
+  ],
+  "edges": [
+    {
+      "source": "UTE-FV-0005",
+      "target": "UTE-FV-0002",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Subtraction depends on UTE-FV-0002."
+    },
+    {
+      "source": "UTE-FV-0005",
+      "target": "UTE-FV-0003",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Subtraction depends on UTE-FV-0003."
+    },
+    {
+      "source": "UTE-FV-0005",
+      "target": "UTE-FV-0004",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Subtraction depends on UTE-FV-0004."
+    },
+    {
+      "source": "UTE-FV-0006",
+      "target": "UTE-FV-0002",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Multiplication depends on UTE-FV-0002."
+    },
+    {
+      "source": "UTE-FV-0006",
+      "target": "UTE-FV-0003",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Multiplication depends on UTE-FV-0003."
+    },
+    {
+      "source": "UTE-FV-0006",
+      "target": "UTE-FV-0004",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Multiplication depends on UTE-FV-0004."
+    },
+    {
+      "source": "UTE-FV-0007",
+      "target": "UTE-FV-0002",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Division depends on UTE-FV-0002."
+    },
+    {
+      "source": "UTE-FV-0007",
+      "target": "UTE-FV-0003",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Division depends on UTE-FV-0003."
+    },
+    {
+      "source": "UTE-FV-0007",
+      "target": "UTE-FV-0004",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Division depends on UTE-FV-0004."
+    },
+    {
+      "source": "UTE-FV-0007",
+      "target": "UTE-FV-0006",
+      "type": "depends_on",
+      "weight": 0.9,
+      "description": "Division depends on UTE-FV-0006."
+    },
+    {
+      "source": "UTE-FV-0008",
+      "target": "UTE-FV-0002",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Fractions depends on UTE-FV-0002."
+    },
+    {
+      "source": "UTE-FV-0008",
+      "target": "UTE-FV-0003",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Fractions depends on UTE-FV-0003."
+    },
+    {
+      "source": "UTE-FV-0008",
+      "target": "UTE-FV-0007",
+      "type": "depends_on",
+      "weight": 0.9,
+      "description": "Fractions depends on UTE-FV-0007."
+    },
+    {
+      "source": "UTE-FV-0009",
+      "target": "UTE-FV-0002",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Ratio depends on UTE-FV-0002."
+    },
+    {
+      "source": "UTE-FV-0009",
+      "target": "UTE-FV-0003",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Ratio depends on UTE-FV-0003."
+    },
+    {
+      "source": "UTE-FV-0009",
+      "target": "UTE-FV-0007",
+      "type": "depends_on",
+      "weight": 0.9,
+      "description": "Ratio depends on UTE-FV-0007."
+    },
+    {
+      "source": "UTE-FV-0009",
+      "target": "UTE-FV-0008",
+      "type": "depends_on",
+      "weight": 0.9,
+      "description": "Ratio depends on UTE-FV-0008."
+    },
+    {
+      "source": "UTE-FV-0010",
+      "target": "UTE-FV-0002",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Proportion depends on UTE-FV-0002."
+    },
+    {
+      "source": "UTE-FV-0010",
+      "target": "UTE-FV-0008",
+      "type": "depends_on",
+      "weight": 0.9,
+      "description": "Proportion depends on UTE-FV-0008."
+    },
+    {
+      "source": "UTE-FV-0010",
+      "target": "UTE-FV-0009",
+      "type": "depends_on",
+      "weight": 0.9,
+      "description": "Proportion depends on UTE-FV-0009."
+    },
+    {
+      "source": "UTE-FV-0011",
+      "target": "UTE-FV-0002",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Exponents depends on UTE-FV-0002."
+    },
+    {
+      "source": "UTE-FV-0011",
+      "target": "UTE-FV-0003",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Exponents depends on UTE-FV-0003."
+    },
+    {
+      "source": "UTE-FV-0011",
+      "target": "UTE-FV-0006",
+      "type": "depends_on",
+      "weight": 0.9,
+      "description": "Exponents depends on UTE-FV-0006."
+    },
+    {
+      "source": "UTE-FV-0012",
+      "target": "UTE-FV-0002",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Roots depends on UTE-FV-0002."
+    },
+    {
+      "source": "UTE-FV-0012",
+      "target": "UTE-FV-0006",
+      "type": "depends_on",
+      "weight": 0.9,
+      "description": "Roots depends on UTE-FV-0006."
+    },
+    {
+      "source": "UTE-FV-0012",
+      "target": "UTE-FV-0011",
+      "type": "depends_on",
+      "weight": 0.9,
+      "description": "Roots depends on UTE-FV-0011."
+    },
+    {
+      "source": "UTE-FV-0013",
+      "target": "UTE-FV-0002",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Negative Numbers depends on UTE-FV-0002."
+    },
+    {
+      "source": "UTE-FV-0013",
+      "target": "UTE-FV-0003",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Negative Numbers depends on UTE-FV-0003."
+    },
+    {
+      "source": "UTE-FV-0013",
+      "target": "UTE-FV-0005",
+      "type": "depends_on",
+      "weight": 0.9,
+      "description": "Negative Numbers depends on UTE-FV-0005."
+    },
+    {
+      "source": "UTE-FV-0014",
+      "target": "UTE-FV-0002",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Approximation depends on UTE-FV-0002."
+    },
+    {
+      "source": "UTE-FV-0014",
+      "target": "UTE-FV-0003",
+      "type": "depends_on",
+      "weight": 1.0,
+      "description": "Approximation depends on UTE-FV-0003."
+    },
+    {
+      "source": "UTE-FV-0014",
+      "target": "UTE-FV-0005",
+      "type": "depends_on",
+      "weight": 0.9,
+      "description": "Approximation depends on UTE-FV-0005."
+    }
+  ]
+}
