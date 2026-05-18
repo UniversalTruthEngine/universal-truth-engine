@@ -1,22 +1,20 @@
-# UTE Map Prototype v2
+# UTE Map Prototype v3
 
-This folder contains the second visual topology prototype for the Universal Truth Engine.
+This is the first 3D navigable Universal Truth Engine map prototype.
 
-## New in v2
+## New in v3
 
-- Domain colours
-- Hover tooltips
-- Search box
-- Domain filter
-- Zoom and pan
-- Reset view button
-- Directed dependency arrows
-- Details panel showing dependencies and dependents
+- 3D spatial map
+- Rotate/spin in space
+- Zoom and pan using orbit controls
+- Clickable truth nodes
+- Details panel with richer truth summaries
+- Starfield background
+- Node size still represents dependency centrality
 
-## Visual Encoding
+## Navigation
 
-- Node size = dependency centrality
-- Node colour = domain
-- Arrow direction = dependency direction
-- Edge thickness = dependency weight
-- Layout = force-directed topology map
+- Drag: rotate
+- Scroll: zoom
+- Right-drag / two-finger drag: pan
+- Click node: inspect Core Truth summary
