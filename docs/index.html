@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Universal Truth Engine — Map Prototype v1</title>
+  <title>Universal Truth Engine — Map Prototype v2</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -11,16 +11,27 @@
     <section class="hero">
       <div>
         <p class="eyebrow">Universal Truth Engine</p>
-        <h1>Truth Topology Map Prototype v1</h1>
+        <h1>Truth Topology Map Prototype v2</h1>
         <p class="subtitle">
-          A first navigable constellation of Core Truths. Node size represents dependency centrality:
+          A navigable constellation of Core Truths. Node size represents dependency centrality:
           the more other truths depend on a node, the greater its epistemic mass.
         </p>
       </div>
       <div class="legend">
-        <div><span class="dot level5"></span> Level 5 — Mathematical / Logical Proof</div>
-        <div><span class="line"></span> Dependency link</div>
+        <div><span class="dot logic"></span> Logic</div>
+        <div><span class="dot arithmetic"></span> Arithmetic</div>
+        <div><span class="dot geometry"></span> Geometry</div>
+        <div><span class="dot measurement"></span> Measurement</div>
+        <div><span class="line"></span> Dependency direction</div>
       </div>
+    </section>
+
+    <section class="controls">
+      <input id="search" type="search" placeholder="Search truths by ID or title..." />
+      <select id="category-filter">
+        <option value="all">All domains</option>
+      </select>
+      <button id="reset-view">Reset view</button>
     </section>
 
     <section class="map-wrap">
@@ -31,13 +42,16 @@
       </aside>
     </section>
 
+    <div id="tooltip"></div>
+
     <section class="notes">
       <h2>Visual Encoding</h2>
       <ul>
         <li><strong>Node size:</strong> dependency centrality.</li>
-        <li><strong>Node colour:</strong> confidence level.</li>
+        <li><strong>Node colour:</strong> knowledge domain.</li>
+        <li><strong>Arrows:</strong> dependency direction.</li>
         <li><strong>Edge thickness:</strong> dependency strength.</li>
-        <li><strong>Position:</strong> force-directed relationship layout.</li>
+        <li><strong>Zoom/pan:</strong> scroll and drag the map background.</li>
       </ul>
     </section>
   </main>

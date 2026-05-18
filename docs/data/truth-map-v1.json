@@ -1,6 +1,6 @@
 {
-  "map_id": "UTE-MAP-PROTOTYPE-V1",
-  "description": "First visual truth topology prototype. Node size is dependency centrality.",
+  "map_id": "UTE-MAP-PROTOTYPE-V2",
+  "description": "Interactive UTE truth topology prototype v2.",
   "nodes": [
     {
       "id": "UTE-FV-0001",
@@ -16,16 +16,16 @@
         "UTE-FV-0012"
       ],
       "dependency_centrality": 0,
-      "claim": "Pythagorean Theorem is represented as a Core Truth node in the first UTE map prototype."
+      "claim": "Pythagorean Theorem is represented as a Core Truth node in the UTE map."
     },
     {
       "id": "UTE-FV-0002",
       "title": "Equality / Identity of Quantity",
-      "category": "Logic / Arithmetic",
+      "category": "Logic",
       "confidence_level": 5,
       "dependencies": [],
       "dependency_centrality": 13,
-      "claim": "Equality / Identity of Quantity is represented as a Core Truth node in the first UTE map prototype."
+      "claim": "Equality / Identity of Quantity is represented as a Core Truth node in the UTE map."
     },
     {
       "id": "UTE-FV-0003",
@@ -36,7 +36,7 @@
         "UTE-FV-0002"
       ],
       "dependency_centrality": 10,
-      "claim": "Counting and Natural Numbers is represented as a Core Truth node in the first UTE map prototype."
+      "claim": "Counting and Natural Numbers is represented as a Core Truth node in the UTE map."
     },
     {
       "id": "UTE-FV-0004",
@@ -48,7 +48,7 @@
         "UTE-FV-0003"
       ],
       "dependency_centrality": 4,
-      "claim": "Addition is represented as a Core Truth node in the first UTE map prototype."
+      "claim": "Addition is represented as a Core Truth node in the UTE map."
     },
     {
       "id": "UTE-FV-0005",
@@ -61,7 +61,7 @@
         "UTE-FV-0004"
       ],
       "dependency_centrality": 2,
-      "claim": "Subtraction is represented as a Core Truth node in the first UTE map prototype."
+      "claim": "Subtraction is represented as a Core Truth node in the UTE map."
     },
     {
       "id": "UTE-FV-0006",
@@ -74,7 +74,7 @@
         "UTE-FV-0004"
       ],
       "dependency_centrality": 4,
-      "claim": "Multiplication is represented as a Core Truth node in the first UTE map prototype."
+      "claim": "Multiplication is represented as a Core Truth node in the UTE map."
     },
     {
       "id": "UTE-FV-0007",
@@ -88,7 +88,7 @@
         "UTE-FV-0006"
       ],
       "dependency_centrality": 2,
-      "claim": "Division is represented as a Core Truth node in the first UTE map prototype."
+      "claim": "Division is represented as a Core Truth node in the UTE map."
     },
     {
       "id": "UTE-FV-0008",
@@ -101,7 +101,7 @@
         "UTE-FV-0007"
       ],
       "dependency_centrality": 3,
-      "claim": "Fractions is represented as a Core Truth node in the first UTE map prototype."
+      "claim": "Fractions is represented as a Core Truth node in the UTE map."
     },
     {
       "id": "UTE-FV-0009",
@@ -115,7 +115,7 @@
         "UTE-FV-0008"
       ],
       "dependency_centrality": 1,
-      "claim": "Ratio is represented as a Core Truth node in the first UTE map prototype."
+      "claim": "Ratio is represented as a Core Truth node in the UTE map."
     },
     {
       "id": "UTE-FV-0010",
@@ -128,7 +128,7 @@
         "UTE-FV-0009"
       ],
       "dependency_centrality": 0,
-      "claim": "Proportion is represented as a Core Truth node in the first UTE map prototype."
+      "claim": "Proportion is represented as a Core Truth node in the UTE map."
     },
     {
       "id": "UTE-FV-0011",
@@ -141,7 +141,7 @@
         "UTE-FV-0006"
       ],
       "dependency_centrality": 1,
-      "claim": "Exponents is represented as a Core Truth node in the first UTE map prototype."
+      "claim": "Exponents is represented as a Core Truth node in the UTE map."
     },
     {
       "id": "UTE-FV-0012",
@@ -154,7 +154,7 @@
         "UTE-FV-0011"
       ],
       "dependency_centrality": 1,
-      "claim": "Roots is represented as a Core Truth node in the first UTE map prototype."
+      "claim": "Roots is represented as a Core Truth node in the UTE map."
     },
     {
       "id": "UTE-FV-0013",
@@ -167,12 +167,12 @@
         "UTE-FV-0005"
       ],
       "dependency_centrality": 0,
-      "claim": "Negative Numbers is represented as a Core Truth node in the first UTE map prototype."
+      "claim": "Negative Numbers is represented as a Core Truth node in the UTE map."
     },
     {
       "id": "UTE-FV-0014",
       "title": "Approximation",
-      "category": "Measurement / Arithmetic",
+      "category": "Measurement",
       "confidence_level": 5,
       "dependencies": [
         "UTE-FV-0002",
@@ -180,7 +180,7 @@
         "UTE-FV-0005"
       ],
       "dependency_centrality": 0,
-      "claim": "Approximation is represented as a Core Truth node in the first UTE map prototype."
+      "claim": "Approximation is represented as a Core Truth node in the UTE map."
     }
   ],
   "edges": [
@@ -433,8 +433,9 @@
   ],
   "visual_encoding": {
     "node_size": "dependency_centrality",
-    "node_color": "confidence_level",
+    "node_color": "domain/category",
     "edge_width": "dependency_weight",
+    "arrows": "dependency direction",
     "layout": "force_directed"
   }
 }

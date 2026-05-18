@@ -1,32 +1,22 @@
-# UTE Map Prototype v1
+# UTE Map Prototype v2
 
-This folder contains the first visual topology prototype for the Universal Truth Engine.
+This folder contains the second visual topology prototype for the Universal Truth Engine.
 
-## Files
+## New in v2
 
-- `index.html` — map page
-- `style.css` — visual styling
-- `graph.js` — D3 force-directed graph logic
-- `data/truth-map-v1.json` — graph data for the first 14 Core Truths
+- Domain colours
+- Hover tooltips
+- Search box
+- Domain filter
+- Zoom and pan
+- Reset view button
+- Directed dependency arrows
+- Details panel showing dependencies and dependents
 
 ## Visual Encoding
 
 - Node size = dependency centrality
-- Node colour = confidence level
+- Node colour = domain
+- Arrow direction = dependency direction
 - Edge thickness = dependency weight
-- Layout = force-directed relationship map
-
-## Hosting
-
-This prototype is designed for GitHub Pages.
-
-In GitHub:
-
-1. Go to repository Settings.
-2. Open Pages.
-3. Set source to deploy from branch.
-4. Choose branch: `main`.
-5. Choose folder: `/docs`.
-6. Save.
-
-GitHub will then publish the map as a public webpage.
+- Layout = force-directed topology map
