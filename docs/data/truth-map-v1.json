@@ -1,6 +1,4 @@
 {
-  "map_id": "UTE-MAP-PROTOTYPE-V3-1",
-  "description": "3D UTE truth topology prototype v3.1 fix.",
   "nodes": [
     {
       "id": "UTE-FV-0001",
@@ -15,9 +13,9 @@
         "UTE-FV-0008",
         "UTE-FV-0012"
       ],
-      "summary": "For a right triangle in Euclidean geometry, the square of the hypotenuse equals the sum of the squares of the other two sides.",
-      "claim": "For a right triangle on a flat Euclidean plane: a\u00b2 + b\u00b2 = c\u00b2.",
-      "dependency_centrality": 0
+      "dependency_centrality": 0,
+      "summary": "Pythagorean Theorem is a Core Truth in the current UTE topology.",
+      "claim": "Pythagorean Theorem is represented as a foundational truth node."
     },
     {
       "id": "UTE-FV-0002",
@@ -25,9 +23,9 @@
       "category": "Logic",
       "confidence_level": 5,
       "dependencies": [],
-      "summary": "Equality allows two quantities, symbols, or descriptions to be treated as the same within a defined context.",
-      "claim": "If A = B, then A and B may be substituted for one another in valid contexts without changing truth.",
-      "dependency_centrality": 13
+      "dependency_centrality": 13,
+      "summary": "Equality / Identity of Quantity is a Core Truth in the current UTE topology.",
+      "claim": "Equality / Identity of Quantity is represented as a foundational truth node."
     },
     {
       "id": "UTE-FV-0003",
@@ -37,9 +35,9 @@
       "dependencies": [
         "UTE-FV-0002"
       ],
-      "summary": "Counting assigns stable ordered quantities to discrete collections.",
-      "claim": "Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.",
-      "dependency_centrality": 10
+      "dependency_centrality": 10,
+      "summary": "Counting and Natural Numbers is a Core Truth in the current UTE topology.",
+      "claim": "Counting and Natural Numbers is represented as a foundational truth node."
     },
     {
       "id": "UTE-FV-0004",
@@ -50,9 +48,9 @@
         "UTE-FV-0002",
         "UTE-FV-0003"
       ],
-      "summary": "Addition describes the combination of quantities into a total.",
-      "claim": "Addition combines quantities into a larger quantity while preserving consistent quantity relationships.",
-      "dependency_centrality": 4
+      "dependency_centrality": 4,
+      "summary": "Addition is a Core Truth in the current UTE topology.",
+      "claim": "Addition is represented as a foundational truth node."
     },
     {
       "id": "UTE-FV-0005",
@@ -64,9 +62,9 @@
         "UTE-FV-0003",
         "UTE-FV-0004"
       ],
-      "summary": "Subtraction describes removal, comparison, or difference between quantities.",
-      "claim": "Subtraction describes the removal of a quantity from another quantity, or the difference between two quantities.",
-      "dependency_centrality": 2
+      "dependency_centrality": 2,
+      "summary": "Subtraction is a Core Truth in the current UTE topology.",
+      "claim": "Subtraction is represented as a foundational truth node."
     },
     {
       "id": "UTE-FV-0006",
@@ -78,9 +76,9 @@
         "UTE-FV-0003",
         "UTE-FV-0004"
       ],
-      "summary": "Multiplication compresses repeated addition and enables scaling.",
-      "claim": "Multiplication represents repeated addition or the scaling of one quantity by another.",
-      "dependency_centrality": 4
+      "dependency_centrality": 4,
+      "summary": "Multiplication is a Core Truth in the current UTE topology.",
+      "claim": "Multiplication is represented as a foundational truth node."
     },
     {
       "id": "UTE-FV-0007",
@@ -93,9 +91,9 @@
         "UTE-FV-0004",
         "UTE-FV-0006"
       ],
-      "summary": "Division partitions quantities into equal parts or equal groups.",
-      "claim": "Division describes partitioning a quantity into equal parts or determining how many equal groups fit within a quantity.",
-      "dependency_centrality": 2
+      "dependency_centrality": 2,
+      "summary": "Division is a Core Truth in the current UTE topology.",
+      "claim": "Division is represented as a foundational truth node."
     },
     {
       "id": "UTE-FV-0008",
@@ -107,9 +105,9 @@
         "UTE-FV-0003",
         "UTE-FV-0007"
       ],
-      "summary": "Fractions represent parts of a whole created by equal division.",
-      "claim": "Fractions represent quantities formed by dividing a whole into equal parts and selecting some number of those parts.",
-      "dependency_centrality": 3
+      "dependency_centrality": 3,
+      "summary": "Fractions is a Core Truth in the current UTE topology.",
+      "claim": "Fractions is represented as a foundational truth node."
     },
     {
       "id": "UTE-FV-0009",
@@ -122,9 +120,9 @@
         "UTE-FV-0007",
         "UTE-FV-0008"
       ],
-      "summary": "A ratio compares two quantities.",
-      "claim": "A ratio compares two quantities by expressing how much of one quantity corresponds to another.",
-      "dependency_centrality": 1
+      "dependency_centrality": 1,
+      "summary": "Ratio is a Core Truth in the current UTE topology.",
+      "claim": "Ratio is represented as a foundational truth node."
     },
     {
       "id": "UTE-FV-0010",
@@ -136,9 +134,9 @@
         "UTE-FV-0008",
         "UTE-FV-0009"
       ],
-      "summary": "Proportion expresses equality between ratios.",
-      "claim": "A proportion states that two ratios are equal within a defined context.",
-      "dependency_centrality": 0
+      "dependency_centrality": 0,
+      "summary": "Proportion is a Core Truth in the current UTE topology.",
+      "claim": "Proportion is represented as a foundational truth node."
     },
     {
       "id": "UTE-FV-0011",
@@ -150,9 +148,9 @@
         "UTE-FV-0003",
         "UTE-FV-0006"
       ],
-      "summary": "Exponents compress repeated multiplication.",
-      "claim": "Exponents represent repeated multiplication of a quantity by itself or structured scaling relations.",
-      "dependency_centrality": 1
+      "dependency_centrality": 1,
+      "summary": "Exponents is a Core Truth in the current UTE topology.",
+      "claim": "Exponents is represented as a foundational truth node."
     },
     {
       "id": "UTE-FV-0012",
@@ -164,9 +162,9 @@
         "UTE-FV-0006",
         "UTE-FV-0011"
       ],
-      "summary": "Roots invert exponentiation.",
-      "claim": "A root is a value which, when multiplied by itself a specified number of times, produces a given quantity.",
-      "dependency_centrality": 1
+      "dependency_centrality": 1,
+      "summary": "Roots is a Core Truth in the current UTE topology.",
+      "claim": "Roots is represented as a foundational truth node."
     },
     {
       "id": "UTE-FV-0013",
@@ -178,9 +176,9 @@
         "UTE-FV-0003",
         "UTE-FV-0005"
       ],
-      "summary": "Negative numbers represent quantities below a defined zero point or opposite direction.",
-      "claim": "Negative numbers represent quantities below a defined zero point, directed opposites, deficits, or inverse positions on an ordered scale.",
-      "dependency_centrality": 0
+      "dependency_centrality": 0,
+      "summary": "Negative Numbers is a Core Truth in the current UTE topology.",
+      "claim": "Negative Numbers is represented as a foundational truth node."
     },
     {
       "id": "UTE-FV-0014",
@@ -192,257 +190,216 @@
         "UTE-FV-0003",
         "UTE-FV-0005"
       ],
-      "summary": "Approximation represents values close enough for a defined purpose or tolerance.",
-      "claim": "Approximation represents a value close enough to a target value for a defined purpose, tolerance, or measurement resolution.",
-      "dependency_centrality": 0
+      "dependency_centrality": 0,
+      "summary": "Approximation is a Core Truth in the current UTE topology.",
+      "claim": "Approximation is represented as a foundational truth node."
     }
   ],
   "edges": [
     {
       "source": "UTE-FV-0001",
       "target": "UTE-FV-0002",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0001",
       "target": "UTE-FV-0003",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0001",
       "target": "UTE-FV-0004",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0001",
       "target": "UTE-FV-0006",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0001",
       "target": "UTE-FV-0008",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0001",
       "target": "UTE-FV-0012",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0003",
       "target": "UTE-FV-0002",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0004",
       "target": "UTE-FV-0002",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0004",
       "target": "UTE-FV-0003",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0005",
       "target": "UTE-FV-0002",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0005",
       "target": "UTE-FV-0003",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0005",
       "target": "UTE-FV-0004",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0006",
       "target": "UTE-FV-0002",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0006",
       "target": "UTE-FV-0003",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0006",
       "target": "UTE-FV-0004",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0007",
       "target": "UTE-FV-0002",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0007",
       "target": "UTE-FV-0003",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0007",
       "target": "UTE-FV-0004",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0007",
       "target": "UTE-FV-0006",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0008",
       "target": "UTE-FV-0002",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0008",
       "target": "UTE-FV-0003",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0008",
       "target": "UTE-FV-0007",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0009",
       "target": "UTE-FV-0002",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0009",
       "target": "UTE-FV-0003",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0009",
       "target": "UTE-FV-0007",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0009",
       "target": "UTE-FV-0008",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0010",
       "target": "UTE-FV-0002",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0010",
       "target": "UTE-FV-0008",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0010",
       "target": "UTE-FV-0009",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0011",
       "target": "UTE-FV-0002",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0011",
       "target": "UTE-FV-0003",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0011",
       "target": "UTE-FV-0006",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0012",
       "target": "UTE-FV-0002",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0012",
       "target": "UTE-FV-0006",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0012",
       "target": "UTE-FV-0011",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0013",
       "target": "UTE-FV-0002",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0013",
       "target": "UTE-FV-0003",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0013",
       "target": "UTE-FV-0005",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0014",
       "target": "UTE-FV-0002",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0014",
       "target": "UTE-FV-0003",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     },
     {
       "source": "UTE-FV-0014",
       "target": "UTE-FV-0005",
-      "type": "depends_on",
-      "weight": 1.0
+      "weight": 1
     }
   ]
 }
