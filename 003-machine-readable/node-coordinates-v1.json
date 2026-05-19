@@ -1,0 +1,90 @@
+{
+  "schema": "UTE-NODE-COORDINATES-V1",
+  "note": "Stable coordinates are navigational addresses, not permanent physical truth properties.",
+  "coordinates": {
+    "UTE-FV-0001": {
+      "x": 160,
+      "y": 70,
+      "z": 90,
+      "region": "Geometry Bridge"
+    },
+    "UTE-FV-0002": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "region": "Foundational Core"
+    },
+    "UTE-FV-0003": {
+      "x": -80,
+      "y": -35,
+      "z": 20,
+      "region": "Arithmetic Cluster"
+    },
+    "UTE-FV-0004": {
+      "x": -120,
+      "y": -80,
+      "z": 45,
+      "region": "Arithmetic Cluster"
+    },
+    "UTE-FV-0005": {
+      "x": -165,
+      "y": -110,
+      "z": -25,
+      "region": "Arithmetic Cluster"
+    },
+    "UTE-FV-0006": {
+      "x": -155,
+      "y": -45,
+      "z": 80,
+      "region": "Arithmetic Cluster"
+    },
+    "UTE-FV-0007": {
+      "x": -210,
+      "y": -60,
+      "z": 120,
+      "region": "Arithmetic Cluster"
+    },
+    "UTE-FV-0008": {
+      "x": -245,
+      "y": -10,
+      "z": 80,
+      "region": "Arithmetic Cluster"
+    },
+    "UTE-FV-0009": {
+      "x": -290,
+      "y": 20,
+      "z": 55,
+      "region": "Arithmetic Cluster"
+    },
+    "UTE-FV-0010": {
+      "x": -330,
+      "y": 55,
+      "z": 40,
+      "region": "Arithmetic Cluster"
+    },
+    "UTE-FV-0011": {
+      "x": -200,
+      "y": -125,
+      "z": 80,
+      "region": "Arithmetic Cluster"
+    },
+    "UTE-FV-0012": {
+      "x": -235,
+      "y": -150,
+      "z": 115,
+      "region": "Arithmetic Cluster"
+    },
+    "UTE-FV-0013": {
+      "x": -190,
+      "y": -165,
+      "z": -70,
+      "region": "Arithmetic Cluster"
+    },
+    "UTE-FV-0014": {
+      "x": 45,
+      "y": -145,
+      "z": -80,
+      "region": "Measurement Bridge"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "UTE-FV-0009",
+  "title": "Ratio",
+  "category": "Arithmetic",
+  "region": "Arithmetic Cluster",
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0007",
+    "UTE-FV-0008"
+  ],
+  "coords": {
+    "x": -290,
+    "y": 20,
+    "z": 55
+  },
+  "summary": "A ratio compares two quantities.",
+  "claim": "A ratio compares two quantities by expressing how much of one quantity corresponds to another.",
+  "proof": "Ratios arise by comparing quantities through division or repeated correspondence between two measured amounts.",
+  "validation": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic.",
+  "reconstruction": "Can be rediscovered by comparing quantities in mixtures, lengths, counts, or repeated groups.",
+  "confidence_level": 5,
+  "dependency_centrality": 1,
+  "stable_coordinates": {
+    "x": -290,
+    "y": 20,
+    "z": 55
+  },
+  "proof_layers": {
+    "summary": "A ratio compares two quantities.",
+    "intuitive_explanation": "Ratios arise by comparing quantities through division or repeated correspondence between two measured amounts.",
+    "formal_or_structural_proof": "Ratios arise by comparing quantities through division or repeated correspondence between two measured amounts.",
+    "empirical_or_reconstruction_basis": "Can be rediscovered by comparing quantities in mixtures, lengths, counts, or repeated groups.",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
+  },
+  "related_truths": {
+    "depends_on": [
+      "UTE-FV-0002",
+      "UTE-FV-0003",
+      "UTE-FV-0007",
+      "UTE-FV-0008"
+    ],
+    "depended_on_by": [
+      "UTE-FV-0010"
+    ]
+  }
+}

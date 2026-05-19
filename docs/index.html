@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Universal Truth Engine — 3D Map v3.2</title>
+<title>Universal Truth Engine — Map Engine v5</title>
 <link rel="stylesheet" href="style.css">
 <script type="importmap">
 {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}
@@ -10,8 +10,14 @@
 </head>
 <body>
 <main>
-<section class="topbar"><div><p class="eyebrow">Universal Truth Engine</p><h1>3D Truth Cosmos Prototype v3.2</h1><p class="subtitle">Spin, zoom, and inspect the first constellation of Core Truths.</p></div><div class="controls"><input id="search" type="search" placeholder="Search truths..."><select id="category-filter"><option value="all">All domains</option></select><button id="reset-view">Reset view</button></div></section>
-<section class="workspace"><div id="map3d"></div><aside id="details"><h2>Select a Core Truth</h2><p>Click a node to view its summary, claim, dependencies, and topology role.</p><div class="legend"><div><span class="dot logic"></span>Logic</div><div><span class="dot arithmetic"></span>Arithmetic</div><div><span class="dot geometry"></span>Geometry</div><div><span class="dot measurement"></span>Measurement</div></div></aside></section>
+<section class="topbar">
+<div><p class="eyebrow">Universal Truth Engine</p><h1>3D Truth Cosmos Engine v5</h1><p class="subtitle">Stable coordinates, fly-to navigation, and Truth Inspector v1.</p></div>
+<div class="controls"><input id="search" type="search" placeholder="Search truths..."><select id="category-filter"><option value="all">All domains</option></select><select id="fly-to"><option value="">Fly to node...</option></select><button id="reset-view">Reset</button></div>
+</section>
+<section class="workspace">
+<div id="map3d"></div>
+<aside id="details"><h2>Select a Core Truth</h2><p>Click a node, search, or use Fly to node.</p><div class="legend"><div><span class="dot logic"></span>Logic</div><div><span class="dot arithmetic"></span>Arithmetic</div><div><span class="dot geometry"></span>Geometry</div><div><span class="dot measurement"></span>Measurement</div></div></aside>
+</section>
 <section class="notes"><h2>Navigation</h2><p>Drag to rotate. Scroll to zoom. Right-drag or two-finger drag to pan.</p><p id="status">Loading 3D map...</p></section>
 </main>
 <script type="module" src="./graph.js"></script>

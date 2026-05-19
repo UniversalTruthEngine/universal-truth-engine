@@ -1,0 +1,49 @@
+{
+  "id": "UTE-FV-0001",
+  "title": "Pythagorean Theorem",
+  "category": "Geometry",
+  "region": "Geometry Bridge",
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0004",
+    "UTE-FV-0006",
+    "UTE-FV-0008",
+    "UTE-FV-0012"
+  ],
+  "coords": {
+    "x": 160,
+    "y": 70,
+    "z": 90
+  },
+  "summary": "For a right triangle in Euclidean geometry, the square of the hypotenuse equals the sum of the squares of the other two sides.",
+  "claim": "For a right triangle on a flat Euclidean plane: a\u00b2 + b\u00b2 = c\u00b2.",
+  "proof": "A standard area proof constructs a square of side length a + b, places four identical right triangles inside it, and compares the remaining central square of side c with the outer square area. Expanding and subtracting the triangle areas gives a\u00b2 + b\u00b2 = c\u00b2.",
+  "validation": "Level 5 \u2014 Mathematical / Logical Proof. Valid within Euclidean geometry for right triangles.",
+  "reconstruction": "Can be rediscovered with rope geometry, a flat surface, and a 3-4-5 right triangle.",
+  "confidence_level": 5,
+  "dependency_centrality": 0,
+  "stable_coordinates": {
+    "x": 160,
+    "y": 70,
+    "z": 90
+  },
+  "proof_layers": {
+    "summary": "For a right triangle in Euclidean geometry, the square of the hypotenuse equals the sum of the squares of the other two sides.",
+    "intuitive_explanation": "A standard area proof constructs a square of side length a + b, places four identical right triangles inside it, and compares the remaining central square of side c with the outer square area. Expanding and subtracting the triangle areas gives a\u00b2 + b\u00b2 = c\u00b2.",
+    "formal_or_structural_proof": "A standard area proof constructs a square of side length a + b, places four identical right triangles inside it, and compares the remaining central square of side c with the outer square area. Expanding and subtracting the triangle areas gives a\u00b2 + b\u00b2 = c\u00b2.",
+    "empirical_or_reconstruction_basis": "Can be rediscovered with rope geometry, a flat surface, and a 3-4-5 right triangle.",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof. Valid within Euclidean geometry for right triangles."
+  },
+  "related_truths": {
+    "depends_on": [
+      "UTE-FV-0002",
+      "UTE-FV-0003",
+      "UTE-FV-0004",
+      "UTE-FV-0006",
+      "UTE-FV-0008",
+      "UTE-FV-0012"
+    ],
+    "depended_on_by": []
+  }
+}

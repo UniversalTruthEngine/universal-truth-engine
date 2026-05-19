@@ -1,3 +1,3 @@
-# UTE Map Prototype v3.2
+# UTE Map Engine v5
 
-Fixes 3D loading using a Three.js import map.
+Adds Truth Inspector v1 on top of v4 features: stable coordinates, fly-to navigation, and inspectable proof/validation layers.

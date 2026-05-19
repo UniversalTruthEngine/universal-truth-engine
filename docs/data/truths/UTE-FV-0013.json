@@ -1,0 +1,43 @@
+{
+  "id": "UTE-FV-0013",
+  "title": "Negative Numbers",
+  "category": "Arithmetic",
+  "region": "Arithmetic Cluster",
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0005"
+  ],
+  "coords": {
+    "x": -190,
+    "y": -165,
+    "z": -70
+  },
+  "summary": "Negative numbers represent quantities below zero, opposite directions, deficits, or signed change.",
+  "claim": "Negative numbers represent quantities below a defined zero point, directed opposites, deficits, or inverse positions on an ordered scale.",
+  "proof": "A number line with a zero reference permits positions on opposite sides. Addition and subtraction preserve consistent movement across that line.",
+  "validation": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic systems that include signed quantities.",
+  "reconstruction": "Can be rediscovered through debt, direction, temperature scale offsets, or positions relative to zero.",
+  "confidence_level": 5,
+  "dependency_centrality": 0,
+  "stable_coordinates": {
+    "x": -190,
+    "y": -165,
+    "z": -70
+  },
+  "proof_layers": {
+    "summary": "Negative numbers represent quantities below zero, opposite directions, deficits, or signed change.",
+    "intuitive_explanation": "A number line with a zero reference permits positions on opposite sides. Addition and subtraction preserve consistent movement across that line.",
+    "formal_or_structural_proof": "A number line with a zero reference permits positions on opposite sides. Addition and subtraction preserve consistent movement across that line.",
+    "empirical_or_reconstruction_basis": "Can be rediscovered through debt, direction, temperature scale offsets, or positions relative to zero.",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic systems that include signed quantities."
+  },
+  "related_truths": {
+    "depends_on": [
+      "UTE-FV-0002",
+      "UTE-FV-0003",
+      "UTE-FV-0005"
+    ],
+    "depended_on_by": []
+  }
+}

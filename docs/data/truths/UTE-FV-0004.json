@@ -1,0 +1,46 @@
+{
+  "id": "UTE-FV-0004",
+  "title": "Addition",
+  "category": "Arithmetic",
+  "region": "Arithmetic Cluster",
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003"
+  ],
+  "coords": {
+    "x": -120,
+    "y": -80,
+    "z": 45
+  },
+  "summary": "Addition describes the combination of quantities into a total.",
+  "claim": "Addition combines quantities into a larger quantity while preserving consistent quantity relationships.",
+  "proof": "If one collection has quantity a and another has quantity b, combining the two collections and recounting gives a total a + b.",
+  "validation": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic.",
+  "reconstruction": "Can be rediscovered by placing two groups of objects together and counting the combined set.",
+  "confidence_level": 5,
+  "dependency_centrality": 4,
+  "stable_coordinates": {
+    "x": -120,
+    "y": -80,
+    "z": 45
+  },
+  "proof_layers": {
+    "summary": "Addition describes the combination of quantities into a total.",
+    "intuitive_explanation": "If one collection has quantity a and another has quantity b, combining the two collections and recounting gives a total a + b.",
+    "formal_or_structural_proof": "If one collection has quantity a and another has quantity b, combining the two collections and recounting gives a total a + b.",
+    "empirical_or_reconstruction_basis": "Can be rediscovered by placing two groups of objects together and counting the combined set.",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
+  },
+  "related_truths": {
+    "depends_on": [
+      "UTE-FV-0002",
+      "UTE-FV-0003"
+    ],
+    "depended_on_by": [
+      "UTE-FV-0001",
+      "UTE-FV-0005",
+      "UTE-FV-0006",
+      "UTE-FV-0007"
+    ]
+  }
+}

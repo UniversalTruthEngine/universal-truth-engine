@@ -1,0 +1,43 @@
+{
+  "id": "UTE-FV-0010",
+  "title": "Proportion",
+  "category": "Arithmetic",
+  "region": "Arithmetic Cluster",
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0008",
+    "UTE-FV-0009"
+  ],
+  "coords": {
+    "x": -330,
+    "y": 55,
+    "z": 40
+  },
+  "summary": "Proportion expresses equality between ratios.",
+  "claim": "A proportion states that two ratios are equal within a defined context.",
+  "proof": "If ratio a:b equals ratio c:d, then the two relationships preserve the same relative quantity structure.",
+  "validation": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic.",
+  "reconstruction": "Can be rediscovered by scaling two pairs of quantities and observing preserved relative structure.",
+  "confidence_level": 5,
+  "dependency_centrality": 0,
+  "stable_coordinates": {
+    "x": -330,
+    "y": 55,
+    "z": 40
+  },
+  "proof_layers": {
+    "summary": "Proportion expresses equality between ratios.",
+    "intuitive_explanation": "If ratio a:b equals ratio c:d, then the two relationships preserve the same relative quantity structure.",
+    "formal_or_structural_proof": "If ratio a:b equals ratio c:d, then the two relationships preserve the same relative quantity structure.",
+    "empirical_or_reconstruction_basis": "Can be rediscovered by scaling two pairs of quantities and observing preserved relative structure.",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
+  },
+  "related_truths": {
+    "depends_on": [
+      "UTE-FV-0002",
+      "UTE-FV-0008",
+      "UTE-FV-0009"
+    ],
+    "depended_on_by": []
+  }
+}

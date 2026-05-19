@@ -1,0 +1,48 @@
+{
+  "id": "UTE-FV-0006",
+  "title": "Multiplication",
+  "category": "Arithmetic",
+  "region": "Arithmetic Cluster",
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0004"
+  ],
+  "coords": {
+    "x": -155,
+    "y": -45,
+    "z": 80
+  },
+  "summary": "Multiplication compresses repeated addition and enables scaling.",
+  "claim": "Multiplication represents repeated addition or the scaling of one quantity by another.",
+  "proof": "If a equal groups each contain b items, the total may be found by adding b repeatedly a times. Multiplication compresses that repeated addition.",
+  "validation": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic.",
+  "reconstruction": "Can be rediscovered by arranging objects into equal rows or groups and counting the total.",
+  "confidence_level": 5,
+  "dependency_centrality": 4,
+  "stable_coordinates": {
+    "x": -155,
+    "y": -45,
+    "z": 80
+  },
+  "proof_layers": {
+    "summary": "Multiplication compresses repeated addition and enables scaling.",
+    "intuitive_explanation": "If a equal groups each contain b items, the total may be found by adding b repeatedly a times. Multiplication compresses that repeated addition.",
+    "formal_or_structural_proof": "If a equal groups each contain b items, the total may be found by adding b repeatedly a times. Multiplication compresses that repeated addition.",
+    "empirical_or_reconstruction_basis": "Can be rediscovered by arranging objects into equal rows or groups and counting the total.",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
+  },
+  "related_truths": {
+    "depends_on": [
+      "UTE-FV-0002",
+      "UTE-FV-0003",
+      "UTE-FV-0004"
+    ],
+    "depended_on_by": [
+      "UTE-FV-0001",
+      "UTE-FV-0007",
+      "UTE-FV-0011",
+      "UTE-FV-0012"
+    ]
+  }
+}

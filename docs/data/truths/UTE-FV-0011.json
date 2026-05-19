@@ -1,0 +1,45 @@
+{
+  "id": "UTE-FV-0011",
+  "title": "Exponents",
+  "category": "Arithmetic",
+  "region": "Arithmetic Cluster",
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0006"
+  ],
+  "coords": {
+    "x": -200,
+    "y": -125,
+    "z": 80
+  },
+  "summary": "Exponents compress repeated multiplication.",
+  "claim": "Exponents represent repeated multiplication of a quantity by itself or structured scaling relations.",
+  "proof": "a\u207f represents multiplying a by itself n times, compressing a repeated multiplicative structure.",
+  "validation": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic.",
+  "reconstruction": "Can be rediscovered by repeatedly multiplying equal factors and introducing shorthand notation.",
+  "confidence_level": 5,
+  "dependency_centrality": 1,
+  "stable_coordinates": {
+    "x": -200,
+    "y": -125,
+    "z": 80
+  },
+  "proof_layers": {
+    "summary": "Exponents compress repeated multiplication.",
+    "intuitive_explanation": "a\u207f represents multiplying a by itself n times, compressing a repeated multiplicative structure.",
+    "formal_or_structural_proof": "a\u207f represents multiplying a by itself n times, compressing a repeated multiplicative structure.",
+    "empirical_or_reconstruction_basis": "Can be rediscovered by repeatedly multiplying equal factors and introducing shorthand notation.",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
+  },
+  "related_truths": {
+    "depends_on": [
+      "UTE-FV-0002",
+      "UTE-FV-0003",
+      "UTE-FV-0006"
+    ],
+    "depended_on_by": [
+      "UTE-FV-0012"
+    ]
+  }
+}
