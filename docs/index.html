@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Universal Truth Engine — 3D Map Prototype v3</title>
+  <title>Universal Truth Engine — 3D Map Prototype v3.1</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -11,7 +11,7 @@
     <section class="topbar">
       <div>
         <p class="eyebrow">Universal Truth Engine</p>
-        <h1>3D Truth Cosmos Prototype v3</h1>
+        <h1>3D Truth Cosmos Prototype v3.1</h1>
         <p class="subtitle">Spin, zoom, and inspect the first constellation of Core Truths.</p>
       </div>
       <div class="controls">
@@ -39,15 +39,11 @@
 
     <section class="notes">
       <h2>Navigation</h2>
-      <p>
-        Drag to rotate. Scroll to zoom. Right-drag or two-finger drag to pan.
-        Node size represents dependency centrality: larger nodes have more truths depending on them.
-      </p>
+      <p>Drag to rotate. Scroll to zoom. Right-drag or two-finger drag to pan.</p>
+      <p id="status">Loading 3D map...</p>
     </section>
   </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/examples/js/controls/OrbitControls.js"></script>
-  <script src="graph.js"></script>
+  <script type="module" src="graph.js"></script>
 </body>
 </html>

@@ -1,16 +1,10 @@
-# UTE Map Prototype v3
+# UTE Map Prototype v3.1
 
-This is the first 3D navigable Universal Truth Engine map prototype.
+This is a bugfix for Prototype v3.
 
-## New in v3
+## Fix
 
-- 3D spatial map
-- Rotate/spin in space
-- Zoom and pan using orbit controls
-- Clickable truth nodes
-- Details panel with richer truth summaries
-- Starfield background
-- Node size still represents dependency centrality
+Uses modern Three.js module imports for OrbitControls to avoid a black-screen issue caused by older non-module scripts.
 
 ## Navigation
 

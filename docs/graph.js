@@ -1,3 +1,6 @@
+import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js";
+import { OrbitControls } from "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js";
+
 const categoryColors = {
   Logic: 0xa78bfa,
   Arithmetic: 0x83b6ff,
@@ -13,18 +16,24 @@ const state = {
   controls: null,
   nodeObjects: new Map(),
   labelObjects: new Map(),
-  edgeObjects: [],
-  selected: null
+  edgeObjects: []
 };
 
 async function init() {
-  const response = await fetch("data/truth-map-v1.json");
-  state.graph = await response.json();
+  try {
+    const response = await fetch("data/truth-map-v1.json");
+    state.graph = await response.json();
 
-  setupControls();
-  setupScene();
-  buildGraph();
-  animate();
+    setupControls();
+    setupScene();
+    buildGraph();
+    animate();
+
+    document.getElementById("status").textContent = "3D map loaded.";
+  } catch (error) {
+    document.getElementById("status").textContent = "Map failed to load: " + error.message;
+    console.error(error);
+  }
 }
 
 function setupControls() {
@@ -62,15 +71,13 @@ function setupScene() {
   state.renderer.setSize(width, height);
   container.appendChild(state.renderer.domElement);
 
-  state.controls = new THREE.OrbitControls(state.camera, state.renderer.domElement);
+  state.controls = new OrbitControls(state.camera, state.renderer.domElement);
   state.controls.enableDamping = true;
   state.controls.dampingFactor = 0.06;
   state.controls.rotateSpeed = 0.55;
   state.controls.zoomSpeed = 0.75;
 
-  const ambient = new THREE.AmbientLight(0xffffff, 0.75);
-  state.scene.add(ambient);
-
+  state.scene.add(new THREE.AmbientLight(0xffffff, 0.75));
   const point = new THREE.PointLight(0x9dbdff, 1.4, 900);
   point.position.set(180, 120, 260);
   state.scene.add(point);
@@ -85,11 +92,7 @@ function addStarfield() {
   const geometry = new THREE.BufferGeometry();
   const vertices = [];
   for (let i = 0; i < 900; i++) {
-    vertices.push(
-      (Math.random() - 0.5) * 1400,
-      (Math.random() - 0.5) * 1400,
-      (Math.random() - 0.5) * 1400
-    );
+    vertices.push((Math.random() - 0.5) * 1400, (Math.random() - 0.5) * 1400, (Math.random() - 0.5) * 1400);
   }
   geometry.setAttribute("position", new THREE.Float32BufferAttribute(vertices, 3));
   const material = new THREE.PointsMaterial({ color: 0x6f7f9f, size: 1.2, transparent: true, opacity: 0.45 });
@@ -99,34 +102,32 @@ function addStarfield() {
 function buildGraph() {
   const nodes = state.graph.nodes;
   const edges = state.graph.edges;
-
   const maxCentrality = Math.max(...nodes.map(n => n.dependency_centrality), 1);
   const positions = computeInitialPositions(nodes);
 
   nodes.forEach(node => {
     const mass = node.dependency_centrality;
-    const radius = 8 + Math.sqrt(mass + 1) * 5;
+    const radius = 10 + Math.sqrt(mass + 1) * 6;
     const color = categoryColors[node.category] || 0xffffff;
 
-    const geometry = new THREE.SphereGeometry(radius, 32, 32);
-    const material = new THREE.MeshStandardMaterial({
-      color,
-      emissive: color,
-      emissiveIntensity: 0.18 + (mass / maxCentrality) * 0.35,
-      roughness: 0.45,
-      metalness: 0.05
-    });
+    const sphere = new THREE.Mesh(
+      new THREE.SphereGeometry(radius, 32, 32),
+      new THREE.MeshStandardMaterial({
+        color,
+        emissive: color,
+        emissiveIntensity: 0.2 + (mass / maxCentrality) * 0.45,
+        roughness: 0.45
+      })
+    );
 
-    const sphere = new THREE.Mesh(geometry, material);
     const p = positions.get(node.id);
     sphere.position.set(p.x, p.y, p.z);
     sphere.userData = node;
-
     state.scene.add(sphere);
     state.nodeObjects.set(node.id, sphere);
 
     const label = makeLabel(node.id.replace("UTE-FV-", ""));
-    label.position.set(p.x, p.y - radius - 10, p.z);
+    label.position.set(p.x, p.y - radius - 12, p.z);
     state.scene.add(label);
     state.labelObjects.set(node.id, label);
   });
@@ -135,17 +136,11 @@ function buildGraph() {
     const source = state.nodeObjects.get(edge.source);
     const target = state.nodeObjects.get(edge.target);
     if (!source || !target) return;
-
-    const material = new THREE.LineBasicMaterial({
-      color: 0x8391aa,
-      transparent: true,
-      opacity: 0.55,
-      linewidth: 1
-    });
-
-    const points = [source.position, target.position];
-    const geometry = new THREE.BufferGeometry().setFromPoints(points);
-    const line = new THREE.Line(geometry, material);
+    const geometry = new THREE.BufferGeometry().setFromPoints([source.position, target.position]);
+    const line = new THREE.Line(
+      geometry,
+      new THREE.LineBasicMaterial({ color: 0x8391aa, transparent: true, opacity: 0.55 })
+    );
     line.userData = edge;
     state.scene.add(line);
     state.edgeObjects.push(line);
@@ -154,29 +149,18 @@ function buildGraph() {
 
 function computeInitialPositions(nodes) {
   const positions = new Map();
-  const categoryAngle = {
-    Logic: 0,
-    Arithmetic: Math.PI * 0.75,
-    Geometry: Math.PI * 1.35,
-    Measurement: Math.PI * 1.8
-  };
+  const categoryAngle = { Logic: 0, Arithmetic: Math.PI * 0.75, Geometry: Math.PI * 1.35, Measurement: Math.PI * 1.8 };
 
   nodes.forEach((node, i) => {
     const centrality = node.dependency_centrality;
-    const baseRadius = Math.max(35, 160 - centrality * 18);
+    const baseRadius = Math.max(35, 170 - centrality * 18);
     const angle = (categoryAngle[node.category] ?? 0) + i * 0.42;
-    const z = (Math.sin(i * 1.31) * 70) + (node.category === "Logic" ? 0 : 20);
-    positions.set(node.id, {
-      x: Math.cos(angle) * baseRadius,
-      y: Math.sin(angle) * baseRadius,
-      z
-    });
+    const z = Math.sin(i * 1.31) * 80;
+    positions.set(node.id, { x: Math.cos(angle) * baseRadius, y: Math.sin(angle) * baseRadius, z });
   });
 
   const equality = positions.get("UTE-FV-0002");
-  if (equality) {
-    equality.x = 0; equality.y = 0; equality.z = 0;
-  }
+  if (equality) { equality.x = 0; equality.y = 0; equality.z = 0; }
   return positions;
 }
 
@@ -202,28 +186,15 @@ function makeLabel(text) {
 
 function onCanvasClick(event) {
   const rect = state.renderer.domElement.getBoundingClientRect();
-  const mouse = new THREE.Vector2(
-    ((event.clientX - rect.left) / rect.width) * 2 - 1,
-    -((event.clientY - rect.top) / rect.height) * 2 + 1
-  );
-
+  const mouse = new THREE.Vector2(((event.clientX - rect.left) / rect.width) * 2 - 1, -((event.clientY - rect.top) / rect.height) * 2 + 1);
   const raycaster = new THREE.Raycaster();
   raycaster.setFromCamera(mouse, state.camera);
-
   const intersects = raycaster.intersectObjects([...state.nodeObjects.values()]);
-  if (intersects.length > 0) {
-    const node = intersects[0].object.userData;
-    showDetails(node);
-    state.selected = node.id;
-  }
+  if (intersects.length > 0) showDetails(intersects[0].object.userData);
 }
 
 function showDetails(node) {
-  const dependents = state.graph.nodes
-    .filter(n => n.dependencies.includes(node.id))
-    .map(n => n.id)
-    .join(", ") || "None listed";
-
+  const dependents = state.graph.nodes.filter(n => n.dependencies.includes(node.id)).map(n => n.id).join(", ") || "None listed";
   document.getElementById("details").innerHTML = `
     <h2>${node.id}</h2>
     <h3>${node.title}</h3>
@@ -242,24 +213,15 @@ function showDetails(node) {
 function applyFilters() {
   const q = document.getElementById("search").value.toLowerCase().trim();
   const category = document.getElementById("category-filter").value;
+  const visible = new Set(state.graph.nodes.filter(n => {
+    const matchesText = !q || n.id.toLowerCase().includes(q) || n.title.toLowerCase().includes(q);
+    const matchesCategory = category === "all" || n.category === category;
+    return matchesText && matchesCategory;
+  }).map(n => n.id));
 
-  const visible = new Set(state.graph.nodes
-    .filter(n => {
-      const matchesText = !q || n.id.toLowerCase().includes(q) || n.title.toLowerCase().includes(q);
-      const matchesCategory = category === "all" || n.category === category;
-      return matchesText && matchesCategory;
-    })
-    .map(n => n.id));
-
-  state.nodeObjects.forEach((obj, id) => {
-    obj.visible = visible.has(id);
-  });
-  state.labelObjects.forEach((obj, id) => {
-    obj.visible = visible.has(id);
-  });
-  state.edgeObjects.forEach(line => {
-    line.visible = visible.has(line.userData.source) && visible.has(line.userData.target);
-  });
+  state.nodeObjects.forEach((obj, id) => obj.visible = visible.has(id));
+  state.labelObjects.forEach((obj, id) => obj.visible = visible.has(id));
+  state.edgeObjects.forEach(line => line.visible = visible.has(line.userData.source) && visible.has(line.userData.target));
 }
 
 function onResize() {
