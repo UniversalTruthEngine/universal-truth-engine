@@ -8,16 +8,6 @@
     "UTE-FV-0003",
     "UTE-FV-0007"
   ],
-  "coords": {
-    "x": -245,
-    "y": -10,
-    "z": 80
-  },
-  "summary": "Fractions represent selected equal parts of a whole.",
-  "claim": "Fractions represent quantities formed by dividing a whole into equal parts and selecting some number of those parts.",
-  "proof": "If a whole is divided into b equal parts and a of those parts are selected, the selected quantity is represented as a/b.",
-  "validation": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic.",
-  "reconstruction": "Can be rediscovered by cutting, folding, or dividing physical objects into equal parts.",
   "confidence_level": 5,
   "dependency_centrality": 3,
   "stable_coordinates": {
@@ -25,11 +15,13 @@
     "y": -10,
     "z": 80
   },
+  "summary": "Fractions represent selected equal parts of a whole.",
+  "claim": "Fractions represent quantities formed by dividing a whole into equal parts and selecting some number of those parts.",
   "proof_layers": {
     "summary": "Fractions represent selected equal parts of a whole.",
-    "intuitive_explanation": "If a whole is divided into b equal parts and a of those parts are selected, the selected quantity is represented as a/b.",
-    "formal_or_structural_proof": "If a whole is divided into b equal parts and a of those parts are selected, the selected quantity is represented as a/b.",
-    "empirical_or_reconstruction_basis": "Can be rediscovered by cutting, folding, or dividing physical objects into equal parts.",
+    "intuitive_explanation": "Dividing a whole into equal parts and selecting a subset produces a fractional relation.",
+    "formal_or_structural_proof": "Dividing a whole into equal parts and selecting a subset produces a fractional relation.",
+    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
     "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
   },
   "related_truths": {

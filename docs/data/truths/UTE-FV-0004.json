@@ -7,16 +7,6 @@
     "UTE-FV-0002",
     "UTE-FV-0003"
   ],
-  "coords": {
-    "x": -120,
-    "y": -80,
-    "z": 45
-  },
-  "summary": "Addition describes the combination of quantities into a total.",
-  "claim": "Addition combines quantities into a larger quantity while preserving consistent quantity relationships.",
-  "proof": "If one collection has quantity a and another has quantity b, combining the two collections and recounting gives a total a + b.",
-  "validation": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic.",
-  "reconstruction": "Can be rediscovered by placing two groups of objects together and counting the combined set.",
   "confidence_level": 5,
   "dependency_centrality": 4,
   "stable_coordinates": {
@@ -24,11 +14,13 @@
     "y": -80,
     "z": 45
   },
+  "summary": "Addition describes the combination of quantities into a total.",
+  "claim": "Addition combines quantities into a larger quantity while preserving consistent quantity relationships.",
   "proof_layers": {
     "summary": "Addition describes the combination of quantities into a total.",
-    "intuitive_explanation": "If one collection has quantity a and another has quantity b, combining the two collections and recounting gives a total a + b.",
-    "formal_or_structural_proof": "If one collection has quantity a and another has quantity b, combining the two collections and recounting gives a total a + b.",
-    "empirical_or_reconstruction_basis": "Can be rediscovered by placing two groups of objects together and counting the combined set.",
+    "intuitive_explanation": "Combining two counted collections and recounting gives a total represented as a + b.",
+    "formal_or_structural_proof": "Combining two counted collections and recounting gives a total represented as a + b.",
+    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
     "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
   },
   "related_truths": {

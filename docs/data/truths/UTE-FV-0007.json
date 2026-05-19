@@ -9,16 +9,6 @@
     "UTE-FV-0004",
     "UTE-FV-0006"
   ],
-  "coords": {
-    "x": -210,
-    "y": -60,
-    "z": 120
-  },
-  "summary": "Division partitions quantities into equal parts or equal groups.",
-  "claim": "Division describes partitioning a quantity into equal parts or determining how many equal groups fit within a quantity.",
-  "proof": "Division is inverse to multiplication: if a \u00d7 b = c, then c \u00f7 a = b and c \u00f7 b = a when the operation is defined.",
-  "validation": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic, subject to defined division conditions.",
-  "reconstruction": "Can be rediscovered by distributing objects equally into groups.",
   "confidence_level": 5,
   "dependency_centrality": 2,
   "stable_coordinates": {
@@ -26,12 +16,14 @@
     "y": -60,
     "z": 120
   },
+  "summary": "Division partitions quantities into equal parts or equal groups.",
+  "claim": "Division describes partitioning a quantity into equal parts or determining how many equal groups fit within a quantity.",
   "proof_layers": {
     "summary": "Division partitions quantities into equal parts or equal groups.",
-    "intuitive_explanation": "Division is inverse to multiplication: if a \u00d7 b = c, then c \u00f7 a = b and c \u00f7 b = a when the operation is defined.",
-    "formal_or_structural_proof": "Division is inverse to multiplication: if a \u00d7 b = c, then c \u00f7 a = b and c \u00f7 b = a when the operation is defined.",
-    "empirical_or_reconstruction_basis": "Can be rediscovered by distributing objects equally into groups.",
-    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic, subject to defined division conditions."
+    "intuitive_explanation": "Division is inverse to multiplication when defined.",
+    "formal_or_structural_proof": "Division is inverse to multiplication when defined.",
+    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
   },
   "related_truths": {
     "depends_on": [

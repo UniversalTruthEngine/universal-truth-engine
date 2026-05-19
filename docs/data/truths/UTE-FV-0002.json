@@ -4,16 +4,6 @@
   "category": "Logic",
   "region": "Foundational Core",
   "dependencies": [],
-  "coords": {
-    "x": 0,
-    "y": 0,
-    "z": 0
-  },
-  "summary": "Equality allows two quantities, symbols, or descriptions to be treated as the same within a defined context.",
-  "claim": "If A = B, then A and B may be substituted for one another in valid contexts without changing truth.",
-  "proof": "Equality is governed by reflexivity, symmetry, transitivity, and substitutability. These rules form a minimal stable basis for consistent formal reasoning.",
-  "validation": "Level 5 \u2014 Mathematical / Logical Proof. Equality is axiomatic or definitional in formal systems and operationally demonstrable through one-to-one matching.",
-  "reconstruction": "Can be rediscovered by pairing objects between two collections and observing whether any remain unpaired.",
   "confidence_level": 5,
   "dependency_centrality": 13,
   "stable_coordinates": {
@@ -21,12 +11,14 @@
     "y": 0,
     "z": 0
   },
+  "summary": "Equality allows two quantities, symbols, or descriptions to be treated as the same within a defined context.",
+  "claim": "If A = B, then A and B may be substituted for one another in valid contexts without changing truth.",
   "proof_layers": {
     "summary": "Equality allows two quantities, symbols, or descriptions to be treated as the same within a defined context.",
-    "intuitive_explanation": "Equality is governed by reflexivity, symmetry, transitivity, and substitutability. These rules form a minimal stable basis for consistent formal reasoning.",
-    "formal_or_structural_proof": "Equality is governed by reflexivity, symmetry, transitivity, and substitutability. These rules form a minimal stable basis for consistent formal reasoning.",
-    "empirical_or_reconstruction_basis": "Can be rediscovered by pairing objects between two collections and observing whether any remain unpaired.",
-    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof. Equality is axiomatic or definitional in formal systems and operationally demonstrable through one-to-one matching."
+    "intuitive_explanation": "Equality is governed by reflexivity, symmetry, transitivity, and substitutability. These form a minimal stable basis for consistent formal reasoning.",
+    "formal_or_structural_proof": "Equality is governed by reflexivity, symmetry, transitivity, and substitutability. These form a minimal stable basis for consistent formal reasoning.",
+    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof. Axiomatic or definitional in formal systems."
   },
   "related_truths": {
     "depends_on": [],

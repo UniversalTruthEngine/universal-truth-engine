@@ -6,16 +6,6 @@
   "dependencies": [
     "UTE-FV-0002"
   ],
-  "coords": {
-    "x": -80,
-    "y": -35,
-    "z": 20
-  },
-  "summary": "Counting assigns stable ordered quantities to discrete collections.",
-  "claim": "Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.",
-  "proof": "Counting follows from one-to-one correspondence and stable successor relationships: after one object is matched to one count marker, the next object advances the count by one.",
-  "validation": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic foundations.",
-  "reconstruction": "Can be rediscovered by matching stones, marks, or other distinguishable objects one at a time.",
   "confidence_level": 5,
   "dependency_centrality": 10,
   "stable_coordinates": {
@@ -23,11 +13,13 @@
     "y": -35,
     "z": 20
   },
+  "summary": "Counting assigns stable ordered quantities to discrete collections.",
+  "claim": "Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.",
   "proof_layers": {
     "summary": "Counting assigns stable ordered quantities to discrete collections.",
-    "intuitive_explanation": "Counting follows from one-to-one correspondence and stable successor relationships: after one object is matched to one count marker, the next object advances the count by one.",
-    "formal_or_structural_proof": "Counting follows from one-to-one correspondence and stable successor relationships: after one object is matched to one count marker, the next object advances the count by one.",
-    "empirical_or_reconstruction_basis": "Can be rediscovered by matching stones, marks, or other distinguishable objects one at a time.",
+    "intuitive_explanation": "Counting follows from one-to-one correspondence and stable successor relationships.",
+    "formal_or_structural_proof": "Counting follows from one-to-one correspondence and stable successor relationships.",
+    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
     "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic foundations."
   },
   "related_truths": {

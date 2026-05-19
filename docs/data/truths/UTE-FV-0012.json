@@ -8,16 +8,6 @@
     "UTE-FV-0006",
     "UTE-FV-0011"
   ],
-  "coords": {
-    "x": -235,
-    "y": -150,
-    "z": 115
-  },
-  "summary": "Roots invert exponentiation.",
-  "claim": "A root is a value which, when multiplied by itself a specified number of times, produces a given quantity.",
-  "proof": "If x\u207f = a, then x is an nth root of a, reversing the exponentiation relation.",
-  "validation": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic/algebraic contexts.",
-  "reconstruction": "Can be rediscovered by finding the side length of a square from its area.",
   "confidence_level": 5,
   "dependency_centrality": 1,
   "stable_coordinates": {
@@ -25,11 +15,13 @@
     "y": -150,
     "z": 115
   },
+  "summary": "Roots invert exponentiation.",
+  "claim": "A root is a value which, when multiplied by itself a specified number of times, produces a given quantity.",
   "proof_layers": {
     "summary": "Roots invert exponentiation.",
-    "intuitive_explanation": "If x\u207f = a, then x is an nth root of a, reversing the exponentiation relation.",
-    "formal_or_structural_proof": "If x\u207f = a, then x is an nth root of a, reversing the exponentiation relation.",
-    "empirical_or_reconstruction_basis": "Can be rediscovered by finding the side length of a square from its area.",
+    "intuitive_explanation": "If x\u207f = a, then x is an nth root of a.",
+    "formal_or_structural_proof": "If x\u207f = a, then x is an nth root of a.",
+    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
     "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic/algebraic contexts."
   },
   "related_truths": {

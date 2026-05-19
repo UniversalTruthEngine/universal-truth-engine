@@ -8,16 +8,6 @@
     "UTE-FV-0003",
     "UTE-FV-0004"
   ],
-  "coords": {
-    "x": -155,
-    "y": -45,
-    "z": 80
-  },
-  "summary": "Multiplication compresses repeated addition and enables scaling.",
-  "claim": "Multiplication represents repeated addition or the scaling of one quantity by another.",
-  "proof": "If a equal groups each contain b items, the total may be found by adding b repeatedly a times. Multiplication compresses that repeated addition.",
-  "validation": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic.",
-  "reconstruction": "Can be rediscovered by arranging objects into equal rows or groups and counting the total.",
   "confidence_level": 5,
   "dependency_centrality": 4,
   "stable_coordinates": {
@@ -25,11 +15,13 @@
     "y": -45,
     "z": 80
   },
+  "summary": "Multiplication compresses repeated addition and enables scaling.",
+  "claim": "Multiplication represents repeated addition or the scaling of one quantity by another.",
   "proof_layers": {
     "summary": "Multiplication compresses repeated addition and enables scaling.",
-    "intuitive_explanation": "If a equal groups each contain b items, the total may be found by adding b repeatedly a times. Multiplication compresses that repeated addition.",
-    "formal_or_structural_proof": "If a equal groups each contain b items, the total may be found by adding b repeatedly a times. Multiplication compresses that repeated addition.",
-    "empirical_or_reconstruction_basis": "Can be rediscovered by arranging objects into equal rows or groups and counting the total.",
+    "intuitive_explanation": "Equal groups of equal quantity can be counted by repeated addition; multiplication compresses that repeated structure.",
+    "formal_or_structural_proof": "Equal groups of equal quantity can be counted by repeated addition; multiplication compresses that repeated structure.",
+    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
     "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
   },
   "related_truths": {

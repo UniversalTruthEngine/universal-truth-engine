@@ -1,3 +1,3 @@
-# UTE Map Engine v5
+# UTE Map Engine v6
 
-Adds Truth Inspector v1 on top of v4 features: stable coordinates, fly-to navigation, and inspectable proof/validation layers.
+Adds recursive dependency highlighting, improved labels, and enhanced Truth Inspector links.

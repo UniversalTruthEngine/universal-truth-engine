@@ -8,16 +8,6 @@
     "UTE-FV-0003",
     "UTE-FV-0005"
   ],
-  "coords": {
-    "x": 45,
-    "y": -145,
-    "z": -80
-  },
-  "summary": "Approximation represents values close enough for a defined purpose or tolerance.",
-  "claim": "Approximation represents a value close enough to a target value for a defined purpose, tolerance, or measurement resolution.",
-  "proof": "Repeated measurement shows that physical values often cannot be represented exactly; tolerances define when a value is useful enough for purpose.",
-  "validation": "Level 5 as a formal concept; practical use depends on measurement context.",
-  "reconstruction": "Can be rediscovered by measuring the same object repeatedly with limited tools.",
   "confidence_level": 5,
   "dependency_centrality": 0,
   "stable_coordinates": {
@@ -25,11 +15,13 @@
     "y": -145,
     "z": -80
   },
+  "summary": "Approximation represents values close enough for a defined purpose or tolerance.",
+  "claim": "Approximation represents a value close enough to a target value for a defined purpose, tolerance, or measurement resolution.",
   "proof_layers": {
     "summary": "Approximation represents values close enough for a defined purpose or tolerance.",
-    "intuitive_explanation": "Repeated measurement shows that physical values often cannot be represented exactly; tolerances define when a value is useful enough for purpose.",
-    "formal_or_structural_proof": "Repeated measurement shows that physical values often cannot be represented exactly; tolerances define when a value is useful enough for purpose.",
-    "empirical_or_reconstruction_basis": "Can be rediscovered by measuring the same object repeatedly with limited tools.",
+    "intuitive_explanation": "Repeated measurement shows physical values often cannot be represented exactly; tolerances define practical adequacy.",
+    "formal_or_structural_proof": "Repeated measurement shows physical values often cannot be represented exactly; tolerances define practical adequacy.",
+    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
     "validation_assessment": "Level 5 as a formal concept; practical use depends on measurement context."
   },
   "related_truths": {

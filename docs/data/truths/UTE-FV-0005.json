@@ -8,16 +8,6 @@
     "UTE-FV-0003",
     "UTE-FV-0004"
   ],
-  "coords": {
-    "x": -165,
-    "y": -110,
-    "z": -25
-  },
-  "summary": "Subtraction describes removal, comparison, or difference between quantities.",
-  "claim": "Subtraction describes the removal of a quantity from another quantity, or the difference between two quantities.",
-  "proof": "Subtraction is inverse to addition: if a + b = c, then c \u2212 a = b and c \u2212 b = a within the same arithmetic context.",
-  "validation": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic.",
-  "reconstruction": "Can be rediscovered by removing objects from a collection or comparing two collections by pairing objects.",
   "confidence_level": 5,
   "dependency_centrality": 2,
   "stable_coordinates": {
@@ -25,11 +15,13 @@
     "y": -110,
     "z": -25
   },
+  "summary": "Subtraction describes removal, comparison, or difference between quantities.",
+  "claim": "Subtraction describes the removal of a quantity from another quantity, or the difference between two quantities.",
   "proof_layers": {
     "summary": "Subtraction describes removal, comparison, or difference between quantities.",
-    "intuitive_explanation": "Subtraction is inverse to addition: if a + b = c, then c \u2212 a = b and c \u2212 b = a within the same arithmetic context.",
-    "formal_or_structural_proof": "Subtraction is inverse to addition: if a + b = c, then c \u2212 a = b and c \u2212 b = a within the same arithmetic context.",
-    "empirical_or_reconstruction_basis": "Can be rediscovered by removing objects from a collection or comparing two collections by pairing objects.",
+    "intuitive_explanation": "Subtraction is inverse to addition within the same arithmetic context.",
+    "formal_or_structural_proof": "Subtraction is inverse to addition within the same arithmetic context.",
+    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
     "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
   },
   "related_truths": {

@@ -8,16 +8,6 @@
     "UTE-FV-0003",
     "UTE-FV-0005"
   ],
-  "coords": {
-    "x": -190,
-    "y": -165,
-    "z": -70
-  },
-  "summary": "Negative numbers represent quantities below zero, opposite directions, deficits, or signed change.",
-  "claim": "Negative numbers represent quantities below a defined zero point, directed opposites, deficits, or inverse positions on an ordered scale.",
-  "proof": "A number line with a zero reference permits positions on opposite sides. Addition and subtraction preserve consistent movement across that line.",
-  "validation": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic systems that include signed quantities.",
-  "reconstruction": "Can be rediscovered through debt, direction, temperature scale offsets, or positions relative to zero.",
   "confidence_level": 5,
   "dependency_centrality": 0,
   "stable_coordinates": {
@@ -25,12 +15,14 @@
     "y": -165,
     "z": -70
   },
+  "summary": "Negative numbers represent quantities below zero, opposite directions, deficits, or signed change.",
+  "claim": "Negative numbers represent quantities below a defined zero point, directed opposites, deficits, or inverse positions on an ordered scale.",
   "proof_layers": {
     "summary": "Negative numbers represent quantities below zero, opposite directions, deficits, or signed change.",
-    "intuitive_explanation": "A number line with a zero reference permits positions on opposite sides. Addition and subtraction preserve consistent movement across that line.",
-    "formal_or_structural_proof": "A number line with a zero reference permits positions on opposite sides. Addition and subtraction preserve consistent movement across that line.",
-    "empirical_or_reconstruction_basis": "Can be rediscovered through debt, direction, temperature scale offsets, or positions relative to zero.",
-    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic systems that include signed quantities."
+    "intuitive_explanation": "A number line with a zero reference permits positions on opposite sides.",
+    "formal_or_structural_proof": "A number line with a zero reference permits positions on opposite sides.",
+    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within signed arithmetic."
   },
   "related_truths": {
     "depends_on": [
