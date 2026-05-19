@@ -2,8 +2,9 @@
   "id": "UTE-FV-0015",
   "title": "Law of Identity",
   "domain": "Logic",
-  "confidence_level": 5,
+  "claim": "For any thing X, X is identical to itself: X = X.",
   "dependencies": [],
-  "entry_file": "entry.md",
-  "proof_file": "proof.md"
+  "confidence_level": 5,
+  "proof_file": "proof.md",
+  "proof_deepening_pass": "Proof Deepening Pass v1"
 }

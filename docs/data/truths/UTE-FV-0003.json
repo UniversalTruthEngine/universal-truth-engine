@@ -1,41 +1,16 @@
 {
   "id": "UTE-FV-0003",
   "title": "Counting and Natural Numbers",
-  "category": "Arithmetic",
-  "region": "Arithmetic Cluster",
+  "domain": "Arithmetic",
+  "claim": "Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.",
   "dependencies": [
     "UTE-FV-0002"
   ],
   "confidence_level": 5,
-  "dependency_centrality": 10,
-  "stable_coordinates": {
-    "x": -80,
-    "y": -35,
-    "z": 20
-  },
-  "summary": "Counting assigns stable ordered quantities to discrete collections.",
-  "claim": "Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.",
   "proof_file": "data/proofs/UTE-FV-0003-proof.md",
+  "proof_deepening_pass": "Proof Deepening Pass v1",
+  "summary": "Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.",
   "proof_layers": {
-    "summary": "Counting assigns stable ordered quantities to discrete collections.",
-    "full_human_proof_file": "data/proofs/UTE-FV-0003-proof.md",
-    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within its defined formal domain."
-  },
-  "related_truths": {
-    "depends_on": [
-      "UTE-FV-0002"
-    ],
-    "depended_on_by": [
-      "UTE-FV-0001",
-      "UTE-FV-0004",
-      "UTE-FV-0005",
-      "UTE-FV-0006",
-      "UTE-FV-0007",
-      "UTE-FV-0008",
-      "UTE-FV-0009",
-      "UTE-FV-0011",
-      "UTE-FV-0013",
-      "UTE-FV-0014"
-    ]
+    "full_human_proof_file": "data/proofs/UTE-FV-0003-proof.md"
   }
 }

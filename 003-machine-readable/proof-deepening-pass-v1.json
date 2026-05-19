@@ -1,0 +1,11 @@
+{
+  "pass": "Proof Deepening Pass v1",
+  "updated_truths": [
+    "UTE-FV-0015",
+    "UTE-FV-0002",
+    "UTE-FV-0018",
+    "UTE-FV-0001",
+    "UTE-FV-0003"
+  ],
+  "purpose": "Upgrade selected foundational proofs to richer layered proof objects."
+}

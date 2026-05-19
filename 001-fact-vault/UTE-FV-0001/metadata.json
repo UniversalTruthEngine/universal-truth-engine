@@ -3,7 +3,6 @@
   "title": "Pythagorean Theorem",
   "domain": "Geometry",
   "claim": "For a right triangle on a flat Euclidean plane: a\u00b2 + b\u00b2 = c\u00b2.",
-  "confidence_level": 5,
   "dependencies": [
     "UTE-FV-0002",
     "UTE-FV-0003",
@@ -12,9 +11,7 @@
     "UTE-FV-0008",
     "UTE-FV-0012"
   ],
-  "entry_file": "entry.md",
+  "confidence_level": 5,
   "proof_file": "proof.md",
-  "review_history_file": "review-history.md",
-  "template_version": "Truth Template Standard v1",
-  "compliance_pass": "Core Truth Compliance Pass v1"
+  "proof_deepening_pass": "Proof Deepening Pass v1"
 }

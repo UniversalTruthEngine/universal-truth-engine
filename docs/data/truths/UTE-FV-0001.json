@@ -1,8 +1,8 @@
 {
   "id": "UTE-FV-0001",
   "title": "Pythagorean Theorem",
-  "category": "Geometry",
-  "region": "Geometry Bridge",
+  "domain": "Geometry",
+  "claim": "For a right triangle on a flat Euclidean plane: a\u00b2 + b\u00b2 = c\u00b2.",
   "dependencies": [
     "UTE-FV-0002",
     "UTE-FV-0003",
@@ -12,29 +12,10 @@
     "UTE-FV-0012"
   ],
   "confidence_level": 5,
-  "dependency_centrality": 0,
-  "stable_coordinates": {
-    "x": 160,
-    "y": 70,
-    "z": 90
-  },
-  "summary": "For a right triangle in Euclidean geometry, the square of the hypotenuse equals the sum of the squares of the other two sides.",
-  "claim": "For a right triangle on a flat Euclidean plane: a\u00b2 + b\u00b2 = c\u00b2.",
   "proof_file": "data/proofs/UTE-FV-0001-proof.md",
+  "proof_deepening_pass": "Proof Deepening Pass v1",
+  "summary": "For a right triangle on a flat Euclidean plane: a\u00b2 + b\u00b2 = c\u00b2.",
   "proof_layers": {
-    "summary": "For a right triangle in Euclidean geometry, the square of the hypotenuse equals the sum of the squares of the other two sides.",
-    "full_human_proof_file": "data/proofs/UTE-FV-0001-proof.md",
-    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof. Valid within Euclidean geometry for right triangles."
-  },
-  "related_truths": {
-    "depends_on": [
-      "UTE-FV-0002",
-      "UTE-FV-0003",
-      "UTE-FV-0004",
-      "UTE-FV-0006",
-      "UTE-FV-0008",
-      "UTE-FV-0012"
-    ],
-    "depended_on_by": []
+    "full_human_proof_file": "data/proofs/UTE-FV-0001-proof.md"
   }
 }

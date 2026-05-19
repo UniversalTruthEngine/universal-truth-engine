@@ -8,36 +8,93 @@ Discrete quantities can be represented consistently using ordered symbolic quant
 
 ## 1. Plain-Language Explanation
 
-Counting assigns stable ordered quantities to discrete collections.
+Counting is the process of assigning one counting marker to each object in a collection.
+
+Example:
+
+```text
+stone → 1
+stone → 2
+stone → 3
+```
+
+The final count represents the quantity of the collection.
 
 ---
 
-## 2. Structural Proof Basis
+## 2. One-to-One Correspondence
 
-This truth is grounded in the already-established arithmetic and logical foundations listed in its dependency chain.
+Counting depends on matching:
 
-Direct dependencies:
+```text
+one object ↔ one count marker
+```
 
-- UTE-FV-0002
-
-The proof proceeds by showing that the operation or concept preserves quantity relationships under the rules of equality, counting, and prior arithmetic operations.
-
----
-
-## 3. Reconstruction Basis
-
-This concept can be rediscovered with distinguishable objects, marks, lines, grouping, partitioning, or measurement comparisons.
-
-A future expanded proof should include:
-
-- intuitive demonstration,
-- symbolic derivation,
-- reconstruction protocol,
-- failure cases,
-- and machine-readable proof form.
+If each object receives exactly one marker, and no object is skipped or counted twice, the count is stable.
 
 ---
 
-## 4. Validation
+## 3. Successor Principle
 
-Level 5 — Mathematical / Logical Proof within its defined formal domain.
+Natural numbers proceed by a successor relation:
+
+```text
+1, 2, 3, 4, ...
+```
+
+Each next number represents adding one more unit.
+
+This creates an ordered sequence.
+
+---
+
+## 4. Step-by-Step Reasoning
+
+1. Objects can be distinguished.
+2. Each object can be matched with one count marker.
+3. Count markers can be ordered.
+4. The final marker represents the total quantity.
+5. Therefore discrete quantities can be represented by ordered natural numbers.
+
+---
+
+## 5. Reconstruction Method
+
+A future intelligence can rediscover counting by:
+
+1. gathering objects,
+2. making one mark per object,
+3. preserving the mark sequence,
+4. comparing collections by marks,
+5. naming the sequence.
+
+This can be done with stones, scratches, knots, bones, shells, or memory states.
+
+---
+
+## 6. Conditions of Validity
+
+Counting applies to discrete items or chosen units.
+
+Continuous quantities must first be divided into units or measured.
+
+---
+
+## 7. Failure Cases
+
+Counting fails if:
+
+- objects are not distinguishable,
+- objects are counted twice,
+- objects are skipped,
+- the collection changes during counting,
+- or the counting sequence is unstable.
+
+---
+
+## 8. UTE Assessment
+
+- Confidence Level: 5
+- Proof Type: Arithmetic / constructive
+- Reconstruction Difficulty: Very low
+- Core Importance: Extremely high

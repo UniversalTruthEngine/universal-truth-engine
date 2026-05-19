@@ -2,13 +2,13 @@
 
 ## Claim
 
-If two quantities or entities are equal within a defined context, then they may be substituted for one another in valid statements without changing the truth of those statements.
+Quantities may be treated as equal when they represent the same value within a defined context.
 
 ---
 
 ## 1. Plain-Language Explanation
 
-Equality means that two descriptions refer to the same value, quantity, or relation in a specified context.
+Equality of quantity means two expressions, collections, or measurements represent the same amount.
 
 Example:
 
@@ -16,97 +16,146 @@ Example:
 2 + 3 = 5
 ```
 
-This does not mean the symbols are physically identical.
+This does not mean the symbols `2 + 3` and `5` look the same.
 
-It means the quantity represented by `2 + 3` is the same as the quantity represented by `5`.
-
----
-
-## 2. Core Logical Properties
-
-Equality normally requires four key properties.
-
-### Reflexivity
-
-A thing is equal to itself.
-
-```text
-A = A
-```
-
-### Symmetry
-
-If A equals B, then B equals A.
-
-```text
-If A = B, then B = A
-```
-
-### Transitivity
-
-If A equals B and B equals C, then A equals C.
-
-```text
-If A = B and B = C, then A = C
-```
-
-### Substitutability
-
-If A equals B, then A may be replaced by B in any valid context that preserves meaning.
-
-```text
-If A = B, then f(A) = f(B)
-```
+It means they represent the same quantity.
 
 ---
 
-## 3. Operational Demonstration
+## 2. Difference Between Identity and Equality
 
-Take two collections:
+The Law of Identity says:
 
 ```text
-Collection A: stone stone stone
-Collection B: mark  mark  mark
+X = X
 ```
 
-Pair each stone with one mark.
+A thing is itself.
 
-If every stone has one mark and every mark has one stone, the two collections are equal in number.
+Equality of quantity says:
 
-This demonstrates equality of quantity through one-to-one correspondence.
-
----
-
-## 4. Why Equality Is Foundational
-
-Without equality:
-
-- counting cannot be stable,
-- addition cannot preserve totals,
-- measurement cannot compare objects,
-- proof cannot substitute known values,
-- computation cannot verify results.
-
-Equality is therefore a root dependency for arithmetic, logic, measurement, proof, and computation.
-
----
-
-## 5. Conditions of Validity
-
-Equality must specify the comparison domain.
+```text
+A and B may represent the same value.
+```
 
 Example:
 
 ```text
-5 stones = 5 shells
+five stones
 ```
 
-This is true in number.
+and
 
-It is false in material identity.
+```text
+five shells
+```
 
-Correct form:
+are not materially identical, but their quantities are equal.
+
+So UTE distinguishes:
+
+- identity of object,
+- equality of quantity,
+- equivalence of representation,
+- and substitutability within valid contexts.
+
+---
+
+## 3. One-to-One Correspondence Demonstration
+
+Suppose there are two collections:
+
+```text
+A: stone stone stone
+B: shell shell shell
+```
+
+Pair one stone with one shell.
+
+If every stone is paired with exactly one shell, and no shell remains unpaired, the collections have equal quantity.
+
+This demonstrates equality without needing numerals.
+
+---
+
+## 4. Substitution Principle
+
+If two expressions are equal in value, one may replace the other in valid contexts.
+
+Example:
+
+```text
+2 + 3 = 5
+```
+
+Therefore:
+
+```text
+(2 + 3) × 4 = 5 × 4
+```
+
+Both sides preserve the same quantity.
+
+---
+
+## 5. Step-by-Step Reasoning
+
+1. A quantity can be represented by objects, marks, numerals, or expressions.
+2. Two representations may correspond to the same quantity.
+3. If they correspond exactly, they are equal in quantity.
+4. Equal quantities may be substituted where only quantity matters.
+5. Therefore equality enables arithmetic reasoning and proof.
+
+---
+
+## 6. Conditions of Validity
+
+The domain of comparison must be explicit.
+
+Correct:
 
 ```text
 The number of stones equals the number of shells.
 ```
+
+Potentially misleading:
+
+```text
+stones = shells
+```
+
+because stones and shells are not identical objects.
+
+---
+
+## 7. Failure Cases
+
+Equality fails or becomes ambiguous when:
+
+- units differ,
+- context changes,
+- approximate equality is treated as exact,
+- material identity is confused with quantity equality,
+- or the comparison property is not specified.
+
+---
+
+## 8. Reconstruction Method
+
+A future intelligence can rediscover equality of quantity by:
+
+1. collecting objects,
+2. pairing objects from two collections,
+3. observing whether any remain unpaired,
+4. introducing marks or symbols to preserve equal quantity,
+5. generalising this into arithmetic equality.
+
+---
+
+## 9. UTE Assessment
+
+- Confidence Level: 5
+- Proof Type: Logical / arithmetic
+- Depends on: Law of Identity
+- Reconstruction Difficulty: Very low
+- Core Importance: Extremely high

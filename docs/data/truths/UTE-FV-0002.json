@@ -1,40 +1,16 @@
 {
   "id": "UTE-FV-0002",
   "title": "Equality / Identity of Quantity",
-  "category": "Logic",
-  "region": "Foundational Core",
-  "dependencies": [],
+  "domain": "Logic / Arithmetic",
+  "claim": "Quantities may be treated as equal when they represent the same value within a defined context.",
+  "dependencies": [
+    "UTE-FV-0015"
+  ],
   "confidence_level": 5,
-  "dependency_centrality": 13,
-  "stable_coordinates": {
-    "x": 0,
-    "y": 0,
-    "z": 0
-  },
-  "summary": "Equality allows two quantities, symbols, or descriptions to be treated as the same within a defined context.",
-  "claim": "If A = B, then A and B may be substituted for one another in valid contexts without changing truth.",
   "proof_file": "data/proofs/UTE-FV-0002-proof.md",
+  "proof_deepening_pass": "Proof Deepening Pass v1",
+  "summary": "Quantities may be treated as equal when they represent the same value within a defined context.",
   "proof_layers": {
-    "summary": "Equality allows two quantities, symbols, or descriptions to be treated as the same within a defined context.",
-    "full_human_proof_file": "data/proofs/UTE-FV-0002-proof.md",
-    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof. Axiomatic or definitional in formal systems."
-  },
-  "related_truths": {
-    "depends_on": [],
-    "depended_on_by": [
-      "UTE-FV-0001",
-      "UTE-FV-0003",
-      "UTE-FV-0004",
-      "UTE-FV-0005",
-      "UTE-FV-0006",
-      "UTE-FV-0007",
-      "UTE-FV-0008",
-      "UTE-FV-0009",
-      "UTE-FV-0010",
-      "UTE-FV-0011",
-      "UTE-FV-0012",
-      "UTE-FV-0013",
-      "UTE-FV-0014"
-    ]
+    "full_human_proof_file": "data/proofs/UTE-FV-0002-proof.md"
   }
 }

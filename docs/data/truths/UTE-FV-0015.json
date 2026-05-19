@@ -1,0 +1,14 @@
+{
+  "id": "UTE-FV-0015",
+  "title": "Law of Identity",
+  "domain": "Logic",
+  "claim": "For any thing X, X is identical to itself: X = X.",
+  "dependencies": [],
+  "confidence_level": 5,
+  "proof_file": "data/proofs/UTE-FV-0015-proof.md",
+  "proof_deepening_pass": "Proof Deepening Pass v1",
+  "summary": "For any thing X, X is identical to itself: X = X.",
+  "proof_layers": {
+    "full_human_proof_file": "data/proofs/UTE-FV-0015-proof.md"
+  }
+}

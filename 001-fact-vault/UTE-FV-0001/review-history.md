@@ -1,15 +1,14 @@
 # Review History — UTE-FV-0001
 
-## Core Truth Compliance Pass v1
+## Proof Deepening Pass v1
 
-Existing early Core Truth normalised to the current UTE template structure.
+Expanded proof into a layered human-readable proof object.
 
 Changes:
-- Added standard entry structure.
-- Added proof file.
-- Added metadata file.
-- Added review history.
-- Preserved stable ID.
-- Preserved existing conceptual role where possible.
+- Added plain-language explanation.
+- Added step-by-step reasoning.
+- Added formal or structural proof.
+- Added reconstruction method.
+- Added conditions and failure cases where appropriate.
 
-Note: this pass standardises structure and does not claim final proof completeness.
+This update deepens proof quality without changing the Core Truth ID.

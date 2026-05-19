@@ -3,13 +3,10 @@
   "title": "Equality / Identity of Quantity",
   "domain": "Logic / Arithmetic",
   "claim": "Quantities may be treated as equal when they represent the same value within a defined context.",
-  "confidence_level": 5,
   "dependencies": [
     "UTE-FV-0015"
   ],
-  "entry_file": "entry.md",
+  "confidence_level": 5,
   "proof_file": "proof.md",
-  "review_history_file": "review-history.md",
-  "template_version": "Truth Template Standard v1",
-  "compliance_pass": "Core Truth Compliance Pass v1"
+  "proof_deepening_pass": "Proof Deepening Pass v1"
 }

@@ -2,12 +2,13 @@
   "id": "UTE-FV-0018",
   "title": "Modus Ponens",
   "domain": "Logic",
-  "confidence_level": 5,
+  "claim": "If P implies Q, and P is true, then Q is true.",
   "dependencies": [
     "UTE-FV-0015",
     "UTE-FV-0016",
     "UTE-FV-0017"
   ],
-  "entry_file": "entry.md",
-  "proof_file": "proof.md"
+  "confidence_level": 5,
+  "proof_file": "proof.md",
+  "proof_deepening_pass": "Proof Deepening Pass v1"
 }
