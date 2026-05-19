@@ -1,6 +1,6 @@
 {
-  "map_id": "UTE-MAP-ENGINE-V6",
-  "description": "3D map with Truth Inspector v1, recursive dependency highlighting, and improved labels.",
+  "map_id": "UTE-MAP-ENGINE-V7",
+  "description": "Adds Proof Library v1 with full human-readable proof files.",
   "nodes": [
     {
       "id": "UTE-FV-0001",
@@ -24,7 +24,8 @@
       },
       "summary": "For a right triangle in Euclidean geometry, the square of the hypotenuse equals the sum of the squares of the other two sides.",
       "claim": "For a right triangle on a flat Euclidean plane: a\u00b2 + b\u00b2 = c\u00b2.",
-      "truth_data_file": "data/truths/UTE-FV-0001.json"
+      "truth_data_file": "data/truths/UTE-FV-0001.json",
+      "proof_file": "data/proofs/UTE-FV-0001-proof.md"
     },
     {
       "id": "UTE-FV-0002",
@@ -41,7 +42,8 @@
       },
       "summary": "Equality allows two quantities, symbols, or descriptions to be treated as the same within a defined context.",
       "claim": "If A = B, then A and B may be substituted for one another in valid contexts without changing truth.",
-      "truth_data_file": "data/truths/UTE-FV-0002.json"
+      "truth_data_file": "data/truths/UTE-FV-0002.json",
+      "proof_file": "data/proofs/UTE-FV-0002-proof.md"
     },
     {
       "id": "UTE-FV-0003",
@@ -60,7 +62,8 @@
       },
       "summary": "Counting assigns stable ordered quantities to discrete collections.",
       "claim": "Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.",
-      "truth_data_file": "data/truths/UTE-FV-0003.json"
+      "truth_data_file": "data/truths/UTE-FV-0003.json",
+      "proof_file": "data/proofs/UTE-FV-0003-proof.md"
     },
     {
       "id": "UTE-FV-0004",
@@ -80,7 +83,8 @@
       },
       "summary": "Addition describes the combination of quantities into a total.",
       "claim": "Addition combines quantities into a larger quantity while preserving consistent quantity relationships.",
-      "truth_data_file": "data/truths/UTE-FV-0004.json"
+      "truth_data_file": "data/truths/UTE-FV-0004.json",
+      "proof_file": "data/proofs/UTE-FV-0004-proof.md"
     },
     {
       "id": "UTE-FV-0005",
@@ -101,7 +105,8 @@
       },
       "summary": "Subtraction describes removal, comparison, or difference between quantities.",
       "claim": "Subtraction describes the removal of a quantity from another quantity, or the difference between two quantities.",
-      "truth_data_file": "data/truths/UTE-FV-0005.json"
+      "truth_data_file": "data/truths/UTE-FV-0005.json",
+      "proof_file": "data/proofs/UTE-FV-0005-proof.md"
     },
     {
       "id": "UTE-FV-0006",
@@ -122,7 +127,8 @@
       },
       "summary": "Multiplication compresses repeated addition and enables scaling.",
       "claim": "Multiplication represents repeated addition or the scaling of one quantity by another.",
-      "truth_data_file": "data/truths/UTE-FV-0006.json"
+      "truth_data_file": "data/truths/UTE-FV-0006.json",
+      "proof_file": "data/proofs/UTE-FV-0006-proof.md"
     },
     {
       "id": "UTE-FV-0007",
@@ -144,7 +150,8 @@
       },
       "summary": "Division partitions quantities into equal parts or equal groups.",
       "claim": "Division describes partitioning a quantity into equal parts or determining how many equal groups fit within a quantity.",
-      "truth_data_file": "data/truths/UTE-FV-0007.json"
+      "truth_data_file": "data/truths/UTE-FV-0007.json",
+      "proof_file": "data/proofs/UTE-FV-0007-proof.md"
     },
     {
       "id": "UTE-FV-0008",
@@ -165,7 +172,8 @@
       },
       "summary": "Fractions represent selected equal parts of a whole.",
       "claim": "Fractions represent quantities formed by dividing a whole into equal parts and selecting some number of those parts.",
-      "truth_data_file": "data/truths/UTE-FV-0008.json"
+      "truth_data_file": "data/truths/UTE-FV-0008.json",
+      "proof_file": "data/proofs/UTE-FV-0008-proof.md"
     },
     {
       "id": "UTE-FV-0009",
@@ -187,7 +195,8 @@
       },
       "summary": "A ratio compares two quantities.",
       "claim": "A ratio compares two quantities by expressing how much of one quantity corresponds to another.",
-      "truth_data_file": "data/truths/UTE-FV-0009.json"
+      "truth_data_file": "data/truths/UTE-FV-0009.json",
+      "proof_file": "data/proofs/UTE-FV-0009-proof.md"
     },
     {
       "id": "UTE-FV-0010",
@@ -208,7 +217,8 @@
       },
       "summary": "Proportion expresses equality between ratios.",
       "claim": "A proportion states that two ratios are equal within a defined context.",
-      "truth_data_file": "data/truths/UTE-FV-0010.json"
+      "truth_data_file": "data/truths/UTE-FV-0010.json",
+      "proof_file": "data/proofs/UTE-FV-0010-proof.md"
     },
     {
       "id": "UTE-FV-0011",
@@ -229,7 +239,8 @@
       },
       "summary": "Exponents compress repeated multiplication.",
       "claim": "Exponents represent repeated multiplication of a quantity by itself or structured scaling relations.",
-      "truth_data_file": "data/truths/UTE-FV-0011.json"
+      "truth_data_file": "data/truths/UTE-FV-0011.json",
+      "proof_file": "data/proofs/UTE-FV-0011-proof.md"
     },
     {
       "id": "UTE-FV-0012",
@@ -250,7 +261,8 @@
       },
       "summary": "Roots invert exponentiation.",
       "claim": "A root is a value which, when multiplied by itself a specified number of times, produces a given quantity.",
-      "truth_data_file": "data/truths/UTE-FV-0012.json"
+      "truth_data_file": "data/truths/UTE-FV-0012.json",
+      "proof_file": "data/proofs/UTE-FV-0012-proof.md"
     },
     {
       "id": "UTE-FV-0013",
@@ -271,7 +283,8 @@
       },
       "summary": "Negative numbers represent quantities below zero, opposite directions, deficits, or signed change.",
       "claim": "Negative numbers represent quantities below a defined zero point, directed opposites, deficits, or inverse positions on an ordered scale.",
-      "truth_data_file": "data/truths/UTE-FV-0013.json"
+      "truth_data_file": "data/truths/UTE-FV-0013.json",
+      "proof_file": "data/proofs/UTE-FV-0013-proof.md"
     },
     {
       "id": "UTE-FV-0014",
@@ -292,7 +305,8 @@
       },
       "summary": "Approximation represents values close enough for a defined purpose or tolerance.",
       "claim": "Approximation represents a value close enough to a target value for a defined purpose, tolerance, or measurement resolution.",
-      "truth_data_file": "data/truths/UTE-FV-0014.json"
+      "truth_data_file": "data/truths/UTE-FV-0014.json",
+      "proof_file": "data/proofs/UTE-FV-0014-proof.md"
     }
   ],
   "edges": [

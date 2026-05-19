@@ -16,12 +16,11 @@
   },
   "summary": "Addition describes the combination of quantities into a total.",
   "claim": "Addition combines quantities into a larger quantity while preserving consistent quantity relationships.",
+  "proof_file": "data/proofs/UTE-FV-0004-proof.md",
   "proof_layers": {
     "summary": "Addition describes the combination of quantities into a total.",
-    "intuitive_explanation": "Combining two counted collections and recounting gives a total represented as a + b.",
-    "formal_or_structural_proof": "Combining two counted collections and recounting gives a total represented as a + b.",
-    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
-    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
+    "full_human_proof_file": "data/proofs/UTE-FV-0004-proof.md",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within its defined formal domain."
   },
   "related_truths": {
     "depends_on": [

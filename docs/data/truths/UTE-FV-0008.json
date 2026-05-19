@@ -17,12 +17,11 @@
   },
   "summary": "Fractions represent selected equal parts of a whole.",
   "claim": "Fractions represent quantities formed by dividing a whole into equal parts and selecting some number of those parts.",
+  "proof_file": "data/proofs/UTE-FV-0008-proof.md",
   "proof_layers": {
     "summary": "Fractions represent selected equal parts of a whole.",
-    "intuitive_explanation": "Dividing a whole into equal parts and selecting a subset produces a fractional relation.",
-    "formal_or_structural_proof": "Dividing a whole into equal parts and selecting a subset produces a fractional relation.",
-    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
-    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
+    "full_human_proof_file": "data/proofs/UTE-FV-0008-proof.md",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within its defined formal domain."
   },
   "related_truths": {
     "depends_on": [

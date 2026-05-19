@@ -1,3 +1,3 @@
-# UTE Map Engine v6
+# UTE Map Engine v7
 
-Adds recursive dependency highlighting, improved labels, and enhanced Truth Inspector links.
+Adds Proof Library v1 with full human-readable proof files loaded into the Truth Inspector.

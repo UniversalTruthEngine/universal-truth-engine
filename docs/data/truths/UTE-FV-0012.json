@@ -17,12 +17,11 @@
   },
   "summary": "Roots invert exponentiation.",
   "claim": "A root is a value which, when multiplied by itself a specified number of times, produces a given quantity.",
+  "proof_file": "data/proofs/UTE-FV-0012-proof.md",
   "proof_layers": {
     "summary": "Roots invert exponentiation.",
-    "intuitive_explanation": "If x\u207f = a, then x is an nth root of a.",
-    "formal_or_structural_proof": "If x\u207f = a, then x is an nth root of a.",
-    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
-    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic/algebraic contexts."
+    "full_human_proof_file": "data/proofs/UTE-FV-0012-proof.md",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within its defined formal domain."
   },
   "related_truths": {
     "depends_on": [

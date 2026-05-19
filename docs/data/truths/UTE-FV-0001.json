@@ -20,11 +20,10 @@
   },
   "summary": "For a right triangle in Euclidean geometry, the square of the hypotenuse equals the sum of the squares of the other two sides.",
   "claim": "For a right triangle on a flat Euclidean plane: a\u00b2 + b\u00b2 = c\u00b2.",
+  "proof_file": "data/proofs/UTE-FV-0001-proof.md",
   "proof_layers": {
     "summary": "For a right triangle in Euclidean geometry, the square of the hypotenuse equals the sum of the squares of the other two sides.",
-    "intuitive_explanation": "A standard area proof compares a square of side a + b containing four right triangles with the central square of side c. Subtracting the triangle areas gives a\u00b2 + b\u00b2 = c\u00b2.",
-    "formal_or_structural_proof": "A standard area proof compares a square of side a + b containing four right triangles with the central square of side c. Subtracting the triangle areas gives a\u00b2 + b\u00b2 = c\u00b2.",
-    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
+    "full_human_proof_file": "data/proofs/UTE-FV-0001-proof.md",
     "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof. Valid within Euclidean geometry for right triangles."
   },
   "related_truths": {

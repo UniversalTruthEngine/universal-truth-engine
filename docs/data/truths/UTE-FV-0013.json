@@ -17,12 +17,11 @@
   },
   "summary": "Negative numbers represent quantities below zero, opposite directions, deficits, or signed change.",
   "claim": "Negative numbers represent quantities below a defined zero point, directed opposites, deficits, or inverse positions on an ordered scale.",
+  "proof_file": "data/proofs/UTE-FV-0013-proof.md",
   "proof_layers": {
     "summary": "Negative numbers represent quantities below zero, opposite directions, deficits, or signed change.",
-    "intuitive_explanation": "A number line with a zero reference permits positions on opposite sides.",
-    "formal_or_structural_proof": "A number line with a zero reference permits positions on opposite sides.",
-    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
-    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within signed arithmetic."
+    "full_human_proof_file": "data/proofs/UTE-FV-0013-proof.md",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within its defined formal domain."
   },
   "related_truths": {
     "depends_on": [

@@ -18,12 +18,11 @@
   },
   "summary": "A ratio compares two quantities.",
   "claim": "A ratio compares two quantities by expressing how much of one quantity corresponds to another.",
+  "proof_file": "data/proofs/UTE-FV-0009-proof.md",
   "proof_layers": {
     "summary": "A ratio compares two quantities.",
-    "intuitive_explanation": "Ratios arise by comparing quantities through division or repeated correspondence.",
-    "formal_or_structural_proof": "Ratios arise by comparing quantities through division or repeated correspondence.",
-    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
-    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
+    "full_human_proof_file": "data/proofs/UTE-FV-0009-proof.md",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within its defined formal domain."
   },
   "related_truths": {
     "depends_on": [

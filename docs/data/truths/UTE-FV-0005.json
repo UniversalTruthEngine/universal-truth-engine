@@ -17,12 +17,11 @@
   },
   "summary": "Subtraction describes removal, comparison, or difference between quantities.",
   "claim": "Subtraction describes the removal of a quantity from another quantity, or the difference between two quantities.",
+  "proof_file": "data/proofs/UTE-FV-0005-proof.md",
   "proof_layers": {
     "summary": "Subtraction describes removal, comparison, or difference between quantities.",
-    "intuitive_explanation": "Subtraction is inverse to addition within the same arithmetic context.",
-    "formal_or_structural_proof": "Subtraction is inverse to addition within the same arithmetic context.",
-    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
-    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
+    "full_human_proof_file": "data/proofs/UTE-FV-0005-proof.md",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within its defined formal domain."
   },
   "related_truths": {
     "depends_on": [

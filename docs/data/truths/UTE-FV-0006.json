@@ -17,12 +17,11 @@
   },
   "summary": "Multiplication compresses repeated addition and enables scaling.",
   "claim": "Multiplication represents repeated addition or the scaling of one quantity by another.",
+  "proof_file": "data/proofs/UTE-FV-0006-proof.md",
   "proof_layers": {
     "summary": "Multiplication compresses repeated addition and enables scaling.",
-    "intuitive_explanation": "Equal groups of equal quantity can be counted by repeated addition; multiplication compresses that repeated structure.",
-    "formal_or_structural_proof": "Equal groups of equal quantity can be counted by repeated addition; multiplication compresses that repeated structure.",
-    "empirical_or_reconstruction_basis": "Reconstructable with simple objects, marks, measurement, or geometric construction depending on the truth.",
-    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within arithmetic."
+    "full_human_proof_file": "data/proofs/UTE-FV-0006-proof.md",
+    "validation_assessment": "Level 5 \u2014 Mathematical / Logical Proof within its defined formal domain."
   },
   "related_truths": {
     "depends_on": [
