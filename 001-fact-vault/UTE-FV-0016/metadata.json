@@ -1,0 +1,11 @@
+{
+  "id": "UTE-FV-0016",
+  "title": "Law of Non-Contradiction",
+  "domain": "Logic",
+  "confidence_level": 5,
+  "dependencies": [
+    "UTE-FV-0015"
+  ],
+  "entry_file": "entry.md",
+  "proof_file": "proof.md"
+}

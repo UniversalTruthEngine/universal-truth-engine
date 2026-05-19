@@ -1,0 +1,9 @@
+{
+  "id": "UTE-FV-0015",
+  "title": "Law of Identity",
+  "domain": "Logic",
+  "confidence_level": 5,
+  "dependencies": [],
+  "entry_file": "entry.md",
+  "proof_file": "proof.md"
+}

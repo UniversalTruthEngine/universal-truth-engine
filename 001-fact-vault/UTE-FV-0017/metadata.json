@@ -1,0 +1,12 @@
+{
+  "id": "UTE-FV-0017",
+  "title": "Law of Excluded Middle",
+  "domain": "Logic",
+  "confidence_level": 5,
+  "dependencies": [
+    "UTE-FV-0015",
+    "UTE-FV-0016"
+  ],
+  "entry_file": "entry.md",
+  "proof_file": "proof.md"
+}
