@@ -1,0 +1,18 @@
+{
+  "id": "UTE-FV-0007",
+  "title": "Division",
+  "domain": "Arithmetic",
+  "claim": "Division describes partitioning a quantity into equal parts or determining how many equal groups fit within a quantity.",
+  "confidence_level": 5,
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0004",
+    "UTE-FV-0006"
+  ],
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "review_history_file": "review-history.md",
+  "template_version": "Truth Template Standard v1",
+  "compliance_pass": "Core Truth Compliance Pass v1"
+}

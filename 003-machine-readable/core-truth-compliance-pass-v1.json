@@ -1,0 +1,21 @@
+{
+  "compliance_pass": "Core Truth Compliance Pass v1",
+  "updated_truths": [
+    "UTE-FV-0001",
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0004",
+    "UTE-FV-0005",
+    "UTE-FV-0006",
+    "UTE-FV-0007",
+    "UTE-FV-0008",
+    "UTE-FV-0009",
+    "UTE-FV-0010",
+    "UTE-FV-0011",
+    "UTE-FV-0012",
+    "UTE-FV-0013",
+    "UTE-FV-0014"
+  ],
+  "template_version": "Truth Template Standard v1",
+  "notes": "Structural normalisation pass for UTE-FV-0001 to UTE-FV-0014."
+}

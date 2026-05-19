@@ -1,0 +1,17 @@
+{
+  "id": "UTE-FV-0005",
+  "title": "Subtraction",
+  "domain": "Arithmetic",
+  "claim": "Subtraction describes removal, comparison, or difference between quantities.",
+  "confidence_level": 5,
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0004"
+  ],
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "review_history_file": "review-history.md",
+  "template_version": "Truth Template Standard v1",
+  "compliance_pass": "Core Truth Compliance Pass v1"
+}

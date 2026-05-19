@@ -1,0 +1,16 @@
+{
+  "id": "UTE-FV-0004",
+  "title": "Addition",
+  "domain": "Arithmetic",
+  "claim": "Addition combines quantities into a larger quantity while preserving consistent quantity relationships.",
+  "confidence_level": 5,
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003"
+  ],
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "review_history_file": "review-history.md",
+  "template_version": "Truth Template Standard v1",
+  "compliance_pass": "Core Truth Compliance Pass v1"
+}

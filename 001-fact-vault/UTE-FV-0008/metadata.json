@@ -1,0 +1,17 @@
+{
+  "id": "UTE-FV-0008",
+  "title": "Fractions",
+  "domain": "Arithmetic",
+  "claim": "Fractions represent quantities formed by dividing a whole into equal parts and selecting some number of those parts.",
+  "confidence_level": 5,
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0007"
+  ],
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "review_history_file": "review-history.md",
+  "template_version": "Truth Template Standard v1",
+  "compliance_pass": "Core Truth Compliance Pass v1"
+}

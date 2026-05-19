@@ -1,0 +1,17 @@
+{
+  "id": "UTE-FV-0013",
+  "title": "Negative Numbers",
+  "domain": "Arithmetic",
+  "claim": "Negative numbers represent quantities below a defined zero point, directed opposites, deficits, or inverse positions on an ordered scale.",
+  "confidence_level": 5,
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0005"
+  ],
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "review_history_file": "review-history.md",
+  "template_version": "Truth Template Standard v1",
+  "compliance_pass": "Core Truth Compliance Pass v1"
+}

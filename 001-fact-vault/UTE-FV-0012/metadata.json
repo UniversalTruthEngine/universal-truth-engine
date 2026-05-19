@@ -1,0 +1,17 @@
+{
+  "id": "UTE-FV-0012",
+  "title": "Roots",
+  "domain": "Arithmetic / Geometry",
+  "claim": "A root is a value which, when multiplied by itself a specified number of times, produces a given quantity.",
+  "confidence_level": 5,
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0006",
+    "UTE-FV-0011"
+  ],
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "review_history_file": "review-history.md",
+  "template_version": "Truth Template Standard v1",
+  "compliance_pass": "Core Truth Compliance Pass v1"
+}

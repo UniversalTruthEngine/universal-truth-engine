@@ -1,0 +1,17 @@
+{
+  "id": "UTE-FV-0014",
+  "title": "Approximation",
+  "domain": "Measurement / Arithmetic",
+  "claim": "Approximation represents a value close enough to a target value for a defined purpose, tolerance, or measurement resolution.",
+  "confidence_level": 5,
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0005"
+  ],
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "review_history_file": "review-history.md",
+  "template_version": "Truth Template Standard v1",
+  "compliance_pass": "Core Truth Compliance Pass v1"
+}
