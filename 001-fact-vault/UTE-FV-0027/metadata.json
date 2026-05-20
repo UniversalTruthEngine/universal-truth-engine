@@ -1,0 +1,13 @@
+{
+  "id": "UTE-FV-0027",
+  "title": "Standard Unit",
+  "domain": "Measurement",
+  "claim": "A standard unit is a socially or scientifically agreed reference used to stabilise measurement across observers.",
+  "dependencies": [
+    "UTE-FV-0026"
+  ],
+  "confidence_level": 5,
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "template_version": "Truth Template Standard v1"
+}

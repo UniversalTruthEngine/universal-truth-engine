@@ -1,0 +1,14 @@
+{
+  "id": "UTE-FV-0023",
+  "title": "Reference State",
+  "domain": "Measurement",
+  "claim": "Stable measurement requires a reference state that remains sufficiently consistent during comparison.",
+  "dependencies": [
+    "UTE-FV-0021",
+    "UTE-FV-0022"
+  ],
+  "confidence_level": 5,
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "template_version": "Truth Template Standard v1"
+}

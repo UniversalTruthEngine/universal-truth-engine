@@ -1,0 +1,13 @@
+{
+  "id": "UTE-FV-0022",
+  "title": "Ordering",
+  "domain": "Measurement / Logic",
+  "claim": "Comparable entities may be arranged according to relative properties such as greater, lesser, earlier, or later.",
+  "dependencies": [
+    "UTE-FV-0021"
+  ],
+  "confidence_level": 5,
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "template_version": "Truth Template Standard v1"
+}

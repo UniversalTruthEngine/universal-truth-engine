@@ -1,0 +1,15 @@
+{
+  "id": "UTE-FV-0029",
+  "title": "Coordinate System",
+  "domain": "Measurement / Geometry",
+  "claim": "A coordinate system provides a structured framework for locating or comparing positions relative to defined references.",
+  "dependencies": [
+    "UTE-FV-0022",
+    "UTE-FV-0026",
+    "UTE-FV-0028"
+  ],
+  "confidence_level": 5,
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "template_version": "Truth Template Standard v1"
+}

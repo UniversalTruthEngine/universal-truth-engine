@@ -1,0 +1,13 @@
+{
+  "id": "UTE-FV-0020",
+  "title": "Distinction",
+  "domain": "Logic / Measurement",
+  "claim": "Distinct entities or states must be differentiable for comparison or measurement to occur.",
+  "dependencies": [
+    "UTE-FV-0015"
+  ],
+  "confidence_level": 5,
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "template_version": "Truth Template Standard v1"
+}

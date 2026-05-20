@@ -1,0 +1,15 @@
+{
+  "id": "UTE-FV-0028",
+  "title": "Scale",
+  "domain": "Measurement",
+  "claim": "A scale defines how measurement values correspond to ordered positions, intervals, or ratios.",
+  "dependencies": [
+    "UTE-FV-0022",
+    "UTE-FV-0026",
+    "UTE-FV-0027"
+  ],
+  "confidence_level": 5,
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "template_version": "Truth Template Standard v1"
+}

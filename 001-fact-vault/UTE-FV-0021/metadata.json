@@ -1,0 +1,14 @@
+{
+  "id": "UTE-FV-0021",
+  "title": "Comparison",
+  "domain": "Measurement",
+  "claim": "Measurement begins by comparing one distinguishable entity, quantity, or state against another.",
+  "dependencies": [
+    "UTE-FV-0020",
+    "UTE-FV-0002"
+  ],
+  "confidence_level": 5,
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "template_version": "Truth Template Standard v1"
+}

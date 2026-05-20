@@ -1,0 +1,13 @@
+{
+  "id": "UTE-FV-0024",
+  "title": "Repetition",
+  "domain": "Measurement",
+  "claim": "Stable measurement requires repeatable comparison or repeatable reference behaviour.",
+  "dependencies": [
+    "UTE-FV-0023"
+  ],
+  "confidence_level": 5,
+  "entry_file": "entry.md",
+  "proof_file": "proof.md",
+  "template_version": "Truth Template Standard v1"
+}
