@@ -74,48 +74,10 @@ Subtract `2ab` from both sides:
 a² + b² = c²
 ```
 
-## Why This Proof Works
-
-The same total area is described in two valid ways:
-
-1. by the outer square,
-2. by the four triangles plus the central square.
-
-Because area is conserved under rearrangement, both descriptions must match.
-
-## Reconstruction Method
-
-A future society can rediscover this theorem by:
-
-1. drawing right triangles on a flat surface,
-2. constructing squares on each side,
-3. comparing areas,
-4. noticing the invariant relationship,
-5. proving it through area rearrangement.
-
-A practical example:
-
-```text
-3² + 4² = 5²
-9 + 16 = 25
-```
-
 ## Conditions of Validity
 
-This theorem assumes:
-
-- Euclidean geometry,
-- flat space,
-- straight line segments,
-- a true right angle,
-- consistent units,
-- ordinary area arithmetic.
+This theorem assumes Euclidean geometry, flat space, straight line segments, a true right angle, consistent units, and ordinary area arithmetic.
 
 ## Failure Cases
 
-The theorem does not apply unchanged:
-
-- on curved surfaces,
-- in non-Euclidean geometry,
-- if the angle is not a right angle,
-- or if units are inconsistent.
+The theorem does not apply unchanged on curved surfaces, in non-Euclidean geometry, if the angle is not a right angle, or if units are inconsistent.

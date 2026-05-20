@@ -1,8 +1,8 @@
 {
-  "map_id": "UTE-ASSURANCE-REPAIR-MAP-V1",
-  "generated_by": "UTE Assurance Repair Pack v1",
-  "node_count": 29,
-  "edge_count": 73,
+  "map_id": "UTE-PUBLIC-STATE-SYNC-REPAIR-V1",
+  "generated_by": "UTE Public State Sync Repair v1",
+  "node_count": 37,
+  "edge_count": 92,
   "nodes": [
     {
       "id": "UTE-FV-0001",
@@ -22,9 +22,9 @@
       "dependency_centrality": 0,
       "summary": "Pythagorean Theorem is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 130,
-        "y": 90,
-        "z": 110
+        "x": 225.0,
+        "y": 120.0,
+        "z": 37
       },
       "entry_file": "../001-fact-vault/UTE-FV-0001/entry.md",
       "proof_file": "data/proofs/UTE-FV-0001-proof.md",
@@ -58,8 +58,8 @@
       "dependency_centrality": 14,
       "summary": "Equality / Identity of Quantity is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 35,
-        "y": -20,
+        "x": 40,
+        "y": -25,
         "z": 20
       },
       "entry_file": "../001-fact-vault/UTE-FV-0002/entry.md",
@@ -90,8 +90,8 @@
       "dependency_centrality": 10,
       "summary": "Counting and Natural Numbers is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -112.87,
-        "y": 54.39,
+        "x": -118.31,
+        "y": 45.59,
         "z": 0
       },
       "entry_file": "../001-fact-vault/UTE-FV-0003/entry.md",
@@ -117,9 +117,9 @@
       "dependency_centrality": 4,
       "summary": "Addition is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -166.87,
-        "y": 74.67,
-        "z": 35
+        "x": -173.7,
+        "y": 68.85,
+        "z": 36
       },
       "entry_file": "../001-fact-vault/UTE-FV-0004/entry.md",
       "proof_file": "data/proofs/UTE-FV-0004-proof.md",
@@ -143,9 +143,9 @@
       "dependency_centrality": 2,
       "summary": "Subtraction is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -222.86,
-        "y": 63.21,
-        "z": 70
+        "x": -232.77,
+        "y": 61.85,
+        "z": 72
       },
       "entry_file": "../001-fact-vault/UTE-FV-0005/entry.md",
       "proof_file": "data/proofs/UTE-FV-0005-proof.md",
@@ -171,9 +171,9 @@
       "dependency_centrality": 4,
       "summary": "Multiplication is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -267.13,
-        "y": 22.8,
-        "z": -70
+        "x": -282.17,
+        "y": 26.19,
+        "z": -72
       },
       "entry_file": "../001-fact-vault/UTE-FV-0006/entry.md",
       "proof_file": "data/proofs/UTE-FV-0006-proof.md",
@@ -198,9 +198,9 @@
       "dependency_centrality": 2,
       "summary": "Division is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -288.85,
-        "y": -36.65,
-        "z": -35
+        "x": -310.75,
+        "y": -30.09,
+        "z": -36
       },
       "entry_file": "../001-fact-vault/UTE-FV-0007/entry.md",
       "proof_file": "data/proofs/UTE-FV-0007-proof.md",
@@ -225,8 +225,8 @@
       "dependency_centrality": 3,
       "summary": "Fractions is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -282.69,
-        "y": -100.6,
+        "x": -312.03,
+        "y": -94.25,
         "z": 0
       },
       "entry_file": "../001-fact-vault/UTE-FV-0008/entry.md",
@@ -252,9 +252,9 @@
       "dependency_centrality": 2,
       "summary": "Ratio is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 141.21,
-        "y": -211.37,
-        "z": 40
+        "x": -285.73,
+        "y": -151.8,
+        "z": 36
       },
       "entry_file": "../001-fact-vault/UTE-FV-0009/entry.md",
       "proof_file": "data/proofs/UTE-FV-0009-proof.md",
@@ -275,9 +275,9 @@
       "dependency_centrality": 0,
       "summary": "Proportion is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 210.22,
-        "y": -207.82,
-        "z": 80
+        "x": -237.8,
+        "y": -189.74,
+        "z": 72
       },
       "entry_file": "../001-fact-vault/UTE-FV-0010/entry.md",
       "proof_file": "data/proofs/UTE-FV-0010-proof.md",
@@ -300,9 +300,9 @@
       "dependency_centrality": 1,
       "summary": "Exponents is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -142.38,
-        "y": -179.66,
-        "z": -70
+        "x": -179.06,
+        "y": -199.48,
+        "z": -72
       },
       "entry_file": "../001-fact-vault/UTE-FV-0011/entry.md",
       "proof_file": "data/proofs/UTE-FV-0011-proof.md",
@@ -325,9 +325,9 @@
       "dependency_centrality": 1,
       "summary": "Roots is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -93.5,
-        "y": -146.72,
-        "z": -35
+        "x": -122.8,
+        "y": -178.83,
+        "z": -36
       },
       "entry_file": "../001-fact-vault/UTE-FV-0012/entry.md",
       "proof_file": "data/proofs/UTE-FV-0012-proof.md",
@@ -348,8 +348,8 @@
       "dependency_centrality": 0,
       "summary": "Negative Numbers is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -64.58,
-        "y": -91.32,
+        "x": -81.72,
+        "y": -132.45,
         "z": 0
       },
       "entry_file": "../001-fact-vault/UTE-FV-0013/entry.md",
@@ -371,9 +371,9 @@
       "dependency_centrality": 0,
       "summary": "Approximation is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 237.87,
-        "y": 33.37,
-        "z": 40
+        "x": -65.12,
+        "y": -70.83,
+        "z": 36
       },
       "entry_file": "../001-fact-vault/UTE-FV-0014/entry.md",
       "proof_file": "data/proofs/UTE-FV-0014-proof.md",
@@ -422,8 +422,8 @@
       "dependency_centrality": 3,
       "summary": "Law of Non-Contradiction is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -54.69,
-        "y": 40.23,
+        "x": -5.47,
+        "y": 40.08,
         "z": 105
       },
       "entry_file": "../001-fact-vault/UTE-FV-0016/entry.md",
@@ -447,8 +447,8 @@
       "dependency_centrality": 2,
       "summary": "Law of Excluded Middle is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 23.35,
-        "y": 31.77,
+        "x": 75.87,
+        "y": 58.02,
         "z": 0
       },
       "entry_file": "../001-fact-vault/UTE-FV-0017/entry.md",
@@ -470,8 +470,8 @@
       "dependency_centrality": 0,
       "summary": "Modus Ponens is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 90.4,
-        "y": 62.46,
+        "x": 118.54,
+        "y": 107.54,
         "z": 35
       },
       "entry_file": "../001-fact-vault/UTE-FV-0018/entry.md",
@@ -493,8 +493,8 @@
       "dependency_centrality": 0,
       "summary": "Modus Tollens is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 114.93,
-        "y": 117.86,
+        "x": 100.79,
+        "y": 163.41,
         "z": 70
       },
       "entry_file": "../001-fact-vault/UTE-FV-0019/entry.md",
@@ -516,9 +516,9 @@
       "dependency_centrality": 1,
       "summary": "Distinction is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 126.48,
-        "y": -206.56,
-        "z": 80
+        "x": 87.77,
+        "y": -188.8,
+        "z": 84
       },
       "entry_file": "../001-fact-vault/UTE-FV-0020/entry.md",
       "proof_file": "data/proofs/UTE-FV-0020-proof.md",
@@ -543,9 +543,9 @@
       "dependency_centrality": 4,
       "summary": "Comparison is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 195.38,
-        "y": -212.19,
-        "z": -80
+        "x": 149.74,
+        "y": -222.33,
+        "z": -84
       },
       "entry_file": "../001-fact-vault/UTE-FV-0021/entry.md",
       "proof_file": "data/proofs/UTE-FV-0021-proof.md",
@@ -563,14 +563,15 @@
       "depended_on_by": [
         "UTE-FV-0023",
         "UTE-FV-0028",
-        "UTE-FV-0029"
+        "UTE-FV-0029",
+        "UTE-FV-0033"
       ],
-      "dependency_centrality": 3,
+      "dependency_centrality": 4,
       "summary": "Ordering is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 256.52,
-        "y": -177.44,
-        "z": -40
+        "x": 218.9,
+        "y": -216.78,
+        "z": -42
       },
       "entry_file": "../001-fact-vault/UTE-FV-0022/entry.md",
       "proof_file": "data/proofs/UTE-FV-0022-proof.md",
@@ -594,8 +595,8 @@
       "dependency_centrality": 3,
       "summary": "Reference State is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 291.23,
-        "y": -112.92,
+        "x": 275.56,
+        "y": -173.72,
         "z": 0
       },
       "entry_file": "../001-fact-vault/UTE-FV-0023/entry.md",
@@ -618,9 +619,9 @@
       "dependency_centrality": 2,
       "summary": "Repetition is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 288.9,
-        "y": -38.35,
-        "z": 40
+        "x": 303.61,
+        "y": -105.42,
+        "z": 42
       },
       "entry_file": "../001-fact-vault/UTE-FV-0024/entry.md",
       "proof_file": "data/proofs/UTE-FV-0024-proof.md",
@@ -644,9 +645,9 @@
       "dependency_centrality": 1,
       "summary": "Ratio Against Reference is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 250.26,
-        "y": 23.5,
-        "z": 80
+        "x": -127.41,
+        "y": -181.86,
+        "z": 72
       },
       "entry_file": "../001-fact-vault/UTE-FV-0025/entry.md",
       "proof_file": "data/proofs/UTE-FV-0025-proof.md",
@@ -667,14 +668,18 @@
       "depended_on_by": [
         "UTE-FV-0027",
         "UTE-FV-0028",
-        "UTE-FV-0029"
+        "UTE-FV-0029",
+        "UTE-FV-0031",
+        "UTE-FV-0032",
+        "UTE-FV-0035",
+        "UTE-FV-0037"
       ],
-      "dependency_centrality": 3,
+      "dependency_centrality": 7,
       "summary": "Measurement is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 187.09,
-        "y": 53.73,
-        "z": -80
+        "x": 252.34,
+        "y": 27.53,
+        "z": -84
       },
       "entry_file": "../001-fact-vault/UTE-FV-0026/entry.md",
       "proof_file": "data/proofs/UTE-FV-0026-proof.md",
@@ -690,14 +695,15 @@
         "UTE-FV-0026"
       ],
       "depended_on_by": [
-        "UTE-FV-0028"
+        "UTE-FV-0028",
+        "UTE-FV-0032"
       ],
-      "dependency_centrality": 1,
+      "dependency_centrality": 2,
       "summary": "Standard Unit is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 118.71,
-        "y": 43.11,
-        "z": -40
+        "x": 187.61,
+        "y": 54.34,
+        "z": -42
       },
       "entry_file": "../001-fact-vault/UTE-FV-0027/entry.md",
       "proof_file": "data/proofs/UTE-FV-0027-proof.md",
@@ -720,8 +726,8 @@
       "dependency_centrality": 1,
       "summary": "Scale is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 65.99,
-        "y": -5.12,
+        "x": 119.29,
+        "y": 41.5,
         "z": 0
       },
       "entry_file": "../001-fact-vault/UTE-FV-0028/entry.md",
@@ -739,17 +745,215 @@
         "UTE-FV-0026",
         "UTE-FV-0028"
       ],
-      "depended_on_by": [],
-      "dependency_centrality": 0,
+      "depended_on_by": [
+        "UTE-FV-0030",
+        "UTE-FV-0031"
+      ],
+      "dependency_centrality": 2,
       "summary": "Coordinate System is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 45.05,
-        "y": -76.23,
-        "z": 40
+        "x": 51.37,
+        "y": 2.36,
+        "z": 37
       },
       "entry_file": "../001-fact-vault/UTE-FV-0029/entry.md",
       "proof_file": "data/proofs/UTE-FV-0029-proof.md",
       "metadata_file": "../001-fact-vault/UTE-FV-0029/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0030",
+      "title": "Point",
+      "domain": "Geometry",
+      "category": "Geometry",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0029"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0034",
+        "UTE-FV-0036"
+      ],
+      "dependency_centrality": 2,
+      "summary": "Point is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 137.96,
+        "y": 10.0,
+        "z": 71
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0030/entry.md",
+      "proof_file": "data/proofs/UTE-FV-0030-proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0030/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0031",
+      "title": "Position",
+      "domain": "Geometry / Measurement",
+      "category": "Geometry / Measurement",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0029",
+        "UTE-FV-0026"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0032",
+        "UTE-FV-0033",
+        "UTE-FV-0034",
+        "UTE-FV-0037"
+      ],
+      "dependency_centrality": 4,
+      "summary": "Position is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 203.65,
+        "y": 57.32,
+        "z": 105
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0031/entry.md",
+      "proof_file": "data/proofs/UTE-FV-0031-proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0031/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0032",
+      "title": "Separation / Distance",
+      "domain": "Geometry / Measurement",
+      "category": "Geometry / Measurement",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0031",
+        "UTE-FV-0026",
+        "UTE-FV-0027"
+      ],
+      "depended_on_by": [],
+      "dependency_centrality": 0,
+      "summary": "Separation / Distance is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 224.74,
+        "y": 127.25,
+        "z": 139
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0032/entry.md",
+      "proof_file": "data/proofs/UTE-FV-0032-proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0032/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0033",
+      "title": "Direction",
+      "domain": "Geometry",
+      "category": "Geometry",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0031",
+        "UTE-FV-0022"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0034",
+        "UTE-FV-0035"
+      ],
+      "dependency_centrality": 2,
+      "summary": "Direction is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 193.61,
+        "y": 194.56,
+        "z": 37
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0033/entry.md",
+      "proof_file": "data/proofs/UTE-FV-0033-proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0033/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0034",
+      "title": "Line",
+      "domain": "Geometry",
+      "category": "Geometry",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0030",
+        "UTE-FV-0031",
+        "UTE-FV-0033"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0035",
+        "UTE-FV-0036"
+      ],
+      "dependency_centrality": 2,
+      "summary": "Line is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 121.51,
+        "y": 234.98,
+        "z": 71
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0034/entry.md",
+      "proof_file": "data/proofs/UTE-FV-0034-proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0034/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0035",
+      "title": "Angle",
+      "domain": "Geometry / Measurement",
+      "category": "Geometry / Measurement",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0033",
+        "UTE-FV-0034",
+        "UTE-FV-0026"
+      ],
+      "depended_on_by": [],
+      "dependency_centrality": 0,
+      "summary": "Angle is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 34.44,
+        "y": 233.92,
+        "z": 105
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0035/entry.md",
+      "proof_file": "data/proofs/UTE-FV-0035-proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0035/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0036",
+      "title": "Plane",
+      "domain": "Geometry",
+      "category": "Geometry",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0030",
+        "UTE-FV-0034"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0037"
+      ],
+      "dependency_centrality": 1,
+      "summary": "Plane is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": -36.2,
+        "y": 191.77,
+        "z": 139
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0036/entry.md",
+      "proof_file": "data/proofs/UTE-FV-0036-proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0036/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0037",
+      "title": "Dimension",
+      "domain": "Geometry / Measurement",
+      "category": "Geometry / Measurement",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0031",
+        "UTE-FV-0036",
+        "UTE-FV-0026"
+      ],
+      "depended_on_by": [],
+      "dependency_centrality": 0,
+      "summary": "Dimension is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": -64.93,
+        "y": 123.74,
+        "z": 37
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0037/entry.md",
+      "proof_file": "data/proofs/UTE-FV-0037-proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0037/metadata.json"
     }
   ],
   "edges": [
@@ -1188,6 +1392,120 @@
     {
       "source": "UTE-FV-0029",
       "target": "UTE-FV-0028",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0030",
+      "target": "UTE-FV-0029",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0031",
+      "target": "UTE-FV-0029",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0031",
+      "target": "UTE-FV-0026",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0032",
+      "target": "UTE-FV-0031",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0032",
+      "target": "UTE-FV-0026",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0032",
+      "target": "UTE-FV-0027",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0033",
+      "target": "UTE-FV-0031",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0033",
+      "target": "UTE-FV-0022",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0034",
+      "target": "UTE-FV-0030",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0034",
+      "target": "UTE-FV-0031",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0034",
+      "target": "UTE-FV-0033",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0035",
+      "target": "UTE-FV-0033",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0035",
+      "target": "UTE-FV-0034",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0035",
+      "target": "UTE-FV-0026",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0036",
+      "target": "UTE-FV-0030",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0036",
+      "target": "UTE-FV-0034",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0037",
+      "target": "UTE-FV-0031",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0037",
+      "target": "UTE-FV-0036",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0037",
+      "target": "UTE-FV-0026",
       "type": "depends_on",
       "weight": 1.0
     }

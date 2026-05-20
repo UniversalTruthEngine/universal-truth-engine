@@ -1,17 +1,18 @@
-# UTE-FV-0023 — Reference State Proof
+# UTE-FV-0037 — Dimension Proof
 
 ## Claim
 
-Reference State is a Core Truth in the Universal Truth Engine.
+Dimension is a Core Truth in the Universal Truth Engine.
 
 ## Plain-Language Explanation
 
-This entry belongs to the Measurement domain and supports the reconstructable knowledge topology.
+This entry belongs to the Geometry / Measurement domain and supports the reconstructable knowledge topology.
 
 ## Dependencies
 
-- UTE-FV-0021
-- UTE-FV-0022
+- UTE-FV-0031
+- UTE-FV-0036
+- UTE-FV-0026
 
 ## Reconstruction Method
 

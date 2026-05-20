@@ -2,61 +2,24 @@
 
 ## Claim
 
-For any thing X, X is identical to itself.
-
-```text
-X = X
-```
+Law of Identity is a Core Truth in the Universal Truth Engine.
 
 ## Plain-Language Explanation
 
-The Law of Identity states that a thing is what it is.
+This entry belongs to the Logic domain and supports the reconstructable knowledge topology.
 
-A stone is that stone.  
-A number is that number.  
-A defined symbol means what it has been defined to mean within that context.
+## Dependencies
 
-## Why This Is Foundational
-
-To reason about anything, a system must preserve reference.
-
-If the symbol `X` is introduced, then during a valid argument `X` must continue to refer to the same thing unless explicitly redefined.
-
-Without this, counting, memory, comparison, proof, and communication become unstable.
-
-## Step-by-Step Reasoning
-
-1. Let `X` be any defined object, quantity, statement, or symbol.
-2. The act of defining `X` establishes a reference.
-3. A reference must preserve itself within the same context.
-4. Therefore, within that context, `X` is identical to `X`.
-
-## Formal Form
-
-```text
-∀x (x = x)
-```
-
-Read as:
-
-```text
-For every x, x equals itself.
-```
+- None
 
 ## Reconstruction Method
 
-A future intelligence can rediscover the Law of Identity by attempting to build any stable symbol system.
+A future intelligence can rediscover this truth by working from its dependencies and testing whether the concept is required for stable reasoning, measurement, geometry, calculation, or reconstruction.
 
-If a mark, object, or signal cannot continue to refer to itself:
+## Conditions of Validity
 
-- counting fails,
-- memory fails,
-- comparison fails,
-- proof fails,
-- communication fails.
+Valid within its stated domain and dependency conditions.
 
-## Failure Cases and Misuse
+## Failure Cases
 
-The Law of Identity does not say two different things are identical.
-
-It says that each thing is identical to itself.
+Requires review if definitions are unstable, references drift, assumptions change, or the concept is applied outside its stated domain.

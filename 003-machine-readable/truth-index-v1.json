@@ -1,6 +1,7 @@
 {
-  "index_id": "UTE-TRUTH-INDEX-V2",
-  "truth_count": 29,
+  "index_id": "UTE-TRUTH-INDEX-V3",
+  "truth_count": 37,
+  "highest_truth_id": "UTE-FV-0037",
   "truths": [
     {
       "id": "UTE-FV-0001",
@@ -275,6 +276,81 @@
         "UTE-FV-0022",
         "UTE-FV-0026",
         "UTE-FV-0028"
+      ]
+    },
+    {
+      "id": "UTE-FV-0030",
+      "title": "Point",
+      "domain": "Geometry",
+      "dependencies": [
+        "UTE-FV-0029"
+      ]
+    },
+    {
+      "id": "UTE-FV-0031",
+      "title": "Position",
+      "domain": "Geometry / Measurement",
+      "dependencies": [
+        "UTE-FV-0029",
+        "UTE-FV-0026"
+      ]
+    },
+    {
+      "id": "UTE-FV-0032",
+      "title": "Separation / Distance",
+      "domain": "Geometry / Measurement",
+      "dependencies": [
+        "UTE-FV-0031",
+        "UTE-FV-0026",
+        "UTE-FV-0027"
+      ]
+    },
+    {
+      "id": "UTE-FV-0033",
+      "title": "Direction",
+      "domain": "Geometry",
+      "dependencies": [
+        "UTE-FV-0031",
+        "UTE-FV-0022"
+      ]
+    },
+    {
+      "id": "UTE-FV-0034",
+      "title": "Line",
+      "domain": "Geometry",
+      "dependencies": [
+        "UTE-FV-0030",
+        "UTE-FV-0031",
+        "UTE-FV-0033"
+      ]
+    },
+    {
+      "id": "UTE-FV-0035",
+      "title": "Angle",
+      "domain": "Geometry / Measurement",
+      "dependencies": [
+        "UTE-FV-0033",
+        "UTE-FV-0034",
+        "UTE-FV-0026"
+      ]
+    },
+    {
+      "id": "UTE-FV-0036",
+      "title": "Plane",
+      "domain": "Geometry",
+      "dependencies": [
+        "UTE-FV-0030",
+        "UTE-FV-0034"
+      ]
+    },
+    {
+      "id": "UTE-FV-0037",
+      "title": "Dimension",
+      "domain": "Geometry / Measurement",
+      "dependencies": [
+        "UTE-FV-0031",
+        "UTE-FV-0036",
+        "UTE-FV-0026"
       ]
     }
   ]

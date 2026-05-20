@@ -44,6 +44,7 @@ The map is intended to support:
 005-origins/            Origins, milestones, and external feedback
 006-tools/              Topology generators, analytics, and integrity tools
 docs/                   Live interactive map
+updates/                Update history and change records
 ```
 
 ---
@@ -119,7 +120,8 @@ Completed foundations include:
 - compliance passes,
 - dynamic topology architecture,
 - generated map preview,
-- and epistemic analytics foundations.
+- epistemic analytics foundations,
+- and Level 2 assurance protocol.
 
 ---
 

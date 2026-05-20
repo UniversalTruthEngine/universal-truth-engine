@@ -6,9 +6,7 @@ Multiplication is a Core Truth in the Universal Truth Engine.
 
 ## Plain-Language Explanation
 
-Multiplication is a Core Truth in the Universal Truth Engine.
-
-This principle supports the UTE foundational structure in the domain of Arithmetic.
+This entry belongs to the Arithmetic domain and supports the reconstructable knowledge topology.
 
 ## Dependencies
 
@@ -18,7 +16,7 @@ This principle supports the UTE foundational structure in the domain of Arithmet
 
 ## Reconstruction Method
 
-A future intelligence can rediscover this truth by working from its dependencies and testing whether the principle is necessary for stable reasoning, comparison, measurement, calculation, or reconstruction.
+A future intelligence can rediscover this truth by working from its dependencies and testing whether the concept is required for stable reasoning, measurement, geometry, calculation, or reconstruction.
 
 ## Conditions of Validity
 
@@ -26,8 +24,4 @@ Valid within its stated domain and dependency conditions.
 
 ## Failure Cases
 
-Requires review if terms are undefined, contexts shift, references drift, or assumptions are not preserved.
-
-## Note
-
-This is a browser-accessible proof copy. Some entries require future proof-deepening passes.
+Requires review if definitions are unstable, references drift, assumptions change, or the concept is applied outside its stated domain.

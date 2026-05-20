@@ -2,66 +2,24 @@
 
 ## Claim
 
-Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.
+Counting and Natural Numbers is a Core Truth in the Universal Truth Engine.
 
 ## Plain-Language Explanation
 
-Counting assigns one counting marker to each object in a collection.
+This entry belongs to the Arithmetic domain and supports the reconstructable knowledge topology.
 
-Example:
+## Dependencies
 
-```text
-stone → 1
-stone → 2
-stone → 3
-```
-
-The final count represents the quantity of the collection.
-
-## One-to-One Correspondence
-
-Counting depends on:
-
-```text
-one object ↔ one count marker
-```
-
-If each object receives exactly one marker, no object is skipped, and no object is counted twice, the count is stable.
-
-## Successor Principle
-
-Natural numbers proceed by a successor relation:
-
-```text
-1, 2, 3, 4, ...
-```
-
-Each next number represents adding one more unit.
-
-## Step-by-Step Reasoning
-
-1. Objects can be distinguished.
-2. Each object can be matched with one count marker.
-3. Count markers can be ordered.
-4. The final marker represents the total quantity.
-5. Therefore discrete quantities can be represented by ordered natural numbers.
+- UTE-FV-0002
 
 ## Reconstruction Method
 
-Counting can be rediscovered by:
+A future intelligence can rediscover this truth by working from its dependencies and testing whether the concept is required for stable reasoning, measurement, geometry, calculation, or reconstruction.
 
-- gathering objects,
-- making one mark per object,
-- preserving the mark sequence,
-- comparing collections by marks,
-- naming the sequence.
+## Conditions of Validity
+
+Valid within its stated domain and dependency conditions.
 
 ## Failure Cases
 
-Counting fails if:
-
-- objects are not distinguishable,
-- objects are counted twice,
-- objects are skipped,
-- the collection changes during counting,
-- or the counting sequence is unstable.
+Requires review if definitions are unstable, references drift, assumptions change, or the concept is applied outside its stated domain.
