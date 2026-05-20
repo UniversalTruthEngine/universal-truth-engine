@@ -1,15 +1,12 @@
-# Generated Map Integration v1
+# UTE Interactive Map
 
-Adds a dual-mode map viewer:
+This folder contains the live browser-based UTE topology explorer.
 
-- Curated Map
-- Generated Preview
+Current capabilities:
+- 3D navigation
+- dependency traversal
+- proof inspection
+- generated preview mode
+- topology health preview
 
-Generated Preview loads:
-
-```text
-docs/data/truth-map-generated-preview.json
-docs/data/topology-health-preview.json
-```
-
-This is a safe step toward metadata-driven topology.
+The long-term goal is for the map to become fully metadata-driven.
