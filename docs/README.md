@@ -1,3 +1,15 @@
-# UTE Map Engine v7
+# Generated Map Integration v1
 
-Adds Proof Library v1 with full human-readable proof files loaded into the Truth Inspector.
+Adds a dual-mode map viewer:
+
+- Curated Map
+- Generated Preview
+
+Generated Preview loads:
+
+```text
+docs/data/truth-map-generated-preview.json
+docs/data/topology-health-preview.json
+```
+
+This is a safe step toward metadata-driven topology.

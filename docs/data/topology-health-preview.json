@@ -1,0 +1,49 @@
+{
+  "generated_by": "Generated Map Integration v1 preview",
+  "node_count": 19,
+  "edge_count": 51,
+  "missing_dependencies": [],
+  "high_centrality_nodes": [
+    {
+      "id": "UTE-FV-0002",
+      "title": "Equality / Identity of Quantity",
+      "dependency_centrality": 13
+    },
+    {
+      "id": "UTE-FV-0003",
+      "title": "Counting and Natural Numbers",
+      "dependency_centrality": 10
+    },
+    {
+      "id": "UTE-FV-0015",
+      "title": "Law of Identity",
+      "dependency_centrality": 5
+    },
+    {
+      "id": "UTE-FV-0004",
+      "title": "Addition",
+      "dependency_centrality": 4
+    },
+    {
+      "id": "UTE-FV-0006",
+      "title": "Multiplication",
+      "dependency_centrality": 4
+    },
+    {
+      "id": "UTE-FV-0008",
+      "title": "Fractions",
+      "dependency_centrality": 3
+    },
+    {
+      "id": "UTE-FV-0016",
+      "title": "Law of Non-Contradiction",
+      "dependency_centrality": 3
+    },
+    {
+      "id": "UTE-FV-0005",
+      "title": "Subtraction",
+      "dependency_centrality": 2
+    }
+  ],
+  "note": "Preview health data. Future versions should be generated directly from metadata.json files."
+}

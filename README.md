@@ -1,5 +1,5 @@
-# Dynamic Topology Architecture v1
+# Generated Map Integration v1
 
-This package begins the transition toward a metadata-driven UTE map.
+This package adds generated preview mode to the UTE map.
 
-The live map is not replaced yet. This adds the architecture and first generator tool.
+It does not remove the curated map approach. It enables comparison between curated and generated topology.

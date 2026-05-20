@@ -1,10 +1,11 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Universal Truth Engine — Map Engine v7</title><link rel="stylesheet" href="style.css">
+<title>Universal Truth Engine — Generated Map Integration v1</title>
+<link rel="stylesheet" href="style.css">
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
 </head><body><main>
-<section class="topbar"><div><p class="eyebrow">Universal Truth Engine</p><h1>3D Truth Cosmos Engine v7</h1><p class="subtitle">Truth Inspector with Proof Library v1.</p></div>
-<div class="controls"><input id="search" type="search" placeholder="Search truths..."><select id="category-filter"><option value="all">All domains</option></select><select id="fly-to"><option value="">Fly to node...</option></select><button id="reset-view">Reset</button></div></section>
-<section class="workspace"><div id="map3d"></div><aside id="details"><h2>Select a Core Truth</h2><p>Click a node, search, or use Fly to node.</p><div class="legend"><div><span class="dot logic"></span>Logic</div><div><span class="dot arithmetic"></span>Arithmetic</div><div><span class="dot geometry"></span>Geometry</div><div><span class="dot measurement"></span>Measurement</div></div></aside></section>
-<section class="notes"><h2>Navigation</h2><p>Drag to rotate. Scroll to zoom. Selecting a node highlights its dependency chain. The Proof tab now loads a human-readable proof file.</p><p id="status">Loading 3D map...</p></section>
+<section class="topbar"><div><p class="eyebrow">Universal Truth Engine</p><h1>3D Truth Cosmos</h1><p class="subtitle">Curated map with generated topology preview mode.</p></div>
+<div class="controls"><select id="mode"><option value="curated">Curated Map</option><option value="generated">Generated Preview</option></select><input id="search" type="search" placeholder="Search truths..."><select id="category-filter"><option value="all">All domains</option></select><select id="fly-to"><option value="">Fly to node...</option></select><button id="reset-view">Reset</button></div></section>
+<section class="workspace"><div id="map3d"></div><aside id="details"><h2>Select a Core Truth</h2><p>Use curated mode for the current stable map, or generated preview to inspect metadata-driven topology.</p><div id="health"></div></aside></section>
+<section class="notes"><h2>Mode</h2><p id="status">Loading map...</p></section>
 </main><script type="module" src="./graph.js"></script></body></html>
