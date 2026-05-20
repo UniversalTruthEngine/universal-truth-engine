@@ -1,0 +1,17 @@
+{
+  "schema_id": "UTE-LEVEL-2-ASSURANCE-REPORT-SCHEMA-V1",
+  "required_fields": [
+    "report_id",
+    "date",
+    "scope",
+    "verified_findings",
+    "failures",
+    "corrective_actions",
+    "external_review_status"
+  ],
+  "external_review_status_values": [
+    "approved",
+    "blocked",
+    "approved_with_caveats"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "report_id": "UTE-LEVEL-1-ASSURANCE-OBSERVATION-2026-05-20",
+  "date": "2026-05-20",
+  "scope": [
+    "GitHub root repository page",
+    "live GitHub Pages site",
+    "raw README.md",
+    "raw docs/data/truth-index-v1.json",
+    "raw docs/data/truth-map-v1.json"
+  ],
+  "verified_findings": [
+    "GitHub repository page currently renders README as 'Epistemic Analytics Layer v1'.",
+    "Live site currently displays 'Proof inspector restoration and dependency deep-linking'.",
+    "docs/data/truth-index-v1.json currently lists UTE-FV-0001 through UTE-FV-0019 only.",
+    "Spatial/geometry additions UTE-FV-0030 through UTE-FV-0037 are not reflected in the public truth index checked.",
+    "The system is not yet ready for external review based on public-facing state."
+  ],
+  "failures": [
+    "Repository presentation does not currently match intended UTE overview.",
+    "Public truth index appears stale.",
+    "Live map appears stale relative to the latest intended repair/update state."
+  ],
+  "corrective_actions": [
+    "Perform a targeted assurance repair after confirming which local/web uploads landed.",
+    "Re-check root README, docs/data/truth-index-v1.json, docs/data/truth-map-v1.json, and live map after repair.",
+    "Only send for external review after Level 2 pass."
+  ],
+  "external_review_status": "blocked"
+}
