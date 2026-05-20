@@ -1,22 +1,363 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
-const colors={Logic:0xa78bfa,Arithmetic:0x83b6ff,Geometry:0x8df0a4,Measurement:0xffe27c,"Logic / Arithmetic":0x9aa9ff,"Arithmetic / Measurement":0x9ed4ff,"Arithmetic / Geometry":0x8ddfc7,"Measurement / Arithmetic":0xffe27c};
-let graph,scene,camera,renderer,controls,currentMode="curated";const nodeObjects=new Map(),labelObjects=new Map(),edgeObjects=[];
+let scene,camera,renderer,controls,graph;
+const nodeObjects=new Map(),edgeObjects=[];
+const proofCache=new Map();
 
-async function init(){setupScene();await loadMode("curated");document.getElementById("mode").addEventListener("change",async e=>{await loadMode(e.target.value)});document.getElementById("reset-view").addEventListener("click",()=>{camera.position.set(0,0,560);controls.target.set(0,0,0);controls.update()});animate()}
-async function loadMode(mode){currentMode=mode;clearSceneGraph();const path=mode==="generated"?"./data/truth-map-generated-preview.json":"./data/truth-map-v1.json";try{graph=await (await fetch(path,{cache:"no-store"})).json();normaliseGraph();setupControls();buildGraph();await loadHealth(mode);document.getElementById("status").textContent=mode==="generated"?"Generated preview mode active. This is metadata-style topology preview.":"Curated map mode active."}catch(e){document.getElementById("status").textContent="Could not load "+mode+" map: "+e.message;console.error(e)}}
-function normaliseGraph(){graph.nodes=(graph.nodes||[]).map((n,i)=>{const coords=n.stable_coordinates||{x:Math.cos(i)*180,y:Math.sin(i)*180,z:(i%5)*35};return{...n,domain:n.domain||n.category||"Unknown",category:n.category||n.domain||"Unknown",stable_coordinates:coords,dependency_centrality:n.dependency_centrality||0,summary:n.summary||n.title,dependencies:n.dependencies||[]}});graph.edges=graph.edges||[]}
-async function loadHealth(mode){const el=document.getElementById("health");if(mode!=="generated"){el.innerHTML="<p><strong>Health:</strong> curated map mode.</p>";return}try{const h=await (await fetch("./data/topology-health-preview.json",{cache:"no-store"})).json();el.innerHTML=`<div class="meta"><p><strong>Generated topology preview</strong></p><p>Nodes: ${h.node_count}</p><p>Edges: ${h.edge_count}</p><p>Missing dependencies: ${h.missing_dependencies.length}</p><p><strong>High-centrality preview:</strong></p><ul>${h.high_centrality_nodes.map(n=>`<li>${n.id}: ${n.dependency_centrality}</li>`).join("")}</ul></div>`}catch(e){el.innerHTML="<p>Health preview unavailable.</p>"}}
-function setupControls(){const cat=document.getElementById("category-filter"),fly=document.getElementById("fly-to");cat.innerHTML='<option value="all">All domains</option>';fly.innerHTML='<option value="">Fly to node...</option>';[...new Set(graph.nodes.map(n=>n.domain))].sort().forEach(x=>{let o=document.createElement("option");o.value=x;o.textContent=x;cat.appendChild(o)});graph.nodes.sort((a,b)=>a.id.localeCompare(b.id)).forEach(n=>{let o=document.createElement("option");o.value=n.id;o.textContent=n.id.replace("UTE-FV-","")+" — "+n.title;fly.appendChild(o)});document.getElementById("search").oninput=applyFilters;cat.onchange=applyFilters;fly.onchange=()=>{if(fly.value)flyToNode(fly.value)}}
-function setupScene(){const el=document.getElementById("map3d"),w=el.clientWidth,h=el.clientHeight||800;scene=new THREE.Scene();scene.background=new THREE.Color(0x050812);camera=new THREE.PerspectiveCamera(60,w/h,.1,4000);camera.position.set(0,0,560);renderer=new THREE.WebGLRenderer({antialias:true});renderer.setPixelRatio(window.devicePixelRatio);renderer.setSize(w,h);el.appendChild(renderer.domElement);controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;scene.add(new THREE.AmbientLight(0xffffff,.8));let light=new THREE.PointLight(0x9dbdff,1.5,1200);light.position.set(220,160,320);scene.add(light);addStars();renderer.domElement.addEventListener("click",clickNode);window.addEventListener("resize",resize)}
-function addStars(){const g=new THREE.BufferGeometry(),v=[];for(let i=0;i<1400;i++)v.push((Math.random()-.5)*1800,(Math.random()-.5)*1800,(Math.random()-.5)*1800);g.setAttribute("position",new THREE.Float32BufferAttribute(v,3));scene.add(new THREE.Points(g,new THREE.PointsMaterial({color:0x6f7f9f,size:1.15,transparent:true,opacity:.42})))}
-function clearSceneGraph(){nodeObjects.forEach(o=>scene.remove(o));labelObjects.forEach(o=>scene.remove(o));edgeObjects.forEach(o=>scene.remove(o));nodeObjects.clear();labelObjects.clear();edgeObjects.length=0}
-function buildGraph(){const max=Math.max(...graph.nodes.map(n=>n.dependency_centrality),1);graph.nodes.forEach(n=>{const p=n.stable_coordinates,r=10+Math.sqrt(n.dependency_centrality+1)*6,c=colors[n.domain]||colors[n.category]||0x83b6ff;let s=new THREE.Mesh(new THREE.SphereGeometry(r,32,32),new THREE.MeshStandardMaterial({color:c,emissive:c,emissiveIntensity:.2+(n.dependency_centrality/max)*.45,roughness:.4,transparent:true,opacity:1}));s.position.set(p.x,p.y,p.z);s.userData=n;scene.add(s);nodeObjects.set(n.id,s);let lab=makeLabel(n.id.replace("UTE-FV-","")+" "+n.title);lab.position.set(p.x,p.y-r-18,p.z);scene.add(lab);labelObjects.set(n.id,lab)});graph.edges.forEach(e=>{let a=nodeObjects.get(e.source),b=nodeObjects.get(e.target);if(!a||!b)return;let line=new THREE.Line(new THREE.BufferGeometry().setFromPoints([a.position,b.position]),new THREE.LineBasicMaterial({color:0x8391aa,transparent:true,opacity:.38}));line.userData=e;scene.add(line);edgeObjects.push(line)})}
-function makeLabel(t){const c=document.createElement("canvas");c.width=512;c.height=96;const x=c.getContext("2d");x.font="bold 28px system-ui";x.fillStyle="rgba(238,243,255,.96)";x.textAlign="center";x.textBaseline="middle";x.shadowColor="#000";x.shadowBlur=12;x.fillText(t.slice(0,38),256,48);let spr=new THREE.Sprite(new THREE.SpriteMaterial({map:new THREE.CanvasTexture(c),transparent:true,depthWrite:false,opacity:.92}));spr.scale.set(96,18,1);return spr}
-function clickNode(e){const r=renderer.domElement.getBoundingClientRect(),m=new THREE.Vector2(((e.clientX-r.left)/r.width)*2-1,-((e.clientY-r.top)/r.height)*2+1),ray=new THREE.Raycaster();ray.setFromCamera(m,camera);let hit=ray.intersectObjects([...nodeObjects.values()]);if(hit.length)showNode(hit[0].object.userData)}
-function showNode(n){const deps=n.dependencies?.join(", ")||"None";document.getElementById("details").innerHTML=`<h2>${n.id}</h2><h3>${n.title}</h3><p>${n.summary||""}</p><div class="meta"><p><strong>Mode:</strong> ${currentMode}</p><p><strong>Domain:</strong> ${n.domain}</p><p><strong>Confidence:</strong> ${n.confidence_level??"Unknown"}</p><p><strong>Dependency centrality:</strong> ${n.dependency_centrality}</p><p><strong>Dependencies:</strong> ${deps}</p>${n.proof_file?`<a class="small-link" href="./${n.proof_file}" target="_blank">Open proof file</a>`:""}</div>`}
-function flyToNode(id){let obj=nodeObjects.get(id);if(!obj)return;showNode(obj.userData);let p=obj.position,start=camera.position.clone(),targetStart=controls.target.clone(),dir=new THREE.Vector3().subVectors(camera.position,controls.target).normalize(),end=new THREE.Vector3(p.x,p.y,p.z).add(dir.multiplyScalar(150)),endTarget=new THREE.Vector3(p.x,p.y,p.z);let t=0;function step(){t+=.025;let k=1-Math.pow(1-t,3);camera.position.lerpVectors(start,end,k);controls.target.lerpVectors(targetStart,endTarget,k);controls.update();if(t<1)requestAnimationFrame(step)}step()}
-function applyFilters(){const q=document.getElementById("search").value.toLowerCase().trim(),cat=document.getElementById("category-filter").value,vis=new Set(graph.nodes.filter(n=>(!q||n.id.toLowerCase().includes(q)||n.title.toLowerCase().includes(q))&&(cat==="all"||n.domain===cat)).map(n=>n.id));nodeObjects.forEach((o,id)=>o.visible=vis.has(id));labelObjects.forEach((o,id)=>o.visible=vis.has(id));edgeObjects.forEach(l=>l.visible=vis.has(l.userData.source)&&vis.has(l.userData.target))}
-function resize(){const el=document.getElementById("map3d"),w=el.clientWidth,h=el.clientHeight||800;camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h)}
-function animate(){requestAnimationFrame(animate);controls.update();renderer.render(scene,camera)}init();
+const colors={
+Logic:0xa78bfa,
+Arithmetic:0x82b7ff,
+Geometry:0x8df0a4,
+Measurement:0xffe27c,
+"Logic / Arithmetic":0xa0a8ff,
+"Measurement / Arithmetic":0xffdc85,
+"Arithmetic / Geometry":0x8cdcb8,
+"Arithmetic / Measurement":0x9ad5ff
+};
+
+async function init(){
+setupScene();
+await loadGraph();
+setupUI();
+buildGraph();
+animate();
+}
+
+async function loadGraph(){
+try{
+graph=await (await fetch("./data/truth-map-generated-preview.json",{cache:"no-store"})).json();
+}catch(e){
+console.error(e);
+document.getElementById("details").innerHTML="<h2>Could not load graph.</h2>";
+}
+}
+
+function setupScene(){
+const el=document.getElementById("map3d");
+const w=el.clientWidth;
+const h=el.clientHeight||820;
+
+scene=new THREE.Scene();
+scene.background=new THREE.Color(0x050812);
+
+camera=new THREE.PerspectiveCamera(60,w/h,.1,4000);
+camera.position.set(0,0,560);
+
+renderer=new THREE.WebGLRenderer({antialias:true});
+renderer.setSize(w,h);
+renderer.setPixelRatio(window.devicePixelRatio);
+el.appendChild(renderer.domElement);
+
+controls=new OrbitControls(camera,renderer.domElement);
+controls.enableDamping=true;
+
+scene.add(new THREE.AmbientLight(0xffffff,.85));
+
+const light=new THREE.PointLight(0x9cbcff,1.4,1600);
+light.position.set(240,180,320);
+scene.add(light);
+
+addStars();
+
+renderer.domElement.addEventListener("click",onClick);
+
+window.addEventListener("resize",resize);
+}
+
+function addStars(){
+const g=new THREE.BufferGeometry();
+const v=[];
+
+for(let i=0;i<1600;i++){
+v.push(
+(Math.random()-.5)*2000,
+(Math.random()-.5)*2000,
+(Math.random()-.5)*2000
+);
+}
+
+g.setAttribute("position",new THREE.Float32BufferAttribute(v,3));
+
+scene.add(new THREE.Points(
+g,
+new THREE.PointsMaterial({
+color:0x73839f,
+size:1.2,
+transparent:true,
+opacity:.4
+})
+));
+}
+
+function buildGraph(){
+const fly=document.getElementById("fly-to");
+
+graph.nodes.forEach((n,i)=>{
+
+const coords=n.stable_coordinates || {
+x:Math.cos(i*.8)*220,
+y:Math.sin(i*.8)*180,
+z:(i%5)*50
+};
+
+const r=10+Math.sqrt((n.dependency_centrality||0)+1)*5;
+
+const c=colors[n.domain]||0x83b6ff;
+
+const mesh=new THREE.Mesh(
+new THREE.SphereGeometry(r,32,32),
+new THREE.MeshStandardMaterial({
+color:c,
+emissive:c,
+emissiveIntensity:.28,
+roughness:.4
+})
+);
+
+mesh.position.set(coords.x,coords.y,coords.z);
+mesh.userData=n;
+
+scene.add(mesh);
+
+nodeObjects.set(n.id,mesh);
+
+const opt=document.createElement("option");
+opt.value=n.id;
+opt.textContent=n.id+" — "+n.title;
+fly.appendChild(opt);
+
+});
+
+graph.edges.forEach(e=>{
+const a=nodeObjects.get(e.source);
+const b=nodeObjects.get(e.target);
+if(!a||!b)return;
+
+const line=new THREE.Line(
+new THREE.BufferGeometry().setFromPoints([a.position,b.position]),
+new THREE.LineBasicMaterial({
+color:0x8492aa,
+transparent:true,
+opacity:.36
+})
+);
+
+scene.add(line);
+edgeObjects.push(line);
+});
+}
+
+function setupUI(){
+
+document.getElementById("fly-to").addEventListener("change",e=>{
+if(e.target.value){
+flyToNode(e.target.value);
+}
+});
+
+document.getElementById("reset-view").addEventListener("click",()=>{
+camera.position.set(0,0,560);
+controls.target.set(0,0,0);
+controls.update();
+});
+
+document.getElementById("search").addEventListener("input",applySearch);
+}
+
+function applySearch(e){
+const q=e.target.value.toLowerCase().trim();
+
+nodeObjects.forEach((obj,id)=>{
+const n=obj.userData;
+const vis=!q ||
+id.toLowerCase().includes(q) ||
+n.title.toLowerCase().includes(q);
+
+obj.visible=vis;
+});
+
+edgeObjects.forEach(line=>{
+line.visible=line.geometry;
+});
+}
+
+function onClick(ev){
+
+const rect=renderer.domElement.getBoundingClientRect();
+
+const mouse=new THREE.Vector2(
+((ev.clientX-rect.left)/rect.width)*2-1,
+-((ev.clientY-rect.top)/rect.height)*2+1
+);
+
+const ray=new THREE.Raycaster();
+
+ray.setFromCamera(mouse,camera);
+
+const hits=ray.intersectObjects([...nodeObjects.values()]);
+
+if(hits.length){
+showNode(hits[0].object.userData);
+}
+}
+
+async function loadProof(path){
+
+if(proofCache.has(path)){
+return proofCache.get(path);
+}
+
+try{
+const text=await (await fetch("./"+path,{cache:"no-store"})).text();
+proofCache.set(path,text);
+return text;
+}catch(e){
+return "Could not load proof file.";
+}
+}
+
+function parseSections(text){
+
+const sections=[];
+const lines=text.split("\n");
+
+let current={title:"Document",content:[]};
+
+for(const line of lines){
+
+if(line.startsWith("## ")){
+sections.push(current);
+current={
+title:line.replace(/^## /,"").trim(),
+content:[]
+};
+}else{
+current.content.push(line);
+}
+}
+
+sections.push(current);
+
+return sections.filter(s=>s.content.join("").trim().length>0);
+}
+
+async function showNode(n){
+
+const deps=(n.dependencies||[]);
+
+let proofText="No proof file.";
+
+if(n.proof_file){
+proofText=await loadProof(n.proof_file);
+}
+
+const sections=parseSections(proofText);
+
+let html=`
+<h2>${n.id}</h2>
+<h3>${n.title}</h3>
+
+<div class="proof-section">
+<p><strong>Domain:</strong> ${n.domain||"Unknown"}</p>
+<p><strong>Confidence:</strong> ${n.confidence_level||"Unknown"}</p>
+</div>
+
+<div class="proof-section">
+<h3>Dependencies</h3>
+`;
+
+if(deps.length){
+deps.forEach(dep=>{
+html+=`<span class="dep-link" data-dep="${dep}">${dep}</span>`;
+});
+}else{
+html+="<p>None</p>";
+}
+
+html+="</div>";
+
+sections.forEach(sec=>{
+html+=`
+<div class="proof-section">
+<h3>${sec.title}</h3>
+<pre style="white-space:pre-wrap;font-family:inherit">${escapeHtml(sec.content.join("\n"))}</pre>
+</div>
+`;
+});
+
+document.getElementById("details").innerHTML=html;
+
+document.querySelectorAll(".dep-link").forEach(el=>{
+el.addEventListener("click",()=>{
+const dep=el.dataset.dep;
+flyToNode(dep);
+});
+});
+}
+
+function flyToNode(id){
+
+const obj=nodeObjects.get(id);
+
+if(!obj)return;
+
+showNode(obj.userData);
+
+const p=obj.position.clone();
+
+const start=camera.position.clone();
+const targetStart=controls.target.clone();
+
+const dir=new THREE.Vector3()
+.subVectors(camera.position,controls.target)
+.normalize();
+
+const end=p.clone().add(dir.multiplyScalar(150));
+
+let t=0;
+
+function step(){
+
+t+=.025;
+
+const k=1-Math.pow(1-t,3);
+
+camera.position.lerpVectors(start,end,k);
+controls.target.lerpVectors(targetStart,p,k);
+
+controls.update();
+
+if(t<1){
+requestAnimationFrame(step);
+}
+}
+
+step();
+}
+
+function escapeHtml(str){
+return str
+.replace(/&/g,"&amp;")
+.replace(/</g,"&lt;")
+.replace(/>/g,"&gt;");
+}
+
+function resize(){
+const el=document.getElementById("map3d");
+const w=el.clientWidth;
+const h=el.clientHeight||820;
+
+camera.aspect=w/h;
+camera.updateProjectionMatrix();
+
+renderer.setSize(w,h);
+}
+
+function animate(){
+requestAnimationFrame(animate);
+controls.update();
+renderer.render(scene,camera);
+}
+
+init();
