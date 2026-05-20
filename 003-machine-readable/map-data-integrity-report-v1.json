@@ -1,0 +1,11 @@
+{
+  "report_id": "UTE-MAP-DATA-INTEGRITY-V1",
+  "status": "initial_integrity_baseline",
+  "checks": [
+    "truth_index_created",
+    "map_data_standard_created",
+    "integrity_tool_created"
+  ],
+  "known_current_truth_count": 19,
+  "recommendation": "Run map-data-integrity/check_map_integrity.py after each major truth or map update."
+}

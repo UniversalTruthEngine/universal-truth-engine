@@ -1,0 +1,101 @@
+{
+  "index_id": "UTE-TRUTH-INDEX-V1",
+  "purpose": "Human and machine navigational index for current Core Truths.",
+  "truths": [
+    {
+      "id": "UTE-FV-0001",
+      "title": "Pythagorean Theorem",
+      "domain": "Geometry"
+    },
+    {
+      "id": "UTE-FV-0002",
+      "title": "Equality / Identity of Quantity",
+      "domain": "Logic / Arithmetic"
+    },
+    {
+      "id": "UTE-FV-0003",
+      "title": "Counting and Natural Numbers",
+      "domain": "Arithmetic"
+    },
+    {
+      "id": "UTE-FV-0004",
+      "title": "Addition",
+      "domain": "Arithmetic"
+    },
+    {
+      "id": "UTE-FV-0005",
+      "title": "Subtraction",
+      "domain": "Arithmetic"
+    },
+    {
+      "id": "UTE-FV-0006",
+      "title": "Multiplication",
+      "domain": "Arithmetic"
+    },
+    {
+      "id": "UTE-FV-0007",
+      "title": "Division",
+      "domain": "Arithmetic"
+    },
+    {
+      "id": "UTE-FV-0008",
+      "title": "Fractions",
+      "domain": "Arithmetic"
+    },
+    {
+      "id": "UTE-FV-0009",
+      "title": "Ratio",
+      "domain": "Arithmetic / Measurement"
+    },
+    {
+      "id": "UTE-FV-0010",
+      "title": "Proportion",
+      "domain": "Arithmetic / Measurement"
+    },
+    {
+      "id": "UTE-FV-0011",
+      "title": "Exponents",
+      "domain": "Arithmetic"
+    },
+    {
+      "id": "UTE-FV-0012",
+      "title": "Roots",
+      "domain": "Arithmetic / Geometry"
+    },
+    {
+      "id": "UTE-FV-0013",
+      "title": "Negative Numbers",
+      "domain": "Arithmetic"
+    },
+    {
+      "id": "UTE-FV-0014",
+      "title": "Approximation",
+      "domain": "Measurement / Arithmetic"
+    },
+    {
+      "id": "UTE-FV-0015",
+      "title": "Law of Identity",
+      "domain": "Logic"
+    },
+    {
+      "id": "UTE-FV-0016",
+      "title": "Law of Non-Contradiction",
+      "domain": "Logic"
+    },
+    {
+      "id": "UTE-FV-0017",
+      "title": "Law of Excluded Middle",
+      "domain": "Logic"
+    },
+    {
+      "id": "UTE-FV-0018",
+      "title": "Modus Ponens",
+      "domain": "Logic"
+    },
+    {
+      "id": "UTE-FV-0019",
+      "title": "Modus Tollens",
+      "domain": "Logic"
+    }
+  ]
+}
