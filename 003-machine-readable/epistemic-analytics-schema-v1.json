@@ -1,0 +1,22 @@
+{
+  "schema_id": "UTE-EPISTEMIC-ANALYTICS-SCHEMA-V1",
+  "purpose": "Defines first analytics outputs for UTE topology health and epistemic structure.",
+  "metrics": {
+    "dependency_centrality": "Number of direct dependents",
+    "recursive_dependency_centrality": "Number of direct and indirect dependents",
+    "bridge_score": "Approximate number of cross-domain dependency connections",
+    "proof_completeness_score": "Approximate proof file completeness score from 0 to 1",
+    "orphan_status": "Whether the truth is disconnected from dependencies and dependents",
+    "missing_dependency_count": "Number of missing referenced dependencies"
+  },
+  "risk_flags": [
+    "missing_metadata",
+    "missing_proof",
+    "missing_entry",
+    "missing_dependency",
+    "high_centrality_weak_proof",
+    "orphan_node",
+    "domain_missing",
+    "confidence_missing"
+  ]
+}

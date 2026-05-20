@@ -1,5 +1,11 @@
-# Generated Map Integration v1
+# Epistemic Analytics Layer v1
 
-This package adds generated preview mode to the UTE map.
+This package adds the first self-analysis layer for UTE.
 
-It does not remove the curated map approach. It enables comparison between curated and generated topology.
+It introduces:
+- epistemic analytics governance
+- analytics schema
+- analytics preview data
+- first analytics script
+
+The goal is for UTE to begin identifying its own structural strengths, weaknesses, and improvement priorities.

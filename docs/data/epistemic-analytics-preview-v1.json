@@ -1,0 +1,79 @@
+{
+  "generated_by": "Epistemic Analytics Layer v1 preview",
+  "summary": {
+    "estimated_truth_count": 19,
+    "main_domains": [
+      "Logic",
+      "Arithmetic",
+      "Geometry",
+      "Measurement"
+    ],
+    "status": "Early-stage but structurally coherent"
+  },
+  "high_centrality_candidates": [
+    {
+      "id": "UTE-FV-0002",
+      "title": "Equality / Identity of Quantity",
+      "reason": "Many arithmetic truths depend on equality."
+    },
+    {
+      "id": "UTE-FV-0003",
+      "title": "Counting and Natural Numbers",
+      "reason": "Arithmetic operations depend on counting."
+    },
+    {
+      "id": "UTE-FV-0015",
+      "title": "Law of Identity",
+      "reason": "Root logical primitive supporting equality and logic."
+    }
+  ],
+  "bridge_candidates": [
+    {
+      "id": "UTE-FV-0001",
+      "title": "Pythagorean Theorem",
+      "domains": [
+        "Geometry",
+        "Arithmetic",
+        "Measurement"
+      ]
+    },
+    {
+      "id": "UTE-FV-0009",
+      "title": "Ratio",
+      "domains": [
+        "Arithmetic",
+        "Measurement",
+        "Future Physics/Chemistry"
+      ]
+    },
+    {
+      "id": "UTE-FV-0014",
+      "title": "Approximation",
+      "domains": [
+        "Measurement",
+        "Arithmetic",
+        "Science"
+      ]
+    }
+  ],
+  "known_risks": [
+    {
+      "risk": "Ontology distinction",
+      "detail": "Identity, equality, equivalence, and substitutability need continued careful separation."
+    },
+    {
+      "risk": "Proof depth unevenness",
+      "detail": "Some early truths have deepened proofs; others remain summary-level."
+    },
+    {
+      "risk": "Generated topology not yet canonical",
+      "detail": "Generated preview exists but live map still uses curated data."
+    }
+  ],
+  "recommended_next_actions": [
+    "Run generated topology script from repo root.",
+    "Compare generated graph against curated map.",
+    "Deepen proofs for remaining high-centrality truths.",
+    "Add missing measurement primitives before expanding physics."
+  ]
+}
