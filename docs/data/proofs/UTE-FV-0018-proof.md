@@ -67,6 +67,7 @@ The meanings of P and Q must remain stable.
 ## Failure Cases
 
 Modus Ponens is misused when:
+
 - the implication is false,
 - P is not actually true,
 - Q is only probable rather than guaranteed,

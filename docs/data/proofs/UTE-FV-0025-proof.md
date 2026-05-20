@@ -1,26 +1,25 @@
-# UTE-FV-0025 Proof
+# UTE-FV-0025 — Ratio Against Reference Proof
 
 ## Claim
 
-Measurement expresses a ratio between a target quantity and a reference quantity.
+Ratio Against Reference is a Core Truth in the Universal Truth Engine.
 
 ## Plain-Language Explanation
 
-Measurement expresses a ratio between a target quantity and a reference quantity.
+Ratio Against Reference is a Core Truth in the Universal Truth Engine.
 
-This principle is part of the UTE foundational structure and supports later mathematical, logical, measurement, or scientific reconstruction.
+This principle supports the UTE foundational structure in the domain of Measurement / Arithmetic.
 
-## Step-by-Step Reasoning
+## Dependencies
 
-1. Define the relevant terms.
-2. Identify the dependencies required for the concept.
-3. Apply stable reasoning, comparison, grouping, ordering, or reference as appropriate.
-4. Preserve the conditions of validity.
-5. Use the principle to support downstream reconstruction.
+- UTE-FV-0021
+- UTE-FV-0023
+- UTE-FV-0024
+- UTE-FV-0009
 
 ## Reconstruction Method
 
-A future intelligence can rediscover this truth by working from its dependencies and testing whether the principle is necessary for stable reasoning, comparison, measurement, or calculation.
+A future intelligence can rediscover this truth by working from its dependencies and testing whether the principle is necessary for stable reasoning, comparison, measurement, calculation, or reconstruction.
 
 ## Conditions of Validity
 
@@ -32,4 +31,4 @@ Requires review if terms are undefined, contexts shift, references drift, or ass
 
 ## Note
 
-This is a browser-accessible proof copy. Deeper proof expansion may be required in a future proof-deepening pass.
+This is a browser-accessible proof copy. Some entries require future proof-deepening passes.

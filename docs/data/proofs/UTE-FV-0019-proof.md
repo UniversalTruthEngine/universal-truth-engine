@@ -1,26 +1,24 @@
-# UTE-FV-0019 Proof
+# UTE-FV-0019 — Modus Tollens Proof
 
 ## Claim
 
-If P implies Q, and Q is false, then P is false.
+Modus Tollens is a Core Truth in the Universal Truth Engine.
 
 ## Plain-Language Explanation
 
-If P implies Q, and Q is false, then P is false.
+Modus Tollens is a Core Truth in the Universal Truth Engine.
 
-This principle is part of the UTE foundational structure and supports later mathematical, logical, measurement, or scientific reconstruction.
+This principle supports the UTE foundational structure in the domain of Logic.
 
-## Step-by-Step Reasoning
+## Dependencies
 
-1. Define the relevant terms.
-2. Identify the dependencies required for the concept.
-3. Apply stable reasoning, comparison, grouping, ordering, or reference as appropriate.
-4. Preserve the conditions of validity.
-5. Use the principle to support downstream reconstruction.
+- UTE-FV-0015
+- UTE-FV-0016
+- UTE-FV-0017
 
 ## Reconstruction Method
 
-A future intelligence can rediscover this truth by working from its dependencies and testing whether the principle is necessary for stable reasoning, comparison, measurement, or calculation.
+A future intelligence can rediscover this truth by working from its dependencies and testing whether the principle is necessary for stable reasoning, comparison, measurement, calculation, or reconstruction.
 
 ## Conditions of Validity
 
@@ -32,4 +30,4 @@ Requires review if terms are undefined, contexts shift, references drift, or ass
 
 ## Note
 
-This is a browser-accessible proof copy. Deeper proof expansion may be required in a future proof-deepening pass.
+This is a browser-accessible proof copy. Some entries require future proof-deepening passes.

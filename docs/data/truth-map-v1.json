@@ -1,5 +1,6 @@
 {
-  "map_id": "UTE-BROWSER-PROOF-FIX-V1",
+  "map_id": "UTE-ASSURANCE-REPAIR-MAP-V1",
+  "generated_by": "UTE Assurance Repair Pack v1",
   "node_count": 29,
   "edge_count": 73,
   "nodes": [
@@ -22,8 +23,8 @@
       "summary": "Pythagorean Theorem is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
         "x": 130,
-        "y": 80,
-        "z": 100
+        "y": 90,
+        "z": 110
       },
       "entry_file": "../001-fact-vault/UTE-FV-0001/entry.md",
       "proof_file": "data/proofs/UTE-FV-0001-proof.md",
@@ -57,9 +58,9 @@
       "dependency_centrality": 14,
       "summary": "Equality / Identity of Quantity is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -73.465918192059,
-        "y": 7.3253200185463925,
-        "z": -35
+        "x": 35,
+        "y": -20,
+        "z": 20
       },
       "entry_file": "../001-fact-vault/UTE-FV-0002/entry.md",
       "proof_file": "data/proofs/UTE-FV-0002-proof.md",
@@ -89,8 +90,8 @@
       "dependency_centrality": 10,
       "summary": "Counting and Natural Numbers is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -110.56674635450463,
-        "y": 54.39122802502655,
+        "x": -112.87,
+        "y": 54.39,
         "z": 0
       },
       "entry_file": "../001-fact-vault/UTE-FV-0003/entry.md",
@@ -116,8 +117,8 @@
       "dependency_centrality": 4,
       "summary": "Addition is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -162.21890781655267,
-        "y": 74.67434825852709,
+        "x": -166.87,
+        "y": 74.67,
         "z": 35
       },
       "entry_file": "../001-fact-vault/UTE-FV-0004/entry.md",
@@ -142,8 +143,8 @@
       "dependency_centrality": 2,
       "summary": "Subtraction is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -215.77615202018566,
-        "y": 63.20866548733862,
+        "x": -222.86,
+        "y": 63.21,
         "z": 70
       },
       "entry_file": "../001-fact-vault/UTE-FV-0005/entry.md",
@@ -170,8 +171,8 @@
       "dependency_centrality": 4,
       "summary": "Multiplication is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -258.1257977101627,
-        "y": 22.801378733514355,
+        "x": -267.13,
+        "y": 22.8,
         "z": -70
       },
       "entry_file": "../001-fact-vault/UTE-FV-0006/entry.md",
@@ -197,8 +198,8 @@
       "dependency_centrality": 2,
       "summary": "Division is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -278.899174626049,
-        "y": -36.654398952217264,
+        "x": -288.85,
+        "y": -36.65,
         "z": -35
       },
       "entry_file": "../001-fact-vault/UTE-FV-0007/entry.md",
@@ -224,8 +225,8 @@
       "dependency_centrality": 3,
       "summary": "Fractions is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -273.0102356019876,
-        "y": -100.60181959965058,
+        "x": -282.69,
+        "y": -100.6,
         "z": 0
       },
       "entry_file": "../001-fact-vault/UTE-FV-0008/entry.md",
@@ -251,9 +252,9 @@
       "dependency_centrality": 2,
       "summary": "Ratio is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 123.12005560258967,
-        "y": -208.46627997508466,
-        "z": 38
+        "x": 141.21,
+        "y": -211.37,
+        "z": 40
       },
       "entry_file": "../001-fact-vault/UTE-FV-0009/entry.md",
       "proof_file": "data/proofs/UTE-FV-0009-proof.md",
@@ -274,9 +275,9 @@
       "dependency_centrality": 0,
       "summary": "Proportion is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 188.24577315453413,
-        "y": -211.20691436924582,
-        "z": 76
+        "x": 210.22,
+        "y": -207.82,
+        "z": 80
       },
       "entry_file": "../001-fact-vault/UTE-FV-0010/entry.md",
       "proof_file": "data/proofs/UTE-FV-0010-proof.md",
@@ -299,8 +300,8 @@
       "dependency_centrality": 1,
       "summary": "Exponents is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -138.7971595990451,
-        "y": -179.660155706208,
+        "x": -142.38,
+        "y": -179.66,
         "z": -70
       },
       "entry_file": "../001-fact-vault/UTE-FV-0011/entry.md",
@@ -324,8 +325,8 @@
       "dependency_centrality": 1,
       "summary": "Roots is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -92.0463248279614,
-        "y": -146.72024232415095,
+        "x": -93.5,
+        "y": -146.72,
         "z": -35
       },
       "entry_file": "../001-fact-vault/UTE-FV-0012/entry.md",
@@ -347,8 +348,8 @@
       "dependency_centrality": 0,
       "summary": "Negative Numbers is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -64.38126846845974,
-        "y": -91.32401476586037,
+        "x": -64.58,
+        "y": -91.32,
         "z": 0
       },
       "entry_file": "../001-fact-vault/UTE-FV-0013/entry.md",
@@ -370,9 +371,9 @@
       "dependency_centrality": 0,
       "summary": "Approximation is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 237.67094731752684,
-        "y": 22.90659746879051,
-        "z": 38
+        "x": 237.87,
+        "y": 33.37,
+        "z": 40
       },
       "entry_file": "../001-fact-vault/UTE-FV-0014/entry.md",
       "proof_file": "data/proofs/UTE-FV-0014-proof.md",
@@ -421,8 +422,8 @@
       "dependency_centrality": 3,
       "summary": "Law of Non-Contradiction is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -52.309062079559176,
-        "y": 39.6243392022664,
+        "x": -54.69,
+        "y": 40.23,
         "z": 105
       },
       "entry_file": "../001-fact-vault/UTE-FV-0016/entry.md",
@@ -446,8 +447,8 @@
       "dependency_centrality": 2,
       "summary": "Law of Excluded Middle is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 22.330535020062545,
-        "y": 31.665781667894606,
+        "x": 23.35,
+        "y": 31.77,
         "z": 0
       },
       "entry_file": "../001-fact-vault/UTE-FV-0017/entry.md",
@@ -469,8 +470,8 @@
       "dependency_centrality": 0,
       "summary": "Modus Ponens is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 86.46773257551422,
-        "y": 60.54903102103722,
+        "x": 90.4,
+        "y": 62.46,
         "z": 35
       },
       "entry_file": "../001-fact-vault/UTE-FV-0018/entry.md",
@@ -492,8 +493,8 @@
       "dependency_centrality": 0,
       "summary": "Modus Tollens is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 109.93780440511053,
-        "y": 112.68984377769094,
+        "x": 114.93,
+        "y": 117.86,
         "z": 70
       },
       "entry_file": "../001-fact-vault/UTE-FV-0019/entry.md",
@@ -515,9 +516,9 @@
       "dependency_centrality": 1,
       "summary": "Distinction is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 97.73090872507106,
-        "y": -195.4019728773733,
-        "z": 76
+        "x": 126.48,
+        "y": -206.56,
+        "z": 80
       },
       "entry_file": "../001-fact-vault/UTE-FV-0020/entry.md",
       "proof_file": "data/proofs/UTE-FV-0020-proof.md",
@@ -542,9 +543,9 @@
       "dependency_centrality": 4,
       "summary": "Comparison is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 160.5310837585661,
-        "y": -214.99867788434497,
-        "z": -76
+        "x": 195.38,
+        "y": -212.19,
+        "z": -80
       },
       "entry_file": "../001-fact-vault/UTE-FV-0021/entry.md",
       "proof_file": "data/proofs/UTE-FV-0021-proof.md",
@@ -567,9 +568,9 @@
       "dependency_centrality": 3,
       "summary": "Ordering is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 223.17461512981936,
-        "y": -194.77739380665946,
-        "z": -38
+        "x": 256.52,
+        "y": -177.44,
+        "z": -40
       },
       "entry_file": "../001-fact-vault/UTE-FV-0022/entry.md",
       "proof_file": "data/proofs/UTE-FV-0022-proof.md",
@@ -593,8 +594,8 @@
       "dependency_centrality": 3,
       "summary": "Reference State is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 267.1847333811188,
-        "y": -140.70240771217098,
+        "x": 291.23,
+        "y": -112.92,
         "z": 0
       },
       "entry_file": "../001-fact-vault/UTE-FV-0023/entry.md",
@@ -617,9 +618,9 @@
       "dependency_centrality": 2,
       "summary": "Repetition is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 279.5806120658083,
-        "y": -68.72318843870039,
-        "z": 38
+        "x": 288.9,
+        "y": -38.35,
+        "z": 40
       },
       "entry_file": "../001-fact-vault/UTE-FV-0024/entry.md",
       "proof_file": "data/proofs/UTE-FV-0024-proof.md",
@@ -643,9 +644,9 @@
       "dependency_centrality": 1,
       "summary": "Ratio Against Reference is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 256.70607491685394,
-        "y": -0.07007551452470295,
-        "z": 76
+        "x": 250.26,
+        "y": 23.5,
+        "z": 80
       },
       "entry_file": "../001-fact-vault/UTE-FV-0025/entry.md",
       "proof_file": "data/proofs/UTE-FV-0025-proof.md",
@@ -671,9 +672,9 @@
       "dependency_centrality": 3,
       "summary": "Measurement is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 205.307988531675,
-        "y": 45.00762977916476,
-        "z": -76
+        "x": 187.09,
+        "y": 53.73,
+        "z": -80
       },
       "entry_file": "../001-fact-vault/UTE-FV-0026/entry.md",
       "proof_file": "data/proofs/UTE-FV-0026-proof.md",
@@ -694,9 +695,9 @@
       "dependency_centrality": 1,
       "summary": "Standard Unit is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 140.5462676200338,
-        "y": 53.21421517707279,
-        "z": -38
+        "x": 118.71,
+        "y": 43.11,
+        "z": -40
       },
       "entry_file": "../001-fact-vault/UTE-FV-0027/entry.md",
       "proof_file": "data/proofs/UTE-FV-0027-proof.md",
@@ -719,8 +720,8 @@
       "dependency_centrality": 1,
       "summary": "Scale is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 81.5224436693164,
-        "y": 22.12914047156751,
+        "x": 65.99,
+        "y": -5.12,
         "z": 0
       },
       "entry_file": "../001-fact-vault/UTE-FV-0028/entry.md",
@@ -742,9 +743,9 @@
       "dependency_centrality": 0,
       "summary": "Coordinate System is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 45.6456499735383,
-        "y": -39.07902183933042,
-        "z": 38
+        "x": 45.05,
+        "y": -76.23,
+        "z": 40
       },
       "entry_file": "../001-fact-vault/UTE-FV-0029/entry.md",
       "proof_file": "data/proofs/UTE-FV-0029-proof.md",

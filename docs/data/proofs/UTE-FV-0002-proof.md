@@ -31,6 +31,7 @@ A thing is itself.
 Equality of quantity says two different representations may have the same value.
 
 Example:
+
 - five stones,
 - five shells.
 
@@ -88,6 +89,7 @@ because stones and shells are not identical objects.
 ## Failure Cases
 
 Equality becomes ambiguous when:
+
 - units differ,
 - context changes,
 - approximate equality is treated as exact,

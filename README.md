@@ -5,6 +5,7 @@ The Universal Truth Engine (UTE) is a long-term knowledge architecture designed 
 UTE organises knowledge into a navigable universe of interconnected Core Truths with explicit dependency relationships, layered proofs, machine-readable metadata, governance standards, and reconstruction pathways.
 
 The project currently focuses on:
+
 - mathematical truths,
 - logical truths,
 - scientific foundations,
@@ -21,12 +22,13 @@ Explore the current live UTE map here:
 
 https://universaltruthengine.github.io/universal-truth-engine/
 
-The current map supports:
+The map is intended to support:
+
 - interactive 3D navigation,
 - dependency traversal,
 - proof inspection,
-- generated topology preview mode,
-- and topology health preview data.
+- generated topology preview,
+- and topology health data.
 
 ---
 
@@ -51,6 +53,7 @@ docs/                   Live interactive map
 UTE is built around the idea that foundational knowledge should not be stored merely as isolated statements.
 
 Each Core Truth should be:
+
 - human-readable,
 - machine-readable,
 - dependency-aware,
@@ -65,8 +68,6 @@ The long-term goal is for the visible knowledge universe to emerge dynamically f
 
 ## Current Architectural Layers
 
-UTE currently includes:
-
 | Layer | Purpose |
 |---|---|
 | Core Truth Vault | Stores structured truth entries |
@@ -76,6 +77,7 @@ UTE currently includes:
 | Interactive Map | Provides navigable 3D exploration |
 | Governance Layer | Preserves epistemic standards |
 | Analytics Layer | Begins structural self-analysis |
+| Assurance Layer | Checks consistency and prevents drift |
 
 ---
 
@@ -86,6 +88,7 @@ The Universal Truth Engine concept originated with:
 **John David Stiles of Staffordshire, United Kingdom**
 
 and was first shared with modern AI systems on **18th May 2026** as a concept involving:
+
 - a navigable universe/cosmos of truths,
 - dependency-aware epistemic topology,
 - and a long-term reconstruction-oriented knowledge system designed for both human and machine reasoning.
@@ -105,12 +108,14 @@ for origins, milestones, and early external feedback.
 UTE is in active early-stage development.
 
 Completed foundations include:
+
 - Core Truth standards,
 - proof standards,
 - dependency standards,
 - confidence and uncertainty standards,
 - storage efficiency standards,
 - repository layering rules,
+- assurance and verification protocol,
 - compliance passes,
 - dynamic topology architecture,
 - generated map preview,
@@ -121,6 +126,7 @@ Completed foundations include:
 ## Near-Term Development Priorities
 
 Current priorities include:
+
 - keeping the Fact Vault and map data aligned,
 - improving proof depth,
 - generating topology from metadata,
@@ -133,6 +139,7 @@ Current priorities include:
 ## Long-Term Vision
 
 UTE aims to become:
+
 - a resilient structured archive of foundational knowledge,
 - an inspectable proof system,
 - a machine-readable epistemic framework,

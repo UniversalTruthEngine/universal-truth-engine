@@ -49,6 +49,7 @@ Each next number represents adding one more unit.
 ## Reconstruction Method
 
 Counting can be rediscovered by:
+
 - gathering objects,
 - making one mark per object,
 - preserving the mark sequence,
@@ -58,6 +59,7 @@ Counting can be rediscovered by:
 ## Failure Cases
 
 Counting fails if:
+
 - objects are not distinguishable,
 - objects are counted twice,
 - objects are skipped,

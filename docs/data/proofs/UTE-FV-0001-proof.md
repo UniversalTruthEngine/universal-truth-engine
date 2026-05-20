@@ -15,6 +15,7 @@ where `a` and `b` are the perpendicular side lengths, and `c` is the hypotenuse.
 A right triangle has one angle of 90 degrees.
 
 If a square is built on each side of the triangle:
+
 - the square on side `a` has area `a²`,
 - the square on side `b` has area `b²`,
 - the square on side `c` has area `c²`.
@@ -76,6 +77,7 @@ a² + b² = c²
 ## Why This Proof Works
 
 The same total area is described in two valid ways:
+
 1. by the outer square,
 2. by the four triangles plus the central square.
 
@@ -84,6 +86,7 @@ Because area is conserved under rearrangement, both descriptions must match.
 ## Reconstruction Method
 
 A future society can rediscover this theorem by:
+
 1. drawing right triangles on a flat surface,
 2. constructing squares on each side,
 3. comparing areas,
@@ -100,6 +103,7 @@ A practical example:
 ## Conditions of Validity
 
 This theorem assumes:
+
 - Euclidean geometry,
 - flat space,
 - straight line segments,
@@ -110,6 +114,7 @@ This theorem assumes:
 ## Failure Cases
 
 The theorem does not apply unchanged:
+
 - on curved surfaces,
 - in non-Euclidean geometry,
 - if the angle is not a right angle,

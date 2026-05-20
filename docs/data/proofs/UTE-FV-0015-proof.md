@@ -48,6 +48,7 @@ For every x, x equals itself.
 A future intelligence can rediscover the Law of Identity by attempting to build any stable symbol system.
 
 If a mark, object, or signal cannot continue to refer to itself:
+
 - counting fails,
 - memory fails,
 - comparison fails,
