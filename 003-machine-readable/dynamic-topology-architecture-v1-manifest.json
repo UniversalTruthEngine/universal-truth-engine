@@ -1,0 +1,11 @@
+{
+  "package": "Dynamic Topology Architecture v1",
+  "adds": [
+    "002-truth-topology/dynamic-topology-architecture-v1.md",
+    "002-truth-topology/topology-health-report-v1.md",
+    "003-machine-readable/dynamic-topology-schema-v1.json",
+    "006-tools/topology-generator/generate_topology.py",
+    "006-tools/topology-generator/README.md"
+  ],
+  "purpose": "Begin transition from handcrafted map data to metadata-driven topology generation."
+}

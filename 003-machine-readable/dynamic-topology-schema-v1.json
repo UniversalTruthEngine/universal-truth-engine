@@ -1,0 +1,24 @@
+{
+  "schema_id": "UTE-DYNAMIC-TOPOLOGY-SCHEMA-V1",
+  "purpose": "Defines generated truth graph fields for dynamic topology generation.",
+  "node_fields": {
+    "id": "Stable Core Truth ID",
+    "title": "Truth title",
+    "domain": "Primary knowledge domain",
+    "confidence_level": "UTE confidence level",
+    "dependencies": "Direct dependency IDs",
+    "depended_on_by": "Direct dependents",
+    "dependency_centrality": "Direct dependent count",
+    "recursive_dependency_centrality": "Direct and indirect dependent count",
+    "proof_file": "Path to proof file",
+    "entry_file": "Path to entry file",
+    "metadata_file": "Path to metadata file",
+    "bridge_score": "Cross-domain bridge estimate"
+  },
+  "edge_fields": {
+    "source": "Dependent truth ID",
+    "target": "Dependency truth ID",
+    "type": "Relationship type",
+    "weight": "Dependency weight"
+  }
+}
