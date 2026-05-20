@@ -1,12 +1,14 @@
 {
-  "map_id": "UTE-MAP-ENGINE-V7",
-  "description": "Adds Proof Library v1 with full human-readable proof files.",
+  "map_id": "UTE-REPAIRED-MAP-V1",
+  "generated_by": "UTE Verified Repairs v1",
+  "node_count": 29,
+  "edge_count": 73,
   "nodes": [
     {
       "id": "UTE-FV-0001",
       "title": "Pythagorean Theorem",
+      "domain": "Geometry",
       "category": "Geometry",
-      "region": "Geometry Bridge",
       "confidence_level": 5,
       "dependencies": [
         "UTE-FV-0002",
@@ -16,125 +18,184 @@
         "UTE-FV-0008",
         "UTE-FV-0012"
       ],
+      "depended_on_by": [],
       "dependency_centrality": 0,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Pythagorean Theorem is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 160,
-        "y": 70,
-        "z": 90
+        "x": 120,
+        "y": 120,
+        "z": 110
       },
-      "summary": "For a right triangle in Euclidean geometry, the square of the hypotenuse equals the sum of the squares of the other two sides.",
-      "claim": "For a right triangle on a flat Euclidean plane: a\u00b2 + b\u00b2 = c\u00b2.",
-      "truth_data_file": "data/truths/UTE-FV-0001.json",
-      "proof_file": "data/proofs/UTE-FV-0001-proof.md"
+      "entry_file": "../001-fact-vault/UTE-FV-0001/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0001/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0001/metadata.json"
     },
     {
       "id": "UTE-FV-0002",
       "title": "Equality / Identity of Quantity",
-      "category": "Logic",
-      "region": "Foundational Core",
+      "domain": "Logic / Arithmetic",
+      "category": "Logic / Arithmetic",
       "confidence_level": 5,
-      "dependencies": [],
-      "dependency_centrality": 13,
+      "dependencies": [
+        "UTE-FV-0015"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0001",
+        "UTE-FV-0003",
+        "UTE-FV-0004",
+        "UTE-FV-0005",
+        "UTE-FV-0006",
+        "UTE-FV-0007",
+        "UTE-FV-0008",
+        "UTE-FV-0009",
+        "UTE-FV-0010",
+        "UTE-FV-0011",
+        "UTE-FV-0012",
+        "UTE-FV-0013",
+        "UTE-FV-0014",
+        "UTE-FV-0021"
+      ],
+      "dependency_centrality": 14,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 1,
+      "summary": "Equality / Identity of Quantity is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 0,
-        "y": 0,
-        "z": 0
+        "x": 35,
+        "y": -20,
+        "z": 20
       },
-      "summary": "Equality allows two quantities, symbols, or descriptions to be treated as the same within a defined context.",
-      "claim": "If A = B, then A and B may be substituted for one another in valid contexts without changing truth.",
-      "truth_data_file": "data/truths/UTE-FV-0002.json",
-      "proof_file": "data/proofs/UTE-FV-0002-proof.md"
+      "entry_file": "../001-fact-vault/UTE-FV-0002/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0002/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0002/metadata.json"
     },
     {
       "id": "UTE-FV-0003",
       "title": "Counting and Natural Numbers",
+      "domain": "Arithmetic",
       "category": "Arithmetic",
-      "region": "Arithmetic Cluster",
       "confidence_level": 5,
       "dependencies": [
         "UTE-FV-0002"
       ],
+      "depended_on_by": [
+        "UTE-FV-0001",
+        "UTE-FV-0004",
+        "UTE-FV-0005",
+        "UTE-FV-0006",
+        "UTE-FV-0007",
+        "UTE-FV-0008",
+        "UTE-FV-0009",
+        "UTE-FV-0011",
+        "UTE-FV-0013",
+        "UTE-FV-0014"
+      ],
       "dependency_centrality": 10,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Counting and Natural Numbers is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -80,
-        "y": -35,
-        "z": 20
+        "x": -134.44017684904995,
+        "y": 43.48850726920061,
+        "z": 0
       },
-      "summary": "Counting assigns stable ordered quantities to discrete collections.",
-      "claim": "Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.",
-      "truth_data_file": "data/truths/UTE-FV-0003.json",
-      "proof_file": "data/proofs/UTE-FV-0003-proof.md"
+      "entry_file": "../001-fact-vault/UTE-FV-0003/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0003/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0003/metadata.json"
     },
     {
       "id": "UTE-FV-0004",
       "title": "Addition",
+      "domain": "Arithmetic",
       "category": "Arithmetic",
-      "region": "Arithmetic Cluster",
       "confidence_level": 5,
       "dependencies": [
         "UTE-FV-0002",
         "UTE-FV-0003"
       ],
+      "depended_on_by": [
+        "UTE-FV-0001",
+        "UTE-FV-0005",
+        "UTE-FV-0006",
+        "UTE-FV-0007"
+      ],
       "dependency_centrality": 4,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Addition is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -120,
-        "y": -80,
-        "z": 45
+        "x": -179.02834946475593,
+        "y": 59.99300642759596,
+        "z": 35
       },
-      "summary": "Addition describes the combination of quantities into a total.",
-      "claim": "Addition combines quantities into a larger quantity while preserving consistent quantity relationships.",
-      "truth_data_file": "data/truths/UTE-FV-0004.json",
-      "proof_file": "data/proofs/UTE-FV-0004-proof.md"
+      "entry_file": "../001-fact-vault/UTE-FV-0004/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0004/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0004/metadata.json"
     },
     {
       "id": "UTE-FV-0005",
       "title": "Subtraction",
+      "domain": "Arithmetic",
       "category": "Arithmetic",
-      "region": "Arithmetic Cluster",
       "confidence_level": 5,
       "dependencies": [
         "UTE-FV-0002",
         "UTE-FV-0003",
         "UTE-FV-0004"
       ],
+      "depended_on_by": [
+        "UTE-FV-0013",
+        "UTE-FV-0014"
+      ],
       "dependency_centrality": 2,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Subtraction is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -165,
-        "y": -110,
-        "z": -25
+        "x": -223.87338921009234,
+        "y": 44.77595754090197,
+        "z": 70
       },
-      "summary": "Subtraction describes removal, comparison, or difference between quantities.",
-      "claim": "Subtraction describes the removal of a quantity from another quantity, or the difference between two quantities.",
-      "truth_data_file": "data/truths/UTE-FV-0005.json",
-      "proof_file": "data/proofs/UTE-FV-0005-proof.md"
+      "entry_file": "../001-fact-vault/UTE-FV-0005/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0005/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0005/metadata.json"
     },
     {
       "id": "UTE-FV-0006",
       "title": "Multiplication",
+      "domain": "Arithmetic",
       "category": "Arithmetic",
-      "region": "Arithmetic Cluster",
       "confidence_level": 5,
       "dependencies": [
         "UTE-FV-0002",
         "UTE-FV-0003",
         "UTE-FV-0004"
       ],
+      "depended_on_by": [
+        "UTE-FV-0001",
+        "UTE-FV-0007",
+        "UTE-FV-0011",
+        "UTE-FV-0012"
+      ],
       "dependency_centrality": 4,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Multiplication is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -155,
-        "y": -45,
-        "z": 80
+        "x": -257.1199878032053,
+        "y": 1.860164618575702,
+        "z": -70
       },
-      "summary": "Multiplication compresses repeated addition and enables scaling.",
-      "claim": "Multiplication represents repeated addition or the scaling of one quantity by another.",
-      "truth_data_file": "data/truths/UTE-FV-0006.json",
-      "proof_file": "data/proofs/UTE-FV-0006-proof.md"
+      "entry_file": "../001-fact-vault/UTE-FV-0006/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0006/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0006/metadata.json"
     },
     {
       "id": "UTE-FV-0007",
       "title": "Division",
+      "domain": "Arithmetic",
       "category": "Arithmetic",
-      "region": "Arithmetic Cluster",
       "confidence_level": 5,
       "dependencies": [
         "UTE-FV-0002",
@@ -142,44 +203,57 @@
         "UTE-FV-0004",
         "UTE-FV-0006"
       ],
+      "depended_on_by": [
+        "UTE-FV-0008",
+        "UTE-FV-0009"
+      ],
       "dependency_centrality": 2,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Division is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -210,
-        "y": -60,
-        "z": 120
+        "x": -269.97901989416357,
+        "y": -57.409082912868485,
+        "z": -35
       },
-      "summary": "Division partitions quantities into equal parts or equal groups.",
-      "claim": "Division describes partitioning a quantity into equal parts or determining how many equal groups fit within a quantity.",
-      "truth_data_file": "data/truths/UTE-FV-0007.json",
-      "proof_file": "data/proofs/UTE-FV-0007-proof.md"
+      "entry_file": "../001-fact-vault/UTE-FV-0007/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0007/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0007/metadata.json"
     },
     {
       "id": "UTE-FV-0008",
       "title": "Fractions",
+      "domain": "Arithmetic",
       "category": "Arithmetic",
-      "region": "Arithmetic Cluster",
       "confidence_level": 5,
       "dependencies": [
         "UTE-FV-0002",
         "UTE-FV-0003",
         "UTE-FV-0007"
       ],
+      "depended_on_by": [
+        "UTE-FV-0001",
+        "UTE-FV-0009",
+        "UTE-FV-0010"
+      ],
       "dependency_centrality": 3,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Fractions is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -245,
-        "y": -10,
-        "z": 80
+        "x": -259.0510506622987,
+        "y": -117.36326953624115,
+        "z": 0
       },
-      "summary": "Fractions represent selected equal parts of a whole.",
-      "claim": "Fractions represent quantities formed by dividing a whole into equal parts and selecting some number of those parts.",
-      "truth_data_file": "data/truths/UTE-FV-0008.json",
-      "proof_file": "data/proofs/UTE-FV-0008-proof.md"
+      "entry_file": "../001-fact-vault/UTE-FV-0008/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0008/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0008/metadata.json"
     },
     {
       "id": "UTE-FV-0009",
       "title": "Ratio",
-      "category": "Arithmetic",
-      "region": "Arithmetic Cluster",
+      "domain": "Arithmetic / Measurement",
+      "category": "Arithmetic / Measurement",
       "confidence_level": 5,
       "dependencies": [
         "UTE-FV-0002",
@@ -187,126 +261,553 @@
         "UTE-FV-0007",
         "UTE-FV-0008"
       ],
-      "dependency_centrality": 1,
+      "depended_on_by": [
+        "UTE-FV-0010",
+        "UTE-FV-0025"
+      ],
+      "dependency_centrality": 2,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 1,
+      "summary": "Ratio is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -290,
-        "y": 20,
-        "z": 55
+        "x": 147.044164722142,
+        "y": -219.65953802075214,
+        "z": 40
       },
-      "summary": "A ratio compares two quantities.",
-      "claim": "A ratio compares two quantities by expressing how much of one quantity corresponds to another.",
-      "truth_data_file": "data/truths/UTE-FV-0009.json",
-      "proof_file": "data/proofs/UTE-FV-0009-proof.md"
+      "entry_file": "../001-fact-vault/UTE-FV-0009/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0009/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0009/metadata.json"
     },
     {
       "id": "UTE-FV-0010",
       "title": "Proportion",
-      "category": "Arithmetic",
-      "region": "Arithmetic Cluster",
+      "domain": "Arithmetic / Measurement",
+      "category": "Arithmetic / Measurement",
       "confidence_level": 5,
       "dependencies": [
         "UTE-FV-0002",
         "UTE-FV-0008",
         "UTE-FV-0009"
       ],
+      "depended_on_by": [],
       "dependency_centrality": 0,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 1,
+      "summary": "Proportion is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -330,
-        "y": 55,
-        "z": 40
+        "x": 208.4699974916734,
+        "y": -203.60807405077293,
+        "z": 80
       },
-      "summary": "Proportion expresses equality between ratios.",
-      "claim": "A proportion states that two ratios are equal within a defined context.",
-      "truth_data_file": "data/truths/UTE-FV-0010.json",
-      "proof_file": "data/proofs/UTE-FV-0010-proof.md"
+      "entry_file": "../001-fact-vault/UTE-FV-0010/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0010/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0010/metadata.json"
     },
     {
       "id": "UTE-FV-0011",
       "title": "Exponents",
+      "domain": "Arithmetic",
       "category": "Arithmetic",
-      "region": "Arithmetic Cluster",
       "confidence_level": 5,
       "dependencies": [
         "UTE-FV-0002",
         "UTE-FV-0003",
         "UTE-FV-0006"
       ],
+      "depended_on_by": [
+        "UTE-FV-0012"
+      ],
       "dependency_centrality": 1,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Exponents is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -200,
-        "y": -125,
-        "z": 80
+        "x": -137.83349958296606,
+        "y": -166.01455868641838,
+        "z": -70
       },
-      "summary": "Exponents compress repeated multiplication.",
-      "claim": "Exponents represent repeated multiplication of a quantity by itself or structured scaling relations.",
-      "truth_data_file": "data/truths/UTE-FV-0011.json",
-      "proof_file": "data/proofs/UTE-FV-0011-proof.md"
+      "entry_file": "../001-fact-vault/UTE-FV-0011/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0011/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0011/metadata.json"
     },
     {
       "id": "UTE-FV-0012",
       "title": "Roots",
-      "category": "Arithmetic",
-      "region": "Arithmetic Cluster",
+      "domain": "Arithmetic / Geometry",
+      "category": "Arithmetic / Geometry",
       "confidence_level": 5,
       "dependencies": [
         "UTE-FV-0002",
         "UTE-FV-0006",
         "UTE-FV-0011"
       ],
+      "depended_on_by": [
+        "UTE-FV-0001"
+      ],
       "dependency_centrality": 1,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 1,
+      "summary": "Roots is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -235,
-        "y": -150,
-        "z": 115
+        "x": 132,
+        "y": 76,
+        "z": 110
       },
-      "summary": "Roots invert exponentiation.",
-      "claim": "A root is a value which, when multiplied by itself a specified number of times, produces a given quantity.",
-      "truth_data_file": "data/truths/UTE-FV-0012.json",
-      "proof_file": "data/proofs/UTE-FV-0012-proof.md"
+      "entry_file": "../001-fact-vault/UTE-FV-0012/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0012/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0012/metadata.json"
     },
     {
       "id": "UTE-FV-0013",
       "title": "Negative Numbers",
+      "domain": "Arithmetic",
       "category": "Arithmetic",
-      "region": "Arithmetic Cluster",
       "confidence_level": 5,
       "dependencies": [
         "UTE-FV-0002",
         "UTE-FV-0003",
         "UTE-FV-0005"
       ],
+      "depended_on_by": [],
       "dependency_centrality": 0,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Negative Numbers is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": -190,
-        "y": -165,
-        "z": -70
+        "x": -90.08391064190488,
+        "y": -65.18062622504745,
+        "z": 0
       },
-      "summary": "Negative numbers represent quantities below zero, opposite directions, deficits, or signed change.",
-      "claim": "Negative numbers represent quantities below a defined zero point, directed opposites, deficits, or inverse positions on an ordered scale.",
-      "truth_data_file": "data/truths/UTE-FV-0013.json",
-      "proof_file": "data/proofs/UTE-FV-0013-proof.md"
+      "entry_file": "../001-fact-vault/UTE-FV-0013/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0013/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0013/metadata.json"
     },
     {
       "id": "UTE-FV-0014",
       "title": "Approximation",
-      "category": "Measurement",
-      "region": "Measurement Bridge",
+      "domain": "Measurement / Arithmetic",
+      "category": "Measurement / Arithmetic",
       "confidence_level": 5,
       "dependencies": [
         "UTE-FV-0002",
         "UTE-FV-0003",
         "UTE-FV-0005"
       ],
+      "depended_on_by": [],
       "dependency_centrality": 0,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 1,
+      "summary": "Approximation is a Core Truth in the Universal Truth Engine.",
       "stable_coordinates": {
-        "x": 45,
-        "y": -145,
+        "x": 188.97328572164125,
+        "y": 33.64448101292412,
+        "z": 40
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0014/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0014/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0014/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0015",
+      "title": "Law of Identity",
+      "domain": "Logic",
+      "category": "Logic",
+      "confidence_level": 5,
+      "dependencies": [],
+      "depended_on_by": [
+        "UTE-FV-0002",
+        "UTE-FV-0016",
+        "UTE-FV-0017",
+        "UTE-FV-0018",
+        "UTE-FV-0019",
+        "UTE-FV-0020"
+      ],
+      "dependency_centrality": 6,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Law of Identity is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0015/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0015/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0015/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0016",
+      "title": "Law of Non-Contradiction",
+      "domain": "Logic",
+      "category": "Logic",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0015"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0017",
+        "UTE-FV-0018",
+        "UTE-FV-0019"
+      ],
+      "dependency_centrality": 3,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Law of Non-Contradiction is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": -19.432990645533653,
+        "y": 36.525101594680706,
+        "z": 0
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0016/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0016/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0016/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0017",
+      "title": "Law of Excluded Middle",
+      "domain": "Logic",
+      "category": "Logic",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0015",
+        "UTE-FV-0016"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0018",
+        "UTE-FV-0019"
+      ],
+      "dependency_centrality": 2,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Law of Excluded Middle is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 50.07159772707912,
+        "y": 45.751068855347356,
+        "z": 45
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0017/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0017/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0017/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0018",
+      "title": "Modus Ponens",
+      "domain": "Logic",
+      "category": "Logic",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0015",
+        "UTE-FV-0016",
+        "UTE-FV-0017"
+      ],
+      "depended_on_by": [],
+      "dependency_centrality": 0,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Modus Ponens is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 94.7212187224462,
+        "y": 89.35141206245294,
+        "z": 90
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0018/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0018/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0018/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0019",
+      "title": "Modus Tollens",
+      "domain": "Logic",
+      "category": "Logic",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0015",
+        "UTE-FV-0016",
+        "UTE-FV-0017"
+      ],
+      "depended_on_by": [],
+      "dependency_centrality": 0,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Modus Tollens is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 92.3523120864066,
+        "y": 145.68342043300868,
+        "z": 0
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0019/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0019/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0019/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0020",
+      "title": "Distinction",
+      "domain": "Logic / Measurement",
+      "category": "Logic / Measurement",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0015"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0021"
+      ],
+      "dependency_centrality": 1,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 1,
+      "summary": "Distinction is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 157.6865612086898,
+        "y": -219.96122192520446,
+        "z": 80
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0020/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0020/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0020/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0021",
+      "title": "Comparison",
+      "domain": "Measurement",
+      "category": "Measurement",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0020",
+        "UTE-FV-0002"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0022",
+        "UTE-FV-0023",
+        "UTE-FV-0025",
+        "UTE-FV-0026"
+      ],
+      "dependency_centrality": 4,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Comparison is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 217.5118592744771,
+        "y": -196.96771734593216,
         "z": -80
       },
-      "summary": "Approximation represents values close enough for a defined purpose or tolerance.",
-      "claim": "Approximation represents a value close enough to a target value for a defined purpose, tolerance, or measurement resolution.",
-      "truth_data_file": "data/truths/UTE-FV-0014.json",
-      "proof_file": "data/proofs/UTE-FV-0014-proof.md"
+      "entry_file": "../001-fact-vault/UTE-FV-0021/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0021/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0021/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0022",
+      "title": "Ordering",
+      "domain": "Measurement / Logic",
+      "category": "Measurement / Logic",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0021"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0023",
+        "UTE-FV-0028",
+        "UTE-FV-0029"
+      ],
+      "dependency_centrality": 3,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 1,
+      "summary": "Ordering is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 256.89110971101894,
+        "y": -138.98777868790975,
+        "z": -40
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0022/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0022/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0022/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0023",
+      "title": "Reference State",
+      "domain": "Measurement",
+      "category": "Measurement",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0021",
+        "UTE-FV-0022"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0024",
+        "UTE-FV-0025",
+        "UTE-FV-0026"
+      ],
+      "dependency_centrality": 3,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Reference State is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 262.9443559888788,
+        "y": -64.98517700356325,
+        "z": 0
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0023/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0023/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0023/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0024",
+      "title": "Repetition",
+      "domain": "Measurement",
+      "category": "Measurement",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0023"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0025",
+        "UTE-FV-0026"
+      ],
+      "dependency_centrality": 2,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Repetition is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 233.69173439667267,
+        "y": 0.8357089494274135,
+        "z": 40
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0024/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0024/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0024/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0025",
+      "title": "Ratio Against Reference",
+      "domain": "Measurement / Arithmetic",
+      "category": "Measurement / Arithmetic",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0021",
+        "UTE-FV-0023",
+        "UTE-FV-0024",
+        "UTE-FV-0009"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0026"
+      ],
+      "dependency_centrality": 1,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 1,
+      "summary": "Ratio Against Reference is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 178.7010373708472,
+        "y": 36.94653263308864,
+        "z": 80
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0025/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0025/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0025/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0026",
+      "title": "Measurement",
+      "domain": "Measurement",
+      "category": "Measurement",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0021",
+        "UTE-FV-0023",
+        "UTE-FV-0024",
+        "UTE-FV-0025"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0027",
+        "UTE-FV-0028",
+        "UTE-FV-0029"
+      ],
+      "dependency_centrality": 3,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Measurement is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 115.95833065324263,
+        "y": 31.536357218208877,
+        "z": -80
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0026/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0026/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0026/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0027",
+      "title": "Standard Unit",
+      "domain": "Measurement",
+      "category": "Measurement",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0026"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0028"
+      ],
+      "dependency_centrality": 1,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Standard Unit is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 65.98516623135043,
+        "y": -13.625285793525123,
+        "z": -40
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0027/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0027/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0027/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0028",
+      "title": "Scale",
+      "domain": "Measurement",
+      "category": "Measurement",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0022",
+        "UTE-FV-0026",
+        "UTE-FV-0027"
+      ],
+      "depended_on_by": [
+        "UTE-FV-0029"
+      ],
+      "dependency_centrality": 1,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 0,
+      "summary": "Scale is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 45.12650187498839,
+        "y": -83.7671655548828,
+        "z": 0
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0028/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0028/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0028/metadata.json"
+    },
+    {
+      "id": "UTE-FV-0029",
+      "title": "Coordinate System",
+      "domain": "Measurement / Geometry",
+      "category": "Measurement / Geometry",
+      "confidence_level": 5,
+      "dependencies": [
+        "UTE-FV-0022",
+        "UTE-FV-0026",
+        "UTE-FV-0028"
+      ],
+      "depended_on_by": [],
+      "dependency_centrality": 0,
+      "recursive_dependency_centrality": 0,
+      "bridge_score": 1,
+      "summary": "Coordinate System is a Core Truth in the Universal Truth Engine.",
+      "stable_coordinates": {
+        "x": 60.20467897445252,
+        "y": -155.9476477735841,
+        "z": 40
+      },
+      "entry_file": "../001-fact-vault/UTE-FV-0029/entry.md",
+      "proof_file": "../001-fact-vault/UTE-FV-0029/proof.md",
+      "metadata_file": "../001-fact-vault/UTE-FV-0029/metadata.json"
     }
   ],
   "edges": [
@@ -343,6 +844,12 @@
     {
       "source": "UTE-FV-0001",
       "target": "UTE-FV-0012",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0002",
+      "target": "UTE-FV-0015",
       "type": "depends_on",
       "weight": 1.0
     },
@@ -553,6 +1060,192 @@
     {
       "source": "UTE-FV-0014",
       "target": "UTE-FV-0005",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0016",
+      "target": "UTE-FV-0015",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0017",
+      "target": "UTE-FV-0015",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0017",
+      "target": "UTE-FV-0016",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0018",
+      "target": "UTE-FV-0015",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0018",
+      "target": "UTE-FV-0016",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0018",
+      "target": "UTE-FV-0017",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0019",
+      "target": "UTE-FV-0015",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0019",
+      "target": "UTE-FV-0016",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0019",
+      "target": "UTE-FV-0017",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0020",
+      "target": "UTE-FV-0015",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0021",
+      "target": "UTE-FV-0020",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0021",
+      "target": "UTE-FV-0002",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0022",
+      "target": "UTE-FV-0021",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0023",
+      "target": "UTE-FV-0021",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0023",
+      "target": "UTE-FV-0022",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0024",
+      "target": "UTE-FV-0023",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0025",
+      "target": "UTE-FV-0021",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0025",
+      "target": "UTE-FV-0023",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0025",
+      "target": "UTE-FV-0024",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0025",
+      "target": "UTE-FV-0009",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0026",
+      "target": "UTE-FV-0021",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0026",
+      "target": "UTE-FV-0023",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0026",
+      "target": "UTE-FV-0024",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0026",
+      "target": "UTE-FV-0025",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0027",
+      "target": "UTE-FV-0026",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0028",
+      "target": "UTE-FV-0022",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0028",
+      "target": "UTE-FV-0026",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0028",
+      "target": "UTE-FV-0027",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0029",
+      "target": "UTE-FV-0022",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0029",
+      "target": "UTE-FV-0026",
+      "type": "depends_on",
+      "weight": 1.0
+    },
+    {
+      "source": "UTE-FV-0029",
+      "target": "UTE-FV-0028",
       "type": "depends_on",
       "weight": 1.0
     }

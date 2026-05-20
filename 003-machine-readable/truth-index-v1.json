@@ -1,101 +1,282 @@
 {
-  "index_id": "UTE-TRUTH-INDEX-V1",
-  "purpose": "Human and machine navigational index for current Core Truths.",
+  "index_id": "UTE-TRUTH-INDEX-V2",
+  "purpose": "Updated truth index including UTE-FV-0001 through UTE-FV-0029.",
+  "truth_count": 29,
   "truths": [
     {
       "id": "UTE-FV-0001",
       "title": "Pythagorean Theorem",
-      "domain": "Geometry"
+      "domain": "Geometry",
+      "dependencies": [
+        "UTE-FV-0002",
+        "UTE-FV-0003",
+        "UTE-FV-0004",
+        "UTE-FV-0006",
+        "UTE-FV-0008",
+        "UTE-FV-0012"
+      ]
     },
     {
       "id": "UTE-FV-0002",
       "title": "Equality / Identity of Quantity",
-      "domain": "Logic / Arithmetic"
+      "domain": "Logic / Arithmetic",
+      "dependencies": [
+        "UTE-FV-0015"
+      ]
     },
     {
       "id": "UTE-FV-0003",
       "title": "Counting and Natural Numbers",
-      "domain": "Arithmetic"
+      "domain": "Arithmetic",
+      "dependencies": [
+        "UTE-FV-0002"
+      ]
     },
     {
       "id": "UTE-FV-0004",
       "title": "Addition",
-      "domain": "Arithmetic"
+      "domain": "Arithmetic",
+      "dependencies": [
+        "UTE-FV-0002",
+        "UTE-FV-0003"
+      ]
     },
     {
       "id": "UTE-FV-0005",
       "title": "Subtraction",
-      "domain": "Arithmetic"
+      "domain": "Arithmetic",
+      "dependencies": [
+        "UTE-FV-0002",
+        "UTE-FV-0003",
+        "UTE-FV-0004"
+      ]
     },
     {
       "id": "UTE-FV-0006",
       "title": "Multiplication",
-      "domain": "Arithmetic"
+      "domain": "Arithmetic",
+      "dependencies": [
+        "UTE-FV-0002",
+        "UTE-FV-0003",
+        "UTE-FV-0004"
+      ]
     },
     {
       "id": "UTE-FV-0007",
       "title": "Division",
-      "domain": "Arithmetic"
+      "domain": "Arithmetic",
+      "dependencies": [
+        "UTE-FV-0002",
+        "UTE-FV-0003",
+        "UTE-FV-0004",
+        "UTE-FV-0006"
+      ]
     },
     {
       "id": "UTE-FV-0008",
       "title": "Fractions",
-      "domain": "Arithmetic"
+      "domain": "Arithmetic",
+      "dependencies": [
+        "UTE-FV-0002",
+        "UTE-FV-0003",
+        "UTE-FV-0007"
+      ]
     },
     {
       "id": "UTE-FV-0009",
       "title": "Ratio",
-      "domain": "Arithmetic / Measurement"
+      "domain": "Arithmetic / Measurement",
+      "dependencies": [
+        "UTE-FV-0002",
+        "UTE-FV-0003",
+        "UTE-FV-0007",
+        "UTE-FV-0008"
+      ]
     },
     {
       "id": "UTE-FV-0010",
       "title": "Proportion",
-      "domain": "Arithmetic / Measurement"
+      "domain": "Arithmetic / Measurement",
+      "dependencies": [
+        "UTE-FV-0002",
+        "UTE-FV-0008",
+        "UTE-FV-0009"
+      ]
     },
     {
       "id": "UTE-FV-0011",
       "title": "Exponents",
-      "domain": "Arithmetic"
+      "domain": "Arithmetic",
+      "dependencies": [
+        "UTE-FV-0002",
+        "UTE-FV-0003",
+        "UTE-FV-0006"
+      ]
     },
     {
       "id": "UTE-FV-0012",
       "title": "Roots",
-      "domain": "Arithmetic / Geometry"
+      "domain": "Arithmetic / Geometry",
+      "dependencies": [
+        "UTE-FV-0002",
+        "UTE-FV-0006",
+        "UTE-FV-0011"
+      ]
     },
     {
       "id": "UTE-FV-0013",
       "title": "Negative Numbers",
-      "domain": "Arithmetic"
+      "domain": "Arithmetic",
+      "dependencies": [
+        "UTE-FV-0002",
+        "UTE-FV-0003",
+        "UTE-FV-0005"
+      ]
     },
     {
       "id": "UTE-FV-0014",
       "title": "Approximation",
-      "domain": "Measurement / Arithmetic"
+      "domain": "Measurement / Arithmetic",
+      "dependencies": [
+        "UTE-FV-0002",
+        "UTE-FV-0003",
+        "UTE-FV-0005"
+      ]
     },
     {
       "id": "UTE-FV-0015",
       "title": "Law of Identity",
-      "domain": "Logic"
+      "domain": "Logic",
+      "dependencies": []
     },
     {
       "id": "UTE-FV-0016",
       "title": "Law of Non-Contradiction",
-      "domain": "Logic"
+      "domain": "Logic",
+      "dependencies": [
+        "UTE-FV-0015"
+      ]
     },
     {
       "id": "UTE-FV-0017",
       "title": "Law of Excluded Middle",
-      "domain": "Logic"
+      "domain": "Logic",
+      "dependencies": [
+        "UTE-FV-0015",
+        "UTE-FV-0016"
+      ]
     },
     {
       "id": "UTE-FV-0018",
       "title": "Modus Ponens",
-      "domain": "Logic"
+      "domain": "Logic",
+      "dependencies": [
+        "UTE-FV-0015",
+        "UTE-FV-0016",
+        "UTE-FV-0017"
+      ]
     },
     {
       "id": "UTE-FV-0019",
       "title": "Modus Tollens",
-      "domain": "Logic"
+      "domain": "Logic",
+      "dependencies": [
+        "UTE-FV-0015",
+        "UTE-FV-0016",
+        "UTE-FV-0017"
+      ]
+    },
+    {
+      "id": "UTE-FV-0020",
+      "title": "Distinction",
+      "domain": "Logic / Measurement",
+      "dependencies": [
+        "UTE-FV-0015"
+      ]
+    },
+    {
+      "id": "UTE-FV-0021",
+      "title": "Comparison",
+      "domain": "Measurement",
+      "dependencies": [
+        "UTE-FV-0020",
+        "UTE-FV-0002"
+      ]
+    },
+    {
+      "id": "UTE-FV-0022",
+      "title": "Ordering",
+      "domain": "Measurement / Logic",
+      "dependencies": [
+        "UTE-FV-0021"
+      ]
+    },
+    {
+      "id": "UTE-FV-0023",
+      "title": "Reference State",
+      "domain": "Measurement",
+      "dependencies": [
+        "UTE-FV-0021",
+        "UTE-FV-0022"
+      ]
+    },
+    {
+      "id": "UTE-FV-0024",
+      "title": "Repetition",
+      "domain": "Measurement",
+      "dependencies": [
+        "UTE-FV-0023"
+      ]
+    },
+    {
+      "id": "UTE-FV-0025",
+      "title": "Ratio Against Reference",
+      "domain": "Measurement / Arithmetic",
+      "dependencies": [
+        "UTE-FV-0021",
+        "UTE-FV-0023",
+        "UTE-FV-0024",
+        "UTE-FV-0009"
+      ]
+    },
+    {
+      "id": "UTE-FV-0026",
+      "title": "Measurement",
+      "domain": "Measurement",
+      "dependencies": [
+        "UTE-FV-0021",
+        "UTE-FV-0023",
+        "UTE-FV-0024",
+        "UTE-FV-0025"
+      ]
+    },
+    {
+      "id": "UTE-FV-0027",
+      "title": "Standard Unit",
+      "domain": "Measurement",
+      "dependencies": [
+        "UTE-FV-0026"
+      ]
+    },
+    {
+      "id": "UTE-FV-0028",
+      "title": "Scale",
+      "domain": "Measurement",
+      "dependencies": [
+        "UTE-FV-0022",
+        "UTE-FV-0026",
+        "UTE-FV-0027"
+      ]
+    },
+    {
+      "id": "UTE-FV-0029",
+      "title": "Coordinate System",
+      "domain": "Measurement / Geometry",
+      "dependencies": [
+        "UTE-FV-0022",
+        "UTE-FV-0026",
+        "UTE-FV-0028"
+      ]
     }
   ]
 }

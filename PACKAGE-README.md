@@ -1,3 +1,3 @@
-# Proof Inspector Restoration & Deep Linking v1
+# UTE Verified Repairs v1
 
-This package restores human-readable proof inspection and dependency traversal inside the UTE cosmos map.
+Targeted repair package. Does not overwrite root README.md.
