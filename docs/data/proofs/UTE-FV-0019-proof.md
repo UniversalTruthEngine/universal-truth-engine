@@ -1,12 +1,12 @@
-# UTE-FV-0004 Proof
+# UTE-FV-0019 Proof
 
 ## Claim
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+If P implies Q, and Q is false, then P is false.
 
 ## Plain-Language Explanation
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+If P implies Q, and Q is false, then P is false.
 
 This principle is part of the UTE foundational structure and supports later mathematical, logical, measurement, or scientific reconstruction.
 

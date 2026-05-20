@@ -1,12 +1,12 @@
-# UTE-FV-0004 Proof
+# UTE-FV-0027 Proof
 
 ## Claim
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+A standard unit is an agreed reference for stabilising measurement.
 
 ## Plain-Language Explanation
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+A standard unit is an agreed reference for stabilising measurement.
 
 This principle is part of the UTE foundational structure and supports later mathematical, logical, measurement, or scientific reconstruction.
 

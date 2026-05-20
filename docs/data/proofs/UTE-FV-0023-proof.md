@@ -1,12 +1,12 @@
-# UTE-FV-0004 Proof
+# UTE-FV-0023 Proof
 
 ## Claim
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+Stable measurement requires a sufficiently consistent reference state.
 
 ## Plain-Language Explanation
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+Stable measurement requires a sufficiently consistent reference state.
 
 This principle is part of the UTE foundational structure and supports later mathematical, logical, measurement, or scientific reconstruction.
 

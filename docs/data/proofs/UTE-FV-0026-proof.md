@@ -1,12 +1,12 @@
-# UTE-FV-0004 Proof
+# UTE-FV-0026 Proof
 
 ## Claim
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+Measurement is comparison against a stable reference using repeatable rules.
 
 ## Plain-Language Explanation
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+Measurement is comparison against a stable reference using repeatable rules.
 
 This principle is part of the UTE foundational structure and supports later mathematical, logical, measurement, or scientific reconstruction.
 

@@ -1,12 +1,12 @@
-# UTE-FV-0004 Proof
+# UTE-FV-0029 Proof
 
 ## Claim
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+A coordinate system provides a structured framework for locating or comparing positions relative to references.
 
 ## Plain-Language Explanation
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+A coordinate system provides a structured framework for locating or comparing positions relative to references.
 
 This principle is part of the UTE foundational structure and supports later mathematical, logical, measurement, or scientific reconstruction.
 

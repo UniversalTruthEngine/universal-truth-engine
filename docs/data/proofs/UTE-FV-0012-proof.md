@@ -1,45 +1,35 @@
-# UTE-FV-0012 — Roots Proof
+# UTE-FV-0012 Proof
 
 ## Claim
 
-A root is a value which, when multiplied by itself a specified number of times, produces a given quantity.
+Roots invert exponentiation.
 
----
-
-## 1. Plain-Language Explanation
+## Plain-Language Explanation
 
 Roots invert exponentiation.
 
----
+This principle is part of the UTE foundational structure and supports later mathematical, logical, measurement, or scientific reconstruction.
 
-## 2. Structural Proof Basis
+## Step-by-Step Reasoning
 
-This truth is grounded in the already-established arithmetic and logical foundations listed in its dependency chain.
+1. Define the relevant terms.
+2. Identify the dependencies required for the concept.
+3. Apply stable reasoning, comparison, grouping, ordering, or reference as appropriate.
+4. Preserve the conditions of validity.
+5. Use the principle to support downstream reconstruction.
 
-Direct dependencies:
+## Reconstruction Method
 
-- UTE-FV-0002
-- UTE-FV-0006
-- UTE-FV-0011
+A future intelligence can rediscover this truth by working from its dependencies and testing whether the principle is necessary for stable reasoning, comparison, measurement, or calculation.
 
-The proof proceeds by showing that the operation or concept preserves quantity relationships under the rules of equality, counting, and prior arithmetic operations.
+## Conditions of Validity
 
----
+Valid within its stated domain and dependency conditions.
 
-## 3. Reconstruction Basis
+## Failure Cases
 
-This concept can be rediscovered with distinguishable objects, marks, lines, grouping, partitioning, or measurement comparisons.
+Requires review if terms are undefined, contexts shift, references drift, or assumptions are not preserved.
 
-A future expanded proof should include:
+## Note
 
-- intuitive demonstration,
-- symbolic derivation,
-- reconstruction protocol,
-- failure cases,
-- and machine-readable proof form.
-
----
-
-## 4. Validation
-
-Level 5 — Mathematical / Logical Proof within its defined formal domain.
+This is a browser-accessible proof copy. Deeper proof expansion may be required in a future proof-deepening pass.

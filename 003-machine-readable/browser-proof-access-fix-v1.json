@@ -1,0 +1,7 @@
+{
+  "fix": "Browser Proof Access Fix v1",
+  "issue": "Proof paths pointed outside GitHub Pages served docs directory.",
+  "solution": "Create docs/data/proofs copies and update map proof_file paths.",
+  "proof_files_created": 29,
+  "root_readme_touched": false
+}

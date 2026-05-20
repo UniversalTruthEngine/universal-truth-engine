@@ -1,12 +1,12 @@
-# UTE-FV-0004 Proof
+# UTE-FV-0025 Proof
 
 ## Claim
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+Measurement expresses a ratio between a target quantity and a reference quantity.
 
 ## Plain-Language Explanation
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+Measurement expresses a ratio between a target quantity and a reference quantity.
 
 This principle is part of the UTE foundational structure and supports later mathematical, logical, measurement, or scientific reconstruction.
 

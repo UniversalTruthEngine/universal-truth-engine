@@ -1,12 +1,12 @@
-# UTE-FV-0004 Proof
+# UTE-FV-0021 Proof
 
 ## Claim
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+Measurement begins by comparing one distinguishable entity, quantity, or state against another.
 
 ## Plain-Language Explanation
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+Measurement begins by comparing one distinguishable entity, quantity, or state against another.
 
 This principle is part of the UTE foundational structure and supports later mathematical, logical, measurement, or scientific reconstruction.
 

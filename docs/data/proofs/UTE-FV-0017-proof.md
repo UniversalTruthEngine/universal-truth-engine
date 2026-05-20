@@ -1,12 +1,12 @@
-# UTE-FV-0004 Proof
+# UTE-FV-0017 Proof
 
 ## Claim
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+A statement is either true or false within classical logic.
 
 ## Plain-Language Explanation
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+A statement is either true or false within classical logic.
 
 This principle is part of the UTE foundational structure and supports later mathematical, logical, measurement, or scientific reconstruction.
 

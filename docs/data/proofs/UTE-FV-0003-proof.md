@@ -4,11 +4,9 @@
 
 Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.
 
----
+## Plain-Language Explanation
 
-## 1. Plain-Language Explanation
-
-Counting is the process of assigning one counting marker to each object in a collection.
+Counting assigns one counting marker to each object in a collection.
 
 Example:
 
@@ -20,21 +18,17 @@ stone → 3
 
 The final count represents the quantity of the collection.
 
----
+## One-to-One Correspondence
 
-## 2. One-to-One Correspondence
-
-Counting depends on matching:
+Counting depends on:
 
 ```text
 one object ↔ one count marker
 ```
 
-If each object receives exactly one marker, and no object is skipped or counted twice, the count is stable.
+If each object receives exactly one marker, no object is skipped, and no object is counted twice, the count is stable.
 
----
-
-## 3. Successor Principle
+## Successor Principle
 
 Natural numbers proceed by a successor relation:
 
@@ -44,11 +38,7 @@ Natural numbers proceed by a successor relation:
 
 Each next number represents adding one more unit.
 
-This creates an ordered sequence.
-
----
-
-## 4. Step-by-Step Reasoning
+## Step-by-Step Reasoning
 
 1. Objects can be distinguished.
 2. Each object can be matched with one count marker.
@@ -56,45 +46,20 @@ This creates an ordered sequence.
 4. The final marker represents the total quantity.
 5. Therefore discrete quantities can be represented by ordered natural numbers.
 
----
+## Reconstruction Method
 
-## 5. Reconstruction Method
+Counting can be rediscovered by:
+- gathering objects,
+- making one mark per object,
+- preserving the mark sequence,
+- comparing collections by marks,
+- naming the sequence.
 
-A future intelligence can rediscover counting by:
-
-1. gathering objects,
-2. making one mark per object,
-3. preserving the mark sequence,
-4. comparing collections by marks,
-5. naming the sequence.
-
-This can be done with stones, scratches, knots, bones, shells, or memory states.
-
----
-
-## 6. Conditions of Validity
-
-Counting applies to discrete items or chosen units.
-
-Continuous quantities must first be divided into units or measured.
-
----
-
-## 7. Failure Cases
+## Failure Cases
 
 Counting fails if:
-
 - objects are not distinguishable,
 - objects are counted twice,
 - objects are skipped,
 - the collection changes during counting,
 - or the counting sequence is unstable.
-
----
-
-## 8. UTE Assessment
-
-- Confidence Level: 5
-- Proof Type: Arithmetic / constructive
-- Reconstruction Difficulty: Very low
-- Core Importance: Extremely high

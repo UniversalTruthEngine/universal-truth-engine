@@ -1,12 +1,12 @@
-# UTE-FV-0004 Proof
+# UTE-FV-0028 Proof
 
 ## Claim
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+A scale defines how measurement values correspond to ordered positions, intervals, or ratios.
 
 ## Plain-Language Explanation
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+A scale defines how measurement values correspond to ordered positions, intervals, or ratios.
 
 This principle is part of the UTE foundational structure and supports later mathematical, logical, measurement, or scientific reconstruction.
 

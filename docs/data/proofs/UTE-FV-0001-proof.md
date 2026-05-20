@@ -8,32 +8,20 @@ For a right triangle on a flat Euclidean plane:
 a² + b² = c²
 ```
 
-where:
+where `a` and `b` are the perpendicular side lengths, and `c` is the hypotenuse.
 
-- `a` and `b` are the perpendicular side lengths,
-- `c` is the hypotenuse.
-
----
-
-## 1. Plain-Language Explanation
+## Plain-Language Explanation
 
 A right triangle has one angle of 90 degrees.
 
 If a square is built on each side of the triangle:
-
 - the square on side `a` has area `a²`,
 - the square on side `b` has area `b²`,
 - the square on side `c` has area `c²`.
 
-The theorem says:
+The theorem says the two smaller square areas together equal the largest square area.
 
-```text
-area on side a + area on side b = area on side c
-```
-
----
-
-## 2. Area Rearrangement Proof
+## Step-by-Step Area Proof
 
 Construct a large square with side length:
 
@@ -44,16 +32,10 @@ a + b
 Its area is:
 
 ```text
-(a + b)²
-```
-
-Expanding:
-
-```text
 (a + b)² = a² + 2ab + b²
 ```
 
-Now place four identical right triangles inside the square.
+Now place four identical right triangles inside the large square.
 
 Each triangle has area:
 
@@ -67,15 +49,13 @@ Four such triangles have total area:
 4 × (ab / 2) = 2ab
 ```
 
-The remaining central shape is a square whose side is `c`.
-
-So the central square has area:
+The remaining central region is a square with side length `c`, so its area is:
 
 ```text
 c²
 ```
 
-Thus:
+Therefore:
 
 ```text
 large square area = four triangle areas + central square area
@@ -93,26 +73,20 @@ Subtract `2ab` from both sides:
 a² + b² = c²
 ```
 
----
-
-## 3. Why This Proof Works
+## Why This Proof Works
 
 The same total area is described in two valid ways:
+1. by the outer square,
+2. by the four triangles plus the central square.
 
-1. using the outer square,
-2. using the internal pieces.
+Because area is conserved under rearrangement, both descriptions must match.
 
-Because area is preserved under rearrangement, both descriptions must match.
-
----
-
-## 4. Reconstruction Method
+## Reconstruction Method
 
 A future society can rediscover this theorem by:
-
 1. drawing right triangles on a flat surface,
-2. constructing squares on their sides,
-3. measuring or comparing areas,
+2. constructing squares on each side,
+3. comparing areas,
 4. noticing the invariant relationship,
 5. proving it through area rearrangement.
 
@@ -123,37 +97,20 @@ A practical example:
 9 + 16 = 25
 ```
 
-The 3-4-5 triangle forms a right angle.
+## Conditions of Validity
 
----
-
-## 5. Conditions of Validity
-
-The theorem assumes:
-
+This theorem assumes:
 - Euclidean geometry,
 - flat space,
 - straight line segments,
 - a true right angle,
-- consistent measurement units,
+- consistent units,
 - ordinary area arithmetic.
 
----
-
-## 6. Failure Cases
+## Failure Cases
 
 The theorem does not apply unchanged:
-
 - on curved surfaces,
 - in non-Euclidean geometry,
 - if the angle is not a right angle,
-- or if measurement units are inconsistent.
-
----
-
-## 7. UTE Assessment
-
-- Confidence Level: 5
-- Proof Type: Geometric / algebraic
-- Reconstruction Difficulty: Low
-- Core Importance: Extremely high
+- or if units are inconsistent.

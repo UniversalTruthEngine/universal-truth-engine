@@ -10,13 +10,9 @@ P
 Therefore Q
 ```
 
----
+## Plain-Language Explanation
 
-## 1. Plain-Language Explanation
-
-Modus Ponens is one of the most basic valid inference rules.
-
-It says:
+Modus Ponens is a basic valid inference rule.
 
 If a condition is enough to guarantee a result, and that condition is present, then the result follows.
 
@@ -28,15 +24,13 @@ It is raining.
 Therefore, the ground becomes wet.
 ```
 
----
-
-## 2. Logical Structure
+## Logical Structure
 
 Let:
 
 ```text
-P = the condition
-Q = the consequence
+P = condition
+Q = consequence
 ```
 
 The implication states:
@@ -51,96 +45,30 @@ This means:
 Whenever P is true, Q must also be true.
 ```
 
-If we also know:
+If P is true, Q follows.
 
-```text
-P is true
-```
+## Truth Table Demonstration
 
-then the implication requires:
-
-```text
-Q is true
-```
-
----
-
-## 3. Truth Table Demonstration
-
-| P | Q | P → Q | P and P → Q? | Conclusion Q |
+| P | Q | P → Q | Both premises true? | Conclusion |
 |---|---|---|---|---|
-| True | True | True | Yes | True |
+| True | True | True | Yes | Q true |
 | True | False | False | No | Invalid case |
 | False | True | True | No | Not applicable |
 | False | False | True | No | Not applicable |
 
-The only case where both premises are true is:
+The only case where both premises are true requires Q to be true.
 
-```text
-P = True
-Q = True
-P → Q = True
-```
+## Conditions of Validity
 
-So if both premises hold, Q must hold.
+The implication must be valid.  
+The premise P must actually be true.  
+The meanings of P and Q must remain stable.
 
----
-
-## 4. Step-by-Step Reasoning
-
-1. Assume `P → Q`.
-2. This means P being true is sufficient for Q being true.
-3. Assume P is true.
-4. Since P is true and P implies Q, Q follows.
-5. Therefore:
-
-```text
-Q
-```
-
----
-
-## 5. Reconstruction Method
-
-A future intelligence can rediscover Modus Ponens by studying reliable conditional rules.
-
-Example:
-
-```text
-If pressing this switch closes the circuit, the lamp lights.
-The switch is pressed.
-Therefore the lamp lights.
-```
-
-Repeated successful reasoning with condition-and-result structures leads naturally to Modus Ponens.
-
----
-
-## 6. Conditions of Validity
-
-The implication must be valid.
-
-The premise P must actually be true.
-
-The meaning of P and Q must remain stable.
-
----
-
-## 7. Failure Cases
+## Failure Cases
 
 Modus Ponens is misused when:
-
 - the implication is false,
 - P is not actually true,
 - Q is only probable rather than guaranteed,
-- the terms change meaning,
-- or a causal assumption is mistaken for a logical implication.
-
----
-
-## 8. UTE Assessment
-
-- Confidence Level: 5
-- Proof Type: Logical inference
-- Reconstruction Difficulty: Low
-- Core Importance: Extremely high
+- terms change meaning,
+- or a causal assumption is mistaken for logical implication.

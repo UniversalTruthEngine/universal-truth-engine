@@ -1,12 +1,12 @@
-# UTE-FV-0004 Proof
+# UTE-FV-0016 Proof
 
 ## Claim
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+A statement cannot be both true and false in the same sense at the same time.
 
 ## Plain-Language Explanation
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+A statement cannot be both true and false in the same sense at the same time.
 
 This principle is part of the UTE foundational structure and supports later mathematical, logical, measurement, or scientific reconstruction.
 

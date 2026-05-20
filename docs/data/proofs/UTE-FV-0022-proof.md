@@ -1,12 +1,12 @@
-# UTE-FV-0004 Proof
+# UTE-FV-0022 Proof
 
 ## Claim
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+Comparable entities may be arranged by relative properties.
 
 ## Plain-Language Explanation
 
-Addition combines quantities into a larger quantity while preserving consistent quantity relationships.
+Comparable entities may be arranged by relative properties.
 
 This principle is part of the UTE foundational structure and supports later mathematical, logical, measurement, or scientific reconstruction.
 
