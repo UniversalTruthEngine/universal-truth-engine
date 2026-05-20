@@ -1,0 +1,11 @@
+{
+  "id": "UTE-FV-0033",
+  "title": "Direction",
+  "domain": "Geometry",
+  "statement": "Direction describes orientation relative to a reference.",
+  "dependencies": [
+    "UTE-FV-0031",
+    "UTE-FV-0022"
+  ],
+  "confidence": 5
+}

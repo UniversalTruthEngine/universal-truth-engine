@@ -1,0 +1,12 @@
+{
+  "id": "UTE-FV-0034",
+  "title": "Line",
+  "domain": "Geometry",
+  "statement": "A line represents continuous extension between positions.",
+  "dependencies": [
+    "UTE-FV-0030",
+    "UTE-FV-0031",
+    "UTE-FV-0033"
+  ],
+  "confidence": 5
+}

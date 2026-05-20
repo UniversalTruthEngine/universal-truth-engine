@@ -1,0 +1,12 @@
+{
+  "id": "UTE-FV-0037",
+  "title": "Dimension",
+  "domain": "Geometry / Measurement",
+  "statement": "Dimension describes independent measurable degrees of spatial freedom.",
+  "dependencies": [
+    "UTE-FV-0031",
+    "UTE-FV-0036",
+    "UTE-FV-0026"
+  ],
+  "confidence": 5
+}

@@ -1,0 +1,11 @@
+{
+  "id": "UTE-FV-0031",
+  "title": "Position",
+  "domain": "Geometry / Measurement",
+  "statement": "A position identifies where something exists relative to a reference framework.",
+  "dependencies": [
+    "UTE-FV-0029",
+    "UTE-FV-0026"
+  ],
+  "confidence": 5
+}

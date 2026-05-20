@@ -1,0 +1,10 @@
+{
+  "id": "UTE-FV-0030",
+  "title": "Point",
+  "domain": "Geometry",
+  "statement": "A point represents a position without dimension.",
+  "dependencies": [
+    "UTE-FV-0029"
+  ],
+  "confidence": 5
+}

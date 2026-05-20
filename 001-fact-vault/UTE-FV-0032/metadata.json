@@ -1,0 +1,12 @@
+{
+  "id": "UTE-FV-0032",
+  "title": "Separation / Distance",
+  "domain": "Geometry / Measurement",
+  "statement": "Distance describes measurable separation between positions.",
+  "dependencies": [
+    "UTE-FV-0031",
+    "UTE-FV-0026",
+    "UTE-FV-0027"
+  ],
+  "confidence": 5
+}
