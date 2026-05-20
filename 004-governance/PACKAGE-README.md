@@ -1,3 +1,3 @@
-# Repository Layering & Integrity Standard v1
+# Assurance & Verification Protocol v1
 
-Adds governance rules preventing accidental overwrite of the root repository identity and introduces package-scoped documentation conventions.
+Introduces formal assurance requirements, verification classifications, and repository self-audit standards for UTE.

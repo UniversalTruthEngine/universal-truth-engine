@@ -1,3 +1,3 @@
-# UTE Verified Repairs v1
+# UTE Assurance Protocol v1
 
-Targeted repair package. Does not overwrite root README.md.
+Adds formal assurance and verification governance for repository integrity and epistemic discipline.

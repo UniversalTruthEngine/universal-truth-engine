@@ -1,0 +1,13 @@
+{
+  "schema_id": "UTE-ASSURANCE-REPORT-SCHEMA-V1",
+  "purpose": "Defines machine-readable assurance reports for repository verification exercises.",
+  "fields": {
+    "report_id": "Unique assurance report identifier",
+    "timestamp": "ISO timestamp",
+    "verified_findings": "Directly confirmed observations",
+    "inferred_risks": "Risks inferred from verified information",
+    "unresolved_issues": "Known unresolved problems",
+    "corrective_actions": "Recommended or completed repairs",
+    "verification_scope": "What was checked during the assurance exercise"
+  }
+}
