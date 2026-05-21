@@ -1,0 +1,35 @@
+name: UTE Assurance
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  assurance:
+    name: Run UTE Assurance
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run UTE automated assurance
+        run: |
+          python 006-tools/assurance/run-assurance-v1.py
+
+      - name: Upload assurance report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ute-assurance-report
+          path: 003-machine-readable/assurance-report-generated-v1.json
