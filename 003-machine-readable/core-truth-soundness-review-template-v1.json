@@ -1,0 +1,18 @@
+{
+  "report_id": "UTE-CORE-TRUTH-SOUNDNESS-REVIEW-TEMPLATE-V1",
+  "purpose": "Template for Core Truth soundness review reports.",
+  "fields": {
+    "truth_count": "Number of truths reviewed",
+    "high_risk_count": "Number of high-risk entries",
+    "medium_risk_count": "Number of medium-risk entries",
+    "reviews": [
+      {
+        "id": "UTE-FV-XXXX",
+        "risk_level": "low | medium | high",
+        "warnings": [],
+        "strengths": [],
+        "recommended_action": "Review recommendation"
+      }
+    ]
+  }
+}
