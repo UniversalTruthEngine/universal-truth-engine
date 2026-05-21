@@ -1,25 +1,9 @@
-# UTE Topology Generator v1
+# UTE Automated Topology Generator v1
 
-This tool generates machine-readable topology data from Core Truth metadata.
-
-## Usage
-
-From the repository root:
+Run from repository root:
 
 ```bash
-python 006-tools/topology-generator/generate_topology.py
+python 006-tools/topology-generator/generate-topology-v1.py
 ```
 
-## Outputs
-
-```text
-003-machine-readable/truth-graph-generated.json
-003-machine-readable/topology-health-report-generated.json
-docs/data/truth-map-generated-preview.json
-```
-
-## Current Status
-
-This is an architectural first step.
-
-It does not yet replace the live map data automatically.
+Generates browser-facing map/index files from Fact Vault metadata.
