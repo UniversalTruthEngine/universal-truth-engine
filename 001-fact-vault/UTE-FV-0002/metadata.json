@@ -1,12 +1,17 @@
 {
   "id": "UTE-FV-0002",
-  "title": "Equality / Identity of Quantity",
+  "title": "Equality of Quantity",
   "domain": "Logic / Arithmetic",
-  "claim": "Quantities may be treated as equal when they represent the same value within a defined context.",
+  "statement": "Quantities may be treated as equal when they represent the same value within a defined context.",
   "dependencies": [
     "UTE-FV-0015"
   ],
-  "confidence_level": 5,
-  "proof_file": "proof.md",
-  "proof_deepening_pass": "Proof Deepening Pass v1"
+  "confidence": 5,
+  "status": "core-truth",
+  "stabilisation_status": "sound but expandable",
+  "review_notes": [
+    "Clarified distinction between identity and equality.",
+    "Retained dependency on UTE-FV-0015 for stable reference.",
+    "Future decomposition may separate symbolic equality, approximate equality, structural equivalence, and equivalence relations."
+  ]
 }

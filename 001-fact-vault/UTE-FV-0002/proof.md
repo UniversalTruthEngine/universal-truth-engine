@@ -1,4 +1,4 @@
-# UTE-FV-0002 — Equality / Identity of Quantity Proof
+# UTE-FV-0002 — Equality of Quantity Proof
 
 ## Claim
 
@@ -20,13 +20,13 @@ They are equal because they represent the same quantity.
 
 ## Distinction Between Identity and Equality
 
-Identity says a thing is itself:
+The Law of Identity says that a thing is itself:
 
 ```text
 X = X
 ```
 
-Equality of quantity says two different representations may have the same quantitative value.
+Equality of Quantity says that two different representations may have the same quantitative value.
 
 Example:
 
@@ -35,11 +35,13 @@ five stones
 five shells
 ```
 
-The stones and shells are not the same objects, but their quantities may be equal.
+The stones and shells are not identical objects.
+
+However, their quantities may be equal if both collections contain five items.
 
 ## One-to-One Correspondence
 
-Two collections have equal quantity if each item in one collection can be paired with exactly one item in the other collection, with none left over.
+Two collections have equal quantity if each item in one collection can be paired with exactly one item in the other collection, with no items left over.
 
 Example:
 
@@ -73,10 +75,18 @@ Both sides preserve the same quantity.
 ## Step-by-Step Reasoning
 
 1. Define the context of comparison.
-2. Identify the relevant quantity.
-3. Determine whether two representations refer to the same amount.
-4. If they do, treat them as equal within that context.
-5. Use equality to preserve quantity across reasoning steps.
+2. Identify the property being compared as quantity.
+3. Determine whether two representations preserve the same amount.
+4. If they do, treat them as quantitatively equal within that context.
+5. Use equality only where the preserved quantity is the relevant property.
+
+## Dependencies
+
+- UTE-FV-0015 — Law of Identity
+
+This truth depends on stable reference.
+
+Before two quantities can be compared, each quantity must remain identifiable within the comparison.
 
 ## Reconstruction Method
 
@@ -90,7 +100,7 @@ A future intelligence can rediscover equality of quantity by:
 
 ## Conditions of Validity
 
-Equality requires:
+Equality of quantity requires:
 
 - stable definitions,
 - consistent units,
@@ -107,9 +117,33 @@ Equality fails or becomes misleading when:
 - the comparison context changes,
 - or hidden assumptions alter the value.
 
+## Boundary Distinctions
+
+Equality of Quantity should not be confused with:
+
+```text
+identity
+approximate equality
+measurement tolerance
+symbolic equivalence
+structural equivalence
+```
+
+These related ideas may require separate Core Truth entries later.
+
+## Stabilisation Note
+
+During stabilisation review, this truth was assessed as:
+
+```text
+sound but expandable
+```
+
+It should remain a foundational bridge truth, but future UTE development may refine or decompose related equality concepts.
+
 ## UTE Importance
 
-Equality is foundational because it supports:
+Equality of Quantity is foundational because it supports:
 
 - arithmetic,
 - substitution,

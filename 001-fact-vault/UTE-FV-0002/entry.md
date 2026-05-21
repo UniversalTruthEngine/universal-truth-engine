@@ -1,28 +1,60 @@
-# Equality / Identity of Quantity
+# UTE-FV-0002 — Equality of Quantity
 
-## Identifier
-UTE-FV-0002
+## Statement
 
-## Claim
 Quantities may be treated as equal when they represent the same value within a defined context.
 
 ## Domain
+
 Logic / Arithmetic
 
-## Summary
-Quantities may be treated as equal when they represent the same value within a defined context.
-
 ## Dependencies
+
 - UTE-FV-0015
 
-## Confidence Level
-Level 5 — Mathematical / Logical Proof
+## Summary
 
-## Conditions of Validity
-Valid within the stated domain and dependency conditions.
+Equality of Quantity allows two different representations, collections, or expressions to be treated as having the same quantitative value.
 
-## Failure Cases
-May fail or require refinement outside the stated domain, when terms are undefined, or when context is changed without preserving assumptions.
+This truth should be distinguished from the Law of Identity.
 
-## Reconstruction Relevance
-This Core Truth supports reconstruction of mathematical, logical, measurement, or scientific knowledge from simpler foundations.
+The Law of Identity states that a thing is itself.
+
+Equality of Quantity states that two different representations may preserve the same amount within a defined comparison context.
+
+## Boundary Notes
+
+This truth concerns quantitative equality, not full object identity.
+
+Examples of equality of quantity:
+
+```text
+2 + 3 = 5
+five stones and five shells have equal quantity
+```
+
+Examples of non-identity:
+
+```text
+five stones are not identical objects to five shells
+2 + 3 is not the same written expression as 5
+```
+
+They may nevertheless represent the same quantity.
+
+## Stabilisation Status
+
+Reviewed during Stabilised Milestone Review v1.
+
+Status:
+
+```text
+sound but expandable
+```
+
+Future decomposition may separate:
+- equality of quantity,
+- symbolic equality,
+- approximate equality,
+- structural equivalence,
+- and equivalence relations.
