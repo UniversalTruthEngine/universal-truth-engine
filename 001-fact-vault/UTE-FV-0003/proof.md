@@ -4,11 +4,9 @@
 
 Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.
 
----
+## Plain-Language Explanation
 
-## 1. Plain-Language Explanation
-
-Counting is the process of assigning one counting marker to each object in a collection.
+Counting is the act of matching each distinguishable object in a collection with one marker in an ordered sequence.
 
 Example:
 
@@ -18,83 +16,107 @@ stone → 2
 stone → 3
 ```
 
-The final count represents the quantity of the collection.
+The final marker represents the number of objects counted.
 
----
+## Required Conditions
 
-## 2. One-to-One Correspondence
+Counting requires:
 
-Counting depends on matching:
+- distinguishable objects,
+- a stable collection,
+- an ordered count sequence,
+- and one-to-one assignment between objects and count markers.
 
-```text
-one object ↔ one count marker
-```
+## One-to-One Assignment
 
-If each object receives exactly one marker, and no object is skipped or counted twice, the count is stable.
+Each object must receive exactly one count marker.
 
----
+If an object is skipped, the count is too low.
 
-## 3. Successor Principle
+If an object is counted twice, the count is too high.
 
-Natural numbers proceed by a successor relation:
+## Natural Number Sequence
+
+Natural numbers arise through repeated successor steps:
 
 ```text
 1, 2, 3, 4, ...
 ```
 
-Each next number represents adding one more unit.
+Each successor represents one additional counted unit.
 
-This creates an ordered sequence.
+## Step-by-Step Reasoning
 
----
+1. Identify a finite collection of distinguishable objects.
+2. Assign the first counting marker to one object.
+3. Assign the next marker to another uncounted object.
+4. Continue until no uncounted objects remain.
+5. The final marker represents the collection's quantity.
 
-## 4. Step-by-Step Reasoning
+## Example
 
-1. Objects can be distinguished.
-2. Each object can be matched with one count marker.
-3. Count markers can be ordered.
-4. The final marker represents the total quantity.
-5. Therefore discrete quantities can be represented by ordered natural numbers.
+If three objects are counted:
 
----
+```text
+object A → 1
+object B → 2
+object C → 3
+```
 
-## 5. Reconstruction Method
+The collection has quantity:
+
+```text
+3
+```
+
+## Why Counting Is Stable
+
+Counting is stable when:
+
+- the collection does not change during counting,
+- the order of counted objects does not affect the final total,
+- and every object is counted once.
+
+The sequence may visit objects in different orders, but the quantity remains the same if the assignment is complete and one-to-one.
+
+## Reconstruction Method
 
 A future intelligence can rediscover counting by:
 
-1. gathering objects,
+1. gathering distinct objects,
 2. making one mark per object,
-3. preserving the mark sequence,
-4. comparing collections by marks,
-5. naming the sequence.
+3. comparing collections by marks,
+4. preserving the order of marks,
+5. naming the resulting sequence.
 
-This can be done with stones, scratches, knots, bones, shells, or memory states.
+## Conditions of Validity
 
----
+Counting applies most directly to discrete objects.
 
-## 6. Conditions of Validity
+It requires:
 
-Counting applies to discrete items or chosen units.
+- distinguishability,
+- stable identity during the count,
+- and finite or well-defined counting procedure.
 
-Continuous quantities must first be divided into units or measured.
-
----
-
-## 7. Failure Cases
+## Failure Cases
 
 Counting fails if:
 
-- objects are not distinguishable,
-- objects are counted twice,
-- objects are skipped,
+- objects cannot be distinguished,
 - the collection changes during counting,
-- or the counting sequence is unstable.
+- objects are skipped,
+- objects are counted more than once,
+- or the count sequence is unstable.
 
----
+## UTE Importance
 
-## 8. UTE Assessment
+Counting supports:
 
-- Confidence Level: 5
-- Proof Type: Arithmetic / constructive
-- Reconstruction Difficulty: Very low
-- Core Importance: Extremely high
+- natural numbers,
+- arithmetic,
+- addition,
+- multiplication,
+- measurement,
+- indexing,
+- and machine-readable enumeration.

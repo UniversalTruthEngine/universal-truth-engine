@@ -4,83 +4,57 @@
 
 Quantities may be treated as equal when they represent the same value within a defined context.
 
----
+## Plain-Language Explanation
 
-## 1. Plain-Language Explanation
+Equality of quantity means that two expressions, collections, or measurements represent the same amount, even if they appear in different forms.
 
-Equality of quantity means two expressions, collections, or measurements represent the same amount.
-
-Example:
+For example:
 
 ```text
 2 + 3 = 5
 ```
 
-This does not mean the symbols `2 + 3` and `5` look the same.
+The expression `2 + 3` and the symbol `5` do not look identical.
 
-It means they represent the same quantity.
+They are equal because they represent the same quantity.
 
----
+## Distinction Between Identity and Equality
 
-## 2. Difference Between Identity and Equality
-
-The Law of Identity says:
+Identity says a thing is itself:
 
 ```text
 X = X
 ```
 
-A thing is itself.
-
-Equality of quantity says:
-
-```text
-A and B may represent the same value.
-```
+Equality of quantity says two different representations may have the same quantitative value.
 
 Example:
 
 ```text
 five stones
-```
-
-and
-
-```text
 five shells
 ```
 
-are not materially identical, but their quantities are equal.
+The stones and shells are not the same objects, but their quantities may be equal.
 
-So UTE distinguishes:
+## One-to-One Correspondence
 
-- identity of object,
-- equality of quantity,
-- equivalence of representation,
-- and substitutability within valid contexts.
+Two collections have equal quantity if each item in one collection can be paired with exactly one item in the other collection, with none left over.
 
----
-
-## 3. One-to-One Correspondence Demonstration
-
-Suppose there are two collections:
+Example:
 
 ```text
 A: stone stone stone
 B: shell shell shell
 ```
 
-Pair one stone with one shell.
+Pair each stone with one shell.
 
-If every stone is paired with exactly one shell, and no shell remains unpaired, the collections have equal quantity.
+If every stone has one shell and every shell has one stone, then the collections have equal quantity.
 
-This demonstrates equality without needing numerals.
+## Substitution Principle
 
----
-
-## 4. Substitution Principle
-
-If two expressions are equal in value, one may replace the other in valid contexts.
+If two expressions are equal in quantity, one may replace the other in contexts where only that quantity matters.
 
 Example:
 
@@ -96,66 +70,50 @@ Therefore:
 
 Both sides preserve the same quantity.
 
----
+## Step-by-Step Reasoning
 
-## 5. Step-by-Step Reasoning
+1. Define the context of comparison.
+2. Identify the relevant quantity.
+3. Determine whether two representations refer to the same amount.
+4. If they do, treat them as equal within that context.
+5. Use equality to preserve quantity across reasoning steps.
 
-1. A quantity can be represented by objects, marks, numerals, or expressions.
-2. Two representations may correspond to the same quantity.
-3. If they correspond exactly, they are equal in quantity.
-4. Equal quantities may be substituted where only quantity matters.
-5. Therefore equality enables arithmetic reasoning and proof.
-
----
-
-## 6. Conditions of Validity
-
-The domain of comparison must be explicit.
-
-Correct:
-
-```text
-The number of stones equals the number of shells.
-```
-
-Potentially misleading:
-
-```text
-stones = shells
-```
-
-because stones and shells are not identical objects.
-
----
-
-## 7. Failure Cases
-
-Equality fails or becomes ambiguous when:
-
-- units differ,
-- context changes,
-- approximate equality is treated as exact,
-- material identity is confused with quantity equality,
-- or the comparison property is not specified.
-
----
-
-## 8. Reconstruction Method
+## Reconstruction Method
 
 A future intelligence can rediscover equality of quantity by:
 
-1. collecting objects,
-2. pairing objects from two collections,
-3. observing whether any remain unpaired,
-4. introducing marks or symbols to preserve equal quantity,
-5. generalising this into arithmetic equality.
+1. placing two collections side by side,
+2. pairing objects one-to-one,
+3. observing whether any objects remain unpaired,
+4. recognising equal quantity where pairing is exact,
+5. extending the idea to symbols and expressions.
 
----
+## Conditions of Validity
 
-## 9. UTE Assessment
+Equality requires:
 
-- Confidence Level: 5
-- Proof Type: Logical / arithmetic
-- Depends on: Law of Identity
-- Reconstruction Difficulty: Very low
-- Core Importance: Extremely high
+- stable definitions,
+- consistent units,
+- a defined comparison context,
+- and preservation of the quantity being compared.
+
+## Failure Cases
+
+Equality fails or becomes misleading when:
+
+- different units are compared without conversion,
+- approximate equality is treated as exact,
+- material identity is confused with quantity equality,
+- the comparison context changes,
+- or hidden assumptions alter the value.
+
+## UTE Importance
+
+Equality is foundational because it supports:
+
+- arithmetic,
+- substitution,
+- proof,
+- measurement,
+- geometry,
+- and machine-readable symbolic reasoning.
