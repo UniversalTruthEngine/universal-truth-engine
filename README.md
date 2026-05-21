@@ -4,18 +4,6 @@ The Universal Truth Engine (UTE) is a long-term knowledge architecture designed 
 
 UTE organises knowledge into a navigable universe of interconnected Core Truths with explicit dependency relationships, layered proofs, machine-readable metadata, governance standards, and reconstruction pathways.
 
-The project currently focuses on:
-
-- mathematical truths,
-- logical truths,
-- scientific foundations,
-- measurement systems,
-- epistemic governance,
-- long-term reconstructability,
-- and machine-readable knowledge topology.
-
----
-
 ## Live Interactive Map
 
 Explore the current live UTE map here:
@@ -29,8 +17,6 @@ The map is intended to support:
 - proof inspection,
 - generated topology preview,
 - and topology health data.
-
----
 
 ## Repository Structure
 
@@ -46,8 +32,6 @@ The map is intended to support:
 docs/                   Live interactive map
 updates/                Update history and change records
 ```
-
----
 
 ## Core Idea
 
@@ -65,8 +49,6 @@ Each Core Truth should be:
 
 The long-term goal is for the visible knowledge universe to emerge dynamically from the truth metadata itself.
 
----
-
 ## Current Architectural Layers
 
 | Layer | Purpose |
@@ -79,8 +61,6 @@ The long-term goal is for the visible knowledge universe to emerge dynamically f
 | Governance Layer | Preserves epistemic standards |
 | Analytics Layer | Begins structural self-analysis |
 | Assurance Layer | Checks consistency and prevents drift |
-
----
 
 ## Origins
 
@@ -102,8 +82,6 @@ See:
 
 for origins, milestones, and early external feedback.
 
----
-
 ## Current Development Status
 
 UTE is in active early-stage development.
@@ -121,9 +99,8 @@ Completed foundations include:
 - dynamic topology architecture,
 - generated map preview,
 - epistemic analytics foundations,
-- and Level 2 assurance protocol.
-
----
+- Level 2 assurance protocol,
+- and the first operational toolchain.
 
 ## Near-Term Development Priorities
 
@@ -135,8 +112,6 @@ Current priorities include:
 - strengthening analytics,
 - refining onboarding,
 - and preparing for careful expansion of Core Truths.
-
----
 
 ## Long-Term Vision
 
