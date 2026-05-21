@@ -1,0 +1,35 @@
+name: UTE Soundness Review
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  soundness-review:
+    name: Run UTE Soundness Review
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run UTE soundness review
+        run: |
+          python 006-tools/soundness-review/run-soundness-review-v1.py
+
+      - name: Upload soundness review report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ute-soundness-review-report
+          path: 003-machine-readable/core-truth-soundness-review-v1.json
