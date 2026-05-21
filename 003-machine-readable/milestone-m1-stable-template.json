@@ -1,0 +1,10 @@
+{
+  "milestone_id": "UTE-M1-STABILISED-TOPOLOGY",
+  "status": "draft",
+  "review_status": {
+    "high_centrality_truth_audit": "pending",
+    "dependency_integrity_audit": "pending",
+    "proof_reconstruction_audit": "pending",
+    "domain_coherence_review": "pending"
+  }
+}
