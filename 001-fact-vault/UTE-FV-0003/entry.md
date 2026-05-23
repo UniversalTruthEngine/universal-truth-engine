@@ -1,28 +1,49 @@
-# Counting and Natural Numbers
+# UTE-FV-0003 — Counting and Natural Numbers
 
-## Identifier
-UTE-FV-0003
+## Statement
 
-## Claim
-Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.
+Discrete quantities can be represented consistently by assigning ordered count markers to distinguishable items.
 
 ## Domain
+
 Arithmetic
 
-## Summary
-Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.
-
 ## Dependencies
+
 - UTE-FV-0002
 
-## Confidence Level
-Level 5 — Mathematical / Logical Proof
+## Summary
 
-## Conditions of Validity
-Valid within the stated domain and dependency conditions.
+Counting is the process of assigning one ordered count marker to each distinguishable item in a collection.
 
-## Failure Cases
-May fail or require refinement outside the stated domain, when terms are undefined, or when context is changed without preserving assumptions.
+Natural numbers arise as the ordered markers used to represent discrete quantity.
 
-## Reconstruction Relevance
-This Core Truth supports reconstruction of mathematical, logical, measurement, or scientific knowledge from simpler foundations.
+## Boundary Notes
+
+This truth concerns counting of discrete items.
+
+It should be distinguished from:
+- measurement of continuous quantities,
+- approximation,
+- ordinal ranking,
+- and symbolic naming systems.
+
+Counting requires stable distinguishability. If the objects cannot be distinguished well enough to assign count markers, the count becomes unstable.
+
+## Stabilisation Status
+
+Reviewed during Stabilised Milestone Review v1.
+
+Status:
+
+```text
+sound but expandable
+```
+
+Future refinement may distinguish:
+- counting process,
+- natural number sequence,
+- zero,
+- ordinal number,
+- cardinal number,
+- and successor operation.

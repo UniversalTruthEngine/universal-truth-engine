@@ -2,11 +2,11 @@
 
 ## Claim
 
-Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.
+Discrete quantities can be represented consistently by assigning ordered count markers to distinguishable items.
 
 ## Plain-Language Explanation
 
-Counting is the act of matching each distinguishable object in a collection with one marker in an ordered sequence.
+Counting is the act of matching each distinguishable item in a collection with one marker in an ordered sequence.
 
 Example:
 
@@ -16,24 +16,26 @@ stone → 2
 stone → 3
 ```
 
-The final marker represents the number of objects counted.
+The final marker represents the number of items counted.
 
 ## Required Conditions
 
 Counting requires:
 
-- distinguishable objects,
+- distinguishable items,
 - a stable collection,
 - an ordered count sequence,
-- and one-to-one assignment between objects and count markers.
+- and one-to-one assignment between items and count markers.
 
 ## One-to-One Assignment
 
-Each object must receive exactly one count marker.
+Each item must receive exactly one count marker.
 
-If an object is skipped, the count is too low.
+If an item is skipped, the count is too low.
 
-If an object is counted twice, the count is too high.
+If an item is counted twice, the count is too high.
+
+This links counting to equality of quantity because the counted collection and the assigned marker sequence must correspond one-to-one.
 
 ## Natural Number Sequence
 
@@ -45,17 +47,13 @@ Natural numbers arise through repeated successor steps:
 
 Each successor represents one additional counted unit.
 
-## Step-by-Step Reasoning
+The sequence must preserve order. Without ordered succession, the final count marker cannot reliably represent total quantity.
 
-1. Identify a finite collection of distinguishable objects.
-2. Assign the first counting marker to one object.
-3. Assign the next marker to another uncounted object.
-4. Continue until no uncounted objects remain.
-5. The final marker represents the collection's quantity.
+## Cardinal Role
 
-## Example
+Counting determines cardinal quantity: how many items are in a collection.
 
-If three objects are counted:
+Example:
 
 ```text
 object A → 1
@@ -63,51 +61,115 @@ object B → 2
 object C → 3
 ```
 
-The collection has quantity:
+The collection has cardinal quantity:
 
 ```text
 3
 ```
+
+## Step-by-Step Reasoning
+
+1. Identify a finite collection of distinguishable items.
+2. Establish an ordered count-marker sequence.
+3. Assign the first count marker to one item.
+4. Assign the next marker to another uncounted item.
+5. Continue until no uncounted items remain.
+6. The final marker represents the collection's quantity.
 
 ## Why Counting Is Stable
 
 Counting is stable when:
 
 - the collection does not change during counting,
-- the order of counted objects does not affect the final total,
-- and every object is counted once.
+- every item is counted once,
+- no item is skipped,
+- and the count-marker order remains stable.
 
-The sequence may visit objects in different orders, but the quantity remains the same if the assignment is complete and one-to-one.
+The order in which the items are visited may vary, but the final quantity remains the same if the assignment is complete and one-to-one.
+
+## Dependencies
+
+- UTE-FV-0002 — Equality of Quantity
+
+Counting depends on the ability to preserve quantitative correspondence between items and count markers.
+
+It also presupposes stable reference, indirectly supported by the Law of Identity through UTE-FV-0002.
 
 ## Reconstruction Method
 
 A future intelligence can rediscover counting by:
 
-1. gathering distinct objects,
-2. making one mark per object,
-3. comparing collections by marks,
-4. preserving the order of marks,
-5. naming the resulting sequence.
+1. gathering distinguishable objects,
+2. making one mark for each object,
+3. ensuring no object receives more than one mark,
+4. ensuring no object is missed,
+5. preserving the mark sequence,
+6. comparing collections by their final markers.
 
 ## Conditions of Validity
 
-Counting applies most directly to discrete objects.
+Counting applies most directly to discrete items.
 
 It requires:
 
 - distinguishability,
 - stable identity during the count,
-- and finite or well-defined counting procedure.
+- a stable count sequence,
+- and a finite or well-defined counting procedure.
 
 ## Failure Cases
 
-Counting fails if:
+Counting fails or becomes unreliable if:
 
-- objects cannot be distinguished,
+- items cannot be distinguished,
 - the collection changes during counting,
-- objects are skipped,
-- objects are counted more than once,
-- or the count sequence is unstable.
+- items are skipped,
+- items are counted more than once,
+- the count sequence changes,
+- or continuous quantities are treated as discrete without a defined partition.
+
+## Boundary Distinctions
+
+Counting should not be confused with:
+
+```text
+measurement
+ordering
+ranking
+labelling
+approximation
+```
+
+Counting answers:
+
+```text
+how many?
+```
+
+It does not by itself answer:
+
+```text
+how long?
+how heavy?
+which order?
+how close?
+```
+
+## Stabilisation Note
+
+During stabilisation review, this truth was assessed as:
+
+```text
+sound but expandable
+```
+
+Future UTE development may separate:
+- counting,
+- natural numbers,
+- successor,
+- zero,
+- cardinality,
+- and ordinal position.
 
 ## UTE Importance
 
@@ -119,4 +181,5 @@ Counting supports:
 - multiplication,
 - measurement,
 - indexing,
-- and machine-readable enumeration.
+- enumeration,
+- and machine-readable structure.

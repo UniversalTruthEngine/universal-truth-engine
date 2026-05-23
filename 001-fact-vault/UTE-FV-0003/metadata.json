@@ -2,11 +2,17 @@
   "id": "UTE-FV-0003",
   "title": "Counting and Natural Numbers",
   "domain": "Arithmetic",
-  "claim": "Discrete quantities can be represented consistently using ordered symbolic quantities called natural numbers.",
+  "statement": "Discrete quantities can be represented consistently by assigning ordered count markers to distinguishable items.",
   "dependencies": [
     "UTE-FV-0002"
   ],
-  "confidence_level": 5,
-  "proof_file": "proof.md",
-  "proof_deepening_pass": "Proof Deepening Pass v1"
+  "confidence": 5,
+  "status": "core-truth",
+  "stabilisation_status": "sound but expandable",
+  "review_notes": [
+    "Clarified counting as one-to-one assignment between distinguishable items and ordered markers.",
+    "Clarified dependency on UTE-FV-0002 as equality/correspondence of quantity.",
+    "Added boundary distinction from measurement, ordering, ranking, labelling, and approximation.",
+    "Future decomposition may separate counting, natural number sequence, successor, zero, cardinality, and ordinal position."
+  ]
 }
