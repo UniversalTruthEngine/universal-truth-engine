@@ -2,25 +2,64 @@
 
 ## Claim
 
-Position is a Core Truth in the Universal Truth Engine.
+Position is the location of an entity relative to a defined reference framework.
 
-## Plain-Language Explanation
+## Key Clarifications
 
-This entry belongs to the Geometry / Measurement domain and supports the reconstructable knowledge topology.
+- Position is not identical to a coordinate system.
+- Coordinate systems provide frameworks for expressing position.
+- The same position may be represented in different coordinate systems.
+- Position is fundamentally relational.
 
-## Dependencies
+## Reference Requirement
 
-- UTE-FV-0029
-- UTE-FV-0026
+A position statement requires:
+
+- an entity,
+- a reference framework,
+- a method of expressing location.
+
+Without reference, position cannot be specified.
+
+## Position vs Coordinate System
+
+Coordinate System:
+    framework
+
+Position:
+    value expressed within framework
+
+Example:
+
+A map grid is a coordinate system.
+
+A grid reference on the map is a position.
 
 ## Reconstruction Method
 
-A future intelligence can rediscover this truth by working from its dependencies and testing whether the concept is required for stable reasoning, measurement, geometry, calculation, or reconstruction.
+A future intelligence can rediscover position by:
+
+1. identifying an object,
+2. selecting a reference point,
+3. comparing relative location,
+4. recording location consistently.
 
 ## Conditions of Validity
 
-Valid within its stated domain and dependency conditions.
+- defined reference framework
+- stable method of description
+- identifiable entity
 
 ## Failure Cases
 
-Requires review if definitions are unstable, references drift, assumptions change, or the concept is applied outside its stated domain.
+- undefined reference frame
+- ambiguous location
+- changing framework without translation
+
+## Stabilisation Note
+
+sound and foundational, with boundary clarifications added
+
+## UTE Importance
+
+Position bridges coordinate systems, geometry, motion, navigation, and topology.

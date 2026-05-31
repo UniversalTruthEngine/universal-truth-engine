@@ -1,0 +1,11 @@
+{
+  "truth_id": "UTE-FV-0031",
+  "status": "sound and foundational, with boundary clarifications added",
+  "risk_level": "low",
+  "recommendations": [
+    "Clarify distinction between position and coordinate system",
+    "Emphasise relational nature of position",
+    "Require reference framework",
+    "Strengthen reconstruction pathway"
+  ]
+}
