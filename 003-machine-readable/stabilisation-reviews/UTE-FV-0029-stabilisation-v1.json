@@ -1,0 +1,11 @@
+{
+  "truth_id": "UTE-FV-0029",
+  "status": "sound but strategically important",
+  "risk_level": "low",
+  "recommendations": [
+    "Clarify distinction between coordinate system and position",
+    "Clarify reference framework role",
+    "Allow multiple valid coordinate systems",
+    "Strengthen reconstruction pathway"
+  ]
+}

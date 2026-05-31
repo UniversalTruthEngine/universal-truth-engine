@@ -1,21 +1,21 @@
-# Coordinate System
+# UTE-FV-0029 — Coordinate System
 
-## Identifier
-UTE-FV-0029
+## Statement
 
-## Claim
-A coordinate system provides a structured framework for locating or comparing positions relative to defined references.
+A coordinate system is a structured reference framework used to describe location, magnitude, or relation relative to defined reference elements.
 
 ## Domain
-Measurement / Geometry
 
-## Dependencies
-- UTE-FV-0022
-- UTE-FV-0026
-- UTE-FV-0028
+Geometry / Reference
 
-## Confidence Level
-Level 5 — Foundational logical / measurement principle
+## Summary
 
-## Reconstruction Relevance
-This Core Truth supports reconstruction of measurement, science, engineering, and reproducible observation.
+A coordinate system provides a consistent framework for describing position.
+
+Multiple coordinate systems may describe the same reality.
+
+A coordinate system is not the position itself; it is the framework used to express position.
+
+## Stabilisation Status
+
+sound but strategically important
