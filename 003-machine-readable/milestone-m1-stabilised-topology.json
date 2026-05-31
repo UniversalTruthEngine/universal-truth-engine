@@ -1,0 +1,18 @@
+{
+  "milestone_id": "UTE-M1",
+  "title": "Stabilised Foundational Topology",
+  "status": "achieved",
+  "reviewed_truths": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0015",
+    "UTE-FV-0026",
+    "UTE-FV-0029",
+    "UTE-FV-0031"
+  ],
+  "requirements_met": [
+    "Manual stabilisation review",
+    "Automated assurance passed",
+    "Automated soundness review passed"
+  ]
+}
