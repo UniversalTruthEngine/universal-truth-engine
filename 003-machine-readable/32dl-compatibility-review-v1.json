@@ -1,0 +1,23 @@
+{
+  "review_id": "UTE-32DL-COMPATIBILITY-REVIEW-V1",
+  "status": "investigate further",
+  "candidate_roles": [
+    "review notation",
+    "semantic annotation layer",
+    "dependency notation",
+    "version-history notation",
+    "governance consensus notation"
+  ],
+  "fit_assessment": {
+    "identity": "very high",
+    "uncertainty": "very high",
+    "review_consensus": "very high",
+    "dependency_representation": "high",
+    "proof_chain_composition": "high",
+    "version_evolution": "high",
+    "complex_mathematics": "unknown",
+    "human_readability": "unknown",
+    "long_term_reconstructability": "unknown"
+  },
+  "recommendation": "Perform limited M1 pilot mapping before adoption."
+}
