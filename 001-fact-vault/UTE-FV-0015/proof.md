@@ -2,93 +2,88 @@
 
 ## Claim
 
-For any thing X, X is identical to itself.
+A defined thing, symbol, or reference is identical to itself within a stable context.
+
+Symbolically:
 
 ```text
 X = X
 ```
 
----
+## Plain-Language Explanation
 
-## 1. Plain-Language Explanation
+The Law of Identity states that a thing is itself.
 
-The Law of Identity states that a thing is what it is.
+If a reference is introduced as `X`, then during a valid reasoning process `X` must continue to refer to itself unless the context explicitly changes.
 
-A stone is that stone.  
-A number is that number.  
-A defined symbol means what it has been defined to mean within that context.
+This does not mean that two different things are identical.
 
-This may sound trivial, but stable reasoning requires it. If a thing could fail to be itself without explanation, then comparison, counting, proof, memory, measurement, and communication would become unstable.
+It means that each defined thing, considered as itself, is self-identical.
 
----
+## Why This Is Foundational
 
-## 2. Why This Is Foundational
+Reasoning requires stable reference.
 
-To reason about anything, a system must be able to preserve reference.
+If a symbol, object, or idea cannot remain itself long enough to be referred to, then comparison, counting, proof, memory, and communication collapse.
 
-If the symbol `X` is introduced, then during a valid argument `X` must continue to refer to the same thing unless explicitly redefined.
+## Step-by-Step Reasoning
 
-Without this:
+1. A reasoning system introduces a reference, object, symbol, or concept.
+2. That reference must remain stable within the reasoning context.
+3. If the reference did not remain itself, it could not be used reliably.
+4. Therefore, within the defined context, the reference is identical to itself.
 
-```text
-X = X
-```
+## Dependencies
 
-cannot be assumed, and no stable inference can proceed.
+None.
 
----
+This is treated as a foundational logical axiom in the current UTE structure.
 
-## 3. Step-by-Step Reasoning
+## Reconstruction Method
 
-1. Let `X` be any defined object, quantity, statement, or symbol.
-2. The act of defining `X` establishes a reference.
-3. A reference must preserve itself within the same context.
-4. Therefore, within that context, `X` is identical to `X`.
-5. So:
+A future intelligence can rediscover the Law of Identity by attempting to build any stable reasoning system.
 
-```text
-X = X
-```
-
----
-
-## 4. Formal Form
-
-In classical logic, identity is commonly represented as:
-
-```text
-∀x (x = x)
-```
-
-Read as:
-
-```text
-For every x, x equals itself.
-```
-
----
-
-## 5. Reconstruction Method
-
-A future intelligence can rediscover the Law of Identity by attempting to construct any stable symbol system.
-
-If a mark, object, or signal cannot continue to refer to itself, then:
+If a mark, sound, object, or symbol cannot continue to refer to itself, then:
 
 - counting fails,
-- memory fails,
 - comparison fails,
+- memory fails,
 - proof fails,
-- and communication fails.
+- communication fails.
 
-The Law of Identity is therefore one of the minimum conditions for stable reasoning.
+Stable reasoning therefore requires self-identity of reference.
 
----
+## Conditions of Validity
 
-## 6. Conditions of Validity
+The Law of Identity applies within a stable context of reference.
 
-This principle applies within a defined context.
+It assumes:
+- the reference is defined,
+- the context is not silently changed,
+- and the symbol or object is not ambiguously reassigned.
 
-If the meaning of a symbol changes, the context has changed.
+## Failure Cases
+
+The Law of Identity is misapplied when:
+
+- two different things are assumed to be identical without proof,
+- similarity is mistaken for identity,
+- equivalence is mistaken for identity,
+- approximate sameness is treated as exact identity,
+- or a changing object is treated as unchanged without defining persistence conditions.
+
+## Boundary Distinctions
+
+The Law of Identity should be distinguished from:
+
+```text
+equality of quantity
+equivalence
+similarity
+classification
+continuity through time
+approximate sameness
+```
 
 Example:
 
@@ -96,30 +91,32 @@ Example:
 X = X
 ```
 
-is valid only if both uses of `X` refer to the same object, concept, or definition.
-
----
-
-## 7. Failure Cases and Misuse
-
-The Law of Identity does not say that two different things are identical.
-
-It says that each thing is identical to itself.
-
-Misuse example:
+does not imply:
 
 ```text
-A = B
+X = Y
 ```
 
-cannot be assumed merely because A and B share one property.
+unless `X` and `Y` are shown to be the same reference or identical under a defined relation.
 
----
+## Stabilisation Note
 
-## 8. UTE Assessment
+During stabilisation review, this truth was assessed as:
 
-- Confidence Level: 5
-- Proof Type: Logical / definitional
-- Reconstruction Difficulty: Very low
-- Dependency Status: Root logical primitive
-- Core Importance: Extremely high
+```text
+sound and foundational, with boundary notes added
+```
+
+The truth remains dependency-free in the current UTE structure, but future refinement may introduce a deeper reference or definition layer.
+
+## UTE Importance
+
+The Law of Identity supports:
+
+- stable reference,
+- symbolic reasoning,
+- equality,
+- counting,
+- proof,
+- metadata consistency,
+- and machine-readable identifiers.

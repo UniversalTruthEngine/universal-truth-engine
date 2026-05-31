@@ -2,9 +2,15 @@
   "id": "UTE-FV-0015",
   "title": "Law of Identity",
   "domain": "Logic",
-  "claim": "For any thing X, X is identical to itself: X = X.",
+  "statement": "A defined thing, symbol, or reference is identical to itself within a stable context.",
   "dependencies": [],
-  "confidence_level": 5,
-  "proof_file": "proof.md",
-  "proof_deepening_pass": "Proof Deepening Pass v1"
+  "confidence": 5,
+  "status": "core-truth",
+  "stabilisation_status": "sound and foundational, with boundary notes added",
+  "review_notes": [
+    "Clarified identity as self-identity within a stable context of reference.",
+    "Added boundary distinctions from equivalence, similarity, equality of quantity, and persistence through time.",
+    "Retained no dependencies in current UTE structure.",
+    "Future refinement may introduce a deeper reference or definition layer."
+  ]
 }
