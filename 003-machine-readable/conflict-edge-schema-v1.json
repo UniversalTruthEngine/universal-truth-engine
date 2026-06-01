@@ -1,0 +1,32 @@
+{
+  "schema_id": "UTE-CONFLICT-EDGE-SCHEMA-V1",
+  "edge_types": {
+    "contradicts": {
+      "description": "Direct conflict under shared assumptions."
+    },
+    "undermines": {
+      "description": "Weakens proof, confidence, applicability, or justification."
+    },
+    "supersedes": {
+      "description": "Replaces an earlier truth/model in a defined scope."
+    },
+    "competes_with": {
+      "description": "Alternative unresolved explanation or formulation."
+    }
+  },
+  "required_fields": [
+    "source",
+    "target",
+    "type",
+    "scope",
+    "explanation",
+    "status"
+  ],
+  "valid_statuses": [
+    "proposed",
+    "requires_review",
+    "accepted",
+    "rejected",
+    "historical"
+  ]
+}
