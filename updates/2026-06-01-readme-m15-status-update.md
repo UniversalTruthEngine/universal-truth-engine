@@ -1,0 +1,1 @@
+Adds M1.5 Architecture Review status section for insertion into README.
