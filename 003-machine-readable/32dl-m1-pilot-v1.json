@@ -1,0 +1,19 @@
+{
+  "pilot_id": "UTE-32DL-M1-PILOT-V1",
+  "truths": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0015",
+    "UTE-FV-0026",
+    "UTE-FV-0029",
+    "UTE-FV-0031"
+  ],
+  "evaluation_areas": [
+    "dependency_representation",
+    "consensus_representation",
+    "temporal_representation",
+    "semantic_compression",
+    "machine_readability"
+  ],
+  "status": "pilot_active"
+}
