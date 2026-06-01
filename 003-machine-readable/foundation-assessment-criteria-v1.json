@@ -1,0 +1,9 @@
+{
+  "criteria":[
+    "reconstruction_priority",
+    "irreducibility",
+    "dependency_depth",
+    "cross_domain_necessity",
+    "paradigm_stability"
+  ]
+}
