@@ -23,9 +23,22 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Regenerate UTE truth index and graph
+        run: |
+          python 006-tools/topology/generate-truth-index-and-graph-v1.py
+
       - name: Run UTE automated assurance
         run: |
           python 006-tools/assurance/run-assurance-v1.py
+
+      - name: Upload generated topology files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ute-generated-topology
+          path: |
+            003-machine-readable/truth-index-v1.json
+            003-machine-readable/truth-graph.json
 
       - name: Upload assurance report
         if: always()
