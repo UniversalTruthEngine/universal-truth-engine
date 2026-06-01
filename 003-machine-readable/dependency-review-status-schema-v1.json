@@ -1,0 +1,17 @@
+{
+  "review_statuses": [
+    "review_required",
+    "under_review",
+    "confirmed",
+    "revised",
+    "superseded"
+  ],
+  "trigger_events": [
+    "revised",
+    "downgraded",
+    "superseded",
+    "contradicted",
+    "archived",
+    "deprecated"
+  ]
+}
