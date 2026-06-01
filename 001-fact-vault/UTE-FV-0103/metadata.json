@@ -1,0 +1,16 @@
+{
+  "id": "UTE-FV-0103",
+  "title": "Subtraction",
+  "domain": "Arithmetic",
+  "statement": "Subtraction determines the remaining quantity or difference when one quantity is removed from or compared with another.",
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0100",
+    "UTE-FV-0101",
+    "UTE-FV-0102"
+  ],
+  "confidence": 5,
+  "status": "m2-a-candidate-core-truth",
+  "milestone": "M2-A Foundation Package 1"
+}

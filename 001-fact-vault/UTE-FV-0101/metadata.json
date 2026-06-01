@@ -1,0 +1,13 @@
+{
+  "id": "UTE-FV-0101",
+  "title": "Natural Number",
+  "domain": "Arithmetic",
+  "statement": "A natural number is a member of the ordered counting sequence used to represent discrete quantity.",
+  "dependencies": [
+    "UTE-FV-0003",
+    "UTE-FV-0100"
+  ],
+  "confidence": 5,
+  "status": "m2-a-candidate-core-truth",
+  "milestone": "M2-A Foundation Package 1"
+}

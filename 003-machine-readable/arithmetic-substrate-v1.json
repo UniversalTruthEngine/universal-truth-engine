@@ -1,0 +1,19 @@
+{
+  "substrate_id": "UTE-M2-A-ARITHMETIC-SUBSTRATE-V1",
+  "package": "M2-A Foundation Package 1",
+  "truths": [
+    "UTE-FV-0100",
+    "UTE-FV-0101",
+    "UTE-FV-0102",
+    "UTE-FV-0103"
+  ],
+  "dependency_sequence": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0100",
+    "UTE-FV-0101",
+    "UTE-FV-0102",
+    "UTE-FV-0103"
+  ],
+  "status": "candidate_expansion_layer"
+}
