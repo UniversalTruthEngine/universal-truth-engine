@@ -1,0 +1,28 @@
+{
+  "schema_id": "UTE-TOPOLOGY-GAP-REPORT-SCHEMA-V1",
+  "purpose": "Define the structure of topology gap reports.",
+  "gap_types": [
+    "frontier_boundary",
+    "isolated_truth",
+    "missing_bridge",
+    "incomplete_chain",
+    "unresolved_dependency_region",
+    "high_centrality_without_descendants"
+  ],
+  "required_fields": [
+    "gap_id",
+    "gap_type",
+    "truth_id",
+    "truth_title",
+    "gap_score",
+    "reason",
+    "recommended_review"
+  ],
+  "status_values": [
+    "detected",
+    "under_review",
+    "resolved",
+    "dismissed"
+  ],
+  "governance_rule": "Topology gaps are review signals, not accepted truths."
+}
