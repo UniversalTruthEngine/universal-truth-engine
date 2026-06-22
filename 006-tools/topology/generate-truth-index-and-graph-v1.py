@@ -2,19 +2,7 @@
 """
 UTE Automated Truth Index and Graph Generator v1
 
-Run from repository root:
-
-    python 006-tools/topology/generate-truth-index-and-graph-v1.py
-
-Purpose:
-    Generate truth-index-v1.json and truth-graph.json from the Fact Vault.
-
-Reads:
-    001-fact-vault/UTE-FV-*/metadata.json
-
-Writes:
-    003-machine-readable/truth-index-v1.json
-    003-machine-readable/truth-graph.json
+Generates both internal and public topology files from Fact Vault metadata.
 """
 
 from pathlib import Path
@@ -24,6 +12,7 @@ import math
 ROOT = Path.cwd()
 VAULT = ROOT / "001-fact-vault"
 MACHINE = ROOT / "003-machine-readable"
+DOCS_DATA = ROOT / "docs" / "data"
 
 def read_json(path):
     try:
@@ -58,6 +47,7 @@ def main():
         raise SystemExit("ERROR: 001-fact-vault not found. Run from repository root.")
 
     MACHINE.mkdir(parents=True, exist_ok=True)
+    DOCS_DATA.mkdir(parents=True, exist_ok=True)
 
     truth_folders = sorted(
         [p for p in VAULT.glob("UTE-FV-*") if p.is_dir()],
@@ -74,7 +64,6 @@ def main():
         domain = metadata.get("domain") or metadata.get("category") or "Unknown"
         statement = metadata.get("statement") or metadata.get("claim") or ""
         dependencies = metadata.get("dependencies") or []
-
         if not isinstance(dependencies, list):
             dependencies = []
 
@@ -87,26 +76,25 @@ def main():
             "confidence_level": metadata.get("confidence", metadata.get("confidence_level", 5)),
             "dependencies": dependencies,
             "summary": f"{title} is a Core Truth in the Universal Truth Engine.",
-            "entry_file": f"../001-fact-vault/{tid}/entry.md",
-            "proof_file": f"../001-fact-vault/{tid}/proof.md",
-            "metadata_file": f"../001-fact-vault/{tid}/metadata.json"
+            "entry_file": "../001-fact-vault/" + tid + "/entry.md",
+            "proof_file": "../001-fact-vault/" + tid + "/proof.md",
+            "metadata_file": "../001-fact-vault/" + tid + "/metadata.json"
         })
 
     ids = {t["id"] for t in truths}
     depended_on_by = {tid: [] for tid in ids}
-
     edges = []
+
     for truth in truths:
-        source = truth["id"]
         for dep in truth["dependencies"]:
             if dep in ids:
                 edges.append({
-                    "source": source,
+                    "source": truth["id"],
                     "target": dep,
                     "type": "depends_on",
                     "weight": 1.0
                 })
-                depended_on_by[dep].append(source)
+                depended_on_by[dep].append(truth["id"])
 
     total = len(truths)
     for idx, truth in enumerate(truths):
@@ -145,14 +133,21 @@ def main():
         "edges": edges
     }
 
-    (MACHINE / "truth-index-v1.json").write_text(json.dumps(index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    (MACHINE / "truth-graph.json").write_text(json.dumps(graph, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    index_text = json.dumps(index, indent=2, ensure_ascii=False) + "\n"
+    graph_text = json.dumps(graph, indent=2, ensure_ascii=False) + "\n"
+
+    (MACHINE / "truth-index-v1.json").write_text(index_text, encoding="utf-8")
+    (MACHINE / "truth-graph.json").write_text(graph_text, encoding="utf-8")
+    (DOCS_DATA / "truth-index-v1.json").write_text(index_text, encoding="utf-8")
+    (DOCS_DATA / "truth-map-v1.json").write_text(graph_text, encoding="utf-8")
 
     print("UTE topology generation complete.")
     print(f"Truths: {len(truths)}")
     print(f"Edges: {len(edges)}")
     print("Wrote: 003-machine-readable/truth-index-v1.json")
     print("Wrote: 003-machine-readable/truth-graph.json")
+    print("Wrote: docs/data/truth-index-v1.json")
+    print("Wrote: docs/data/truth-map-v1.json")
 
 if __name__ == "__main__":
     main()
