@@ -1,0 +1,39 @@
+{
+  "rule_set_id": "UTE-AUTOMATED-FRONTIER-RULES-V1",
+  "scope": "M2 arithmetic frontier detection",
+  "rules": [
+    {
+      "candidate": "Fraction",
+      "requires": [
+        "Division",
+        "Ratio"
+      ],
+      "reason": "Division and ratio enable part-whole and quotient representation."
+    },
+    {
+      "candidate": "Proportion",
+      "requires": [
+        "Ratio",
+        "Equality / Identity of Quantity"
+      ],
+      "reason": "Ratio and equality enable equality between ratios."
+    },
+    {
+      "candidate": "Integer",
+      "requires": [
+        "Natural Number",
+        "Subtraction"
+      ],
+      "reason": "Subtraction extends natural-number reasoning toward zero and negative whole values."
+    },
+    {
+      "candidate": "Scale",
+      "requires": [
+        "Measurement",
+        "Ratio"
+      ],
+      "reason": "Measurement and ratio enable scaled representation."
+    }
+  ],
+  "status": "controlled_seed_rules"
+}
