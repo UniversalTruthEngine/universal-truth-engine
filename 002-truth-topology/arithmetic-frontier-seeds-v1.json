@@ -1,0 +1,67 @@
+{
+  "seed_id": "UTE-ARITHMETIC-FRONTIER-SEEDS-V1",
+  "purpose": "Initial arithmetic candidate frontier seeds for Truth Frontier Engine v1.",
+  "frontier_candidates": [
+    {
+      "candidate_id": "UTE-FV-CAND-0001",
+      "proposed_title": "Fraction",
+      "proposed_statement": "A fraction represents a quantity as a ratio of two numbers, usually expressing part of a whole or division of quantities.",
+      "enabled_by": [
+        "UTE-FV-0105",
+        "UTE-FV-0106"
+      ],
+      "depends_on": [
+        "UTE-FV-0100",
+        "UTE-FV-0105",
+        "UTE-FV-0106"
+      ],
+      "derivation_class": "derived_truth",
+      "derivation_rationale": "Division and ratio enable representation of part-whole and quotient relationships."
+    },
+    {
+      "candidate_id": "UTE-FV-CAND-0002",
+      "proposed_title": "Proportion",
+      "proposed_statement": "A proportion is an equality between ratios.",
+      "enabled_by": [
+        "UTE-FV-0002",
+        "UTE-FV-0106"
+      ],
+      "depends_on": [
+        "UTE-FV-0002",
+        "UTE-FV-0106"
+      ],
+      "derivation_class": "composite_truth",
+      "derivation_rationale": "Equality of Quantity and Ratio together enable the concept of equal ratios."
+    },
+    {
+      "candidate_id": "UTE-FV-CAND-0003",
+      "proposed_title": "Scale",
+      "proposed_statement": "Scale is a consistent ratio-based relationship between representation and reference.",
+      "enabled_by": [
+        "UTE-FV-0026",
+        "UTE-FV-0106"
+      ],
+      "depends_on": [
+        "UTE-FV-0026",
+        "UTE-FV-0106"
+      ],
+      "derivation_class": "emergent_truth",
+      "derivation_rationale": "Measurement and ratio together enable scaled representation."
+    },
+    {
+      "candidate_id": "UTE-FV-CAND-0004",
+      "proposed_title": "Integer",
+      "proposed_statement": "An integer is a whole number that may represent positive quantity, zero, or negative quantity.",
+      "enabled_by": [
+        "UTE-FV-0101",
+        "UTE-FV-0103"
+      ],
+      "depends_on": [
+        "UTE-FV-0101",
+        "UTE-FV-0103"
+      ],
+      "derivation_class": "derived_truth",
+      "derivation_rationale": "Natural numbers and subtraction motivate extension to zero and negative whole-number values."
+    }
+  ]
+}
