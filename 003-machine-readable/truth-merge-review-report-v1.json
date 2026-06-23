@@ -1,0 +1,10 @@
+{
+  "report_id": "UTE-TRUTH-MERGE-REVIEW-REPORT-V1",
+  "generated_by": "placeholder until truth-merge-review-engine-v1.py is run",
+  "truth_count": 0,
+  "exact_duplicate_group_count": 0,
+  "near_duplicate_pair_count": 0,
+  "exact_duplicates": [],
+  "near_duplicates": [],
+  "governance_rule": "Merge review reports are advisory only."
+}
