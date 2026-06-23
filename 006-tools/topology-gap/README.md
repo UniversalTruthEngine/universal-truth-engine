@@ -1,30 +1,26 @@
-# Topology Gap Tools
+# Topology Gap Detector v1
 
 ## Purpose
 
-Future home of UTE tools for detecting incomplete regions of the truth topology.
+Detects simple topology gaps in the UTE truth graph.
 
-## Planned Tool
+Version 1 detects frontier boundary nodes:
+
+```text
+truths with no downstream dependants
+```
+
+## Run
 
 ```bash
 python 006-tools/topology-gap/detect-topology-gaps-v1.py
 ```
 
-## Intended Input
-
-```text
-003-machine-readable/truth-graph.json
-docs/data/truth-map-v1.json
-```
-
-## Intended Output
+## Output
 
 ```text
 003-machine-readable/topology-gap-report-v1.json
+docs/data/topology-gap-report-v1.json
 ```
 
-## Principle
-
-Gap detection identifies possible missing regions.
-
-It does not create truths.
+A topology gap is not a truth. It is a review signal.

@@ -1,0 +1,9 @@
+{
+  "report_id": "UTE-TOPOLOGY-GAP-REPORT-V1",
+  "generated_by": "placeholder until detect-topology-gaps-v1.py is run",
+  "truth_count": 0,
+  "edge_count": 0,
+  "gap_count": 0,
+  "gaps": [],
+  "governance_rule": "Detected gaps are review prompts only."
+}
