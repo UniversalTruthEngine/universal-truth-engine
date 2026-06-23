@@ -1,0 +1,32 @@
+{
+  "schema_id": "UTE-ARITHMETIC-DUPLICATE-CONTINUITY-REVIEW-V1",
+  "issue_type": "duplicate_truth_review",
+  "status": "review_required",
+  "duplicate_pairs": [
+    {
+      "concept": "Addition",
+      "entries": [
+        "UTE-FV-0004",
+        "UTE-FV-0102"
+      ],
+      "recommended_action": "select_authoritative_truth_and_mark_other_as_alias_or_superseded"
+    },
+    {
+      "concept": "Subtraction",
+      "entries": [
+        "UTE-FV-0005",
+        "UTE-FV-0103"
+      ],
+      "recommended_action": "select_authoritative_truth_and_mark_other_as_alias_or_superseded"
+    }
+  ],
+  "allowed_resolution_statuses": [
+    "authoritative",
+    "superseded_by",
+    "historical_alias",
+    "merged_into",
+    "scope_distinguished",
+    "retain_pending_review"
+  ],
+  "governance_rule": "A concept should have one authoritative active Core Truth unless there is a clear scope distinction."
+}
