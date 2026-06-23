@@ -1,0 +1,8 @@
+{
+  "report_id": "UTE-CANDIDATE-GENERATION-REPORT-V1",
+  "generated_by": "placeholder until generate-candidates-v1.py is run",
+  "truth_count": 0,
+  "candidate_count": 0,
+  "candidates": [],
+  "governance_rule": "Generated candidates are not accepted truths."
+}
