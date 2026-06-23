@@ -1,0 +1,10 @@
+{
+  "report_id": "UTE-TRUTH-DERIVATION-AUDIT-REPORT-V1",
+  "generated_by": "placeholder until truth-derivation-audit-engine-v1.py is run",
+  "truth_count": 0,
+  "graph_node_count": 0,
+  "graph_edge_count": 0,
+  "audit_count": 0,
+  "audits": [],
+  "governance_rule": "Derivation audit explains candidate reasoning. It does not admit truths."
+}
