@@ -17,8 +17,8 @@ Arithmetic
 
 ## Plain-Language Explanation
 
-Zero is included to extend UTE arithmetic continuity toward algebra while preserving explicit dependencies.
+Zero allows arithmetic to represent absence, balance, or a neutral additive reference point.
 
 ## Status
 
-Core Truth Candidate for UTE arithmetic continuity.
+Core Truth.

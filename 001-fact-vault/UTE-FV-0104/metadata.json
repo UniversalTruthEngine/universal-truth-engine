@@ -1,0 +1,16 @@
+{
+  "id": "UTE-FV-0104",
+  "title": "Zero",
+  "domain": "Arithmetic",
+  "statement": "Zero represents the absence of counted quantity or the neutral reference point for additive quantity.",
+  "dependencies": [
+    "UTE-FV-0002",
+    "UTE-FV-0003",
+    "UTE-FV-0100",
+    "UTE-FV-0101"
+  ],
+  "confidence_level": 5,
+  "status": "active",
+  "package": "UTE-FV-0104 Zero Repair v1",
+  "origin": "Human-guided UTE arithmetic continuity repair"
+}
